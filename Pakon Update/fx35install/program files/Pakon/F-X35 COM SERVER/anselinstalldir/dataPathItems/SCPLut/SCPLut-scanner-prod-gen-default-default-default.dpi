@@ -1,0 +1,15 @@
+#
+# default SCP lut DPI
+#
+# 05-26-2004 (RLM) - Changed modifyDmin from true to false.
+# 11-08-2004 (BAS)Change modifyDmin to true after Ansel fix to SCP
+ 
+offsetOption = ANS_SCPLUT_ZERO_PIVOT
+modifyDmin = true
+useSCPLut = true
+visualWeighting = true
+runSCPAfterLut = true
+proportionalCorrection = 0.7
+slopeDeltaThreshold = 0.30
+ntdChoice = ANS_LUT_FIRST_PASS
+ctdChoice = ANS_SECOND_PASS

@@ -1,0 +1,54 @@
+#	created by brust on 02/11/04 in response to chromogenic B&W ITS #13396
+#	1.25 button adjustment based on print judging of 75 images selected from 12 rolls covering 
+#	photospace.
+# RLM (05-26-2004) - Added the missing last 6 lines (minPeakHeight, minPeakDist, neutralButton, neutralUnderConstraint, neutralOverConstraint, neutralBalancePoint).
+#
+# SBA DPI for:
+#     scanner     - default
+#     sourceType  - default
+#     product     - 79
+#     gen         - 15
+#
+# AnsSbaDPI 0012FDC4 :
+	key = ansel-sba-79-15
+	version = 05/05/2004
+	scannerName = default	
+	fpa = 	-94 -94 -94 
+	neu = 	1000 1000 1000
+	neo = 	1100 1100 1100 
+	fosOn = 	1
+	useHistory = 	0
+	fmt = 	350
+	dmd = 	680 680 680 
+	fpo = 	879 1250 1386
+	pcls = 	0
+	pcwf = 	70
+	ix_pcwf = 	25
+	nonFlashAdj = 	25
+	cmm = 	1000
+	fog = 	1000
+	fxr = 	75
+	blk = 	-600
+	bxr = 	75
+	ll1 = 	3400
+	ll2 = 	800
+	ll3 = 	2600
+	mff = 	4
+	maxFramesToFos = 	40
+	minPeakHeight = 	10
+	minPeakDist = 	1600
+	minDmin = 	180 550 700 
+	pcode = 	pcode-dls_1.7
+	sfsTable = 	sfsTable35
+    splicePct = 55
+    orderFpoLowSatLimit = 250
+    orderFpoHighSatLimit = 900
+    orderFpoMinWeight = 0
+    orderFpoMaxWeight = 100
+    orderFpoUseExpandedSatLimit = 1
+    minPeakHeight = 10
+    minPeakDist = 1600
+    neutralButton = 130
+    neutralUnderConstraint = -16.0  # Essentially unconstrained
+    neutralOverConstraint = 16.0    # Essentially unconstrained
+    neutralBalancePoint = 1550

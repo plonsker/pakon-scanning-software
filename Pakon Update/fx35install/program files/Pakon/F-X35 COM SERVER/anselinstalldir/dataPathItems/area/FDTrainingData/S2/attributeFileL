@@ -1,0 +1,10 @@
+4
+7	-35
+8	-130
+4	-390
+16	-570
+
+
+#
+# measured from boot 28, with Lloyd-Max quantization  Try to put
+#  attributes with the largest support first for best speed.

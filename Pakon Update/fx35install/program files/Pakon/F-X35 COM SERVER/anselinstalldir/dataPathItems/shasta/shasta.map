@@ -1,0 +1,29 @@
+# AnsShastaMappingDpi:
+key = shasta.map
+version = 05/07/2004
+mapping =
+# AnsKeySelector:
+# Selection Parameters
+_AnselPath_ c11 _AnselToneStrategy_ i32 _AnselToneAggrSetting_ i32 _AnselImageSize_ float
+# Selection Rules
+CN-Premium  1       any         any ansel-shasta-rpd-low
+CN-Premium  any     any         any ansel-shasta-rpd
+
+CN-Fps      1       any         any ansel-shasta-fps-low
+CN-Fps      any     any         any ansel-shasta-fps
+
+DC-Premium  any     any         (0,0.7)   ansel-shasta-erimm-smallImage
+DC-Premium  1       any         any ansel-shasta-erimm-low
+DC-Premium  any     any         any ansel-shasta-erimm
+
+any         any     any         any ansel-shasta-rpd
+
+# 07/May/2004 R.Walvoord
+# Added rules for CN-Fps path
+#
+# 12/Apr/2004 D.Rhoda ATC4213
+# Added _AnselImageSize_ as a DPI selection criteria.  This is used to select
+# less aggressive tone scale settings for smaller images.
+# 11/Sept/2003 K.DeLong ATC3219
+#     Changed CN-Shasta to CN-Premium
+#     Changed key to be more consistent with other DPIs.

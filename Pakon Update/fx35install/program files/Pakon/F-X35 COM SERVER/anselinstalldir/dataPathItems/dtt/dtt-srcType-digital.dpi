@@ -1,0 +1,140 @@
+version = 1.1
+key = dtt-srcType-digital.dpi
+#
+#Bit numbers 3, 7, 11, and 15 must remain zeros, and
+#	therefore will not be used in any dpi values.
+#
+# Digital Premium
+#
+BEGIN
+path = DC-Enhanced
+calculation = SRA_ON
+bit =	0	
+descriptionOn = Sra was enabled.
+descriptionOff = Sra was disabled.
+END
+BEGIN
+path = DC-Enhanced
+calculation = SRA_NEU_SIG
+bit =	1
+descriptionOn = If Sra was enabled, then the neu value calculated was significant.
+descriptionOff = If Sra was enabled, then the neu value calculated was normal.
+END
+BEGIN
+path = DC-Enhanced
+calculation = SRA_NEU_SIG_LOW
+bit =	2	
+descriptionOn = If Sra was enabled, and neu value was significant, the neu value was < 1400.
+descriptionOff = If Sra was enabled, and neu value was significant, the neu value was > 1600.
+END
+BEGIN
+path = DC-Enhanced
+calculation = SRA_GAMMA_SIG
+bit =	4
+descriptionOn = If Sra was enabled, then the gamma value calculated was significant.
+descriptionOff = If Sra was enabled, then the gamma value calculated was normal.
+END
+BEGIN
+path = DC-Enhanced
+calculation = SRA_GAMMA_SIG_LOW
+bit =	5	
+descriptionOn = If Sra was enabled, and gamma value was significant, the gamma value was < 0.90.
+descriptionOff = If Sra was enabled, and gamma value was significant, the gamma value was > 1.10.
+END
+#
+# Digital Balance
+#
+BEGIN
+path = DC-Balance
+calculation = SRA_ON
+bit =	0	
+descriptionOn = Sra was enabled.
+descriptionOff = Sra was disabled.
+END
+BEGIN
+path = DC-Balance
+calculation = SRA_NEU_SIG
+bit =	1
+descriptionOn = If Sra was enabled, then the neu value calculated was significant.
+descriptionOff = If Sra was enabled, then the neu value calculated was normal.
+END
+BEGIN
+path = DC-Balance
+calculation = SRA_NEU_SIG_LOW
+bit =	2	
+descriptionOn = If Sra was enabled, and neu value was significant, the neu value was < 1400.
+descriptionOff = If Sra was enabled, and neu value was significant, the neu value was > 1600.
+END
+BEGIN
+path = DC-Balance
+calculation = SRA_GAMMA_SIG
+bit =	4
+descriptionOn = If Sra was enabled, then the gamma value calculated was significant.
+descriptionOff = If Sra was enabled, then the gamma value calculated was normal.
+END
+BEGIN
+path = DC-Balance
+calculation = SRA_GAMMA_SIG_LOW
+bit =	5	
+descriptionOn = If Sra was enabled, and gamma value was significant, the gamma value was < 0.90.
+descriptionOff = If Sra was enabled, and gamma value was significant, the gamma value was > 1.10.
+END
+BEGIN
+path = DC-Balance
+calculation = DSBA_ON
+bit = 6
+descriptionOn = DSba was enabled.
+descriptionOff = DSba was disabled.
+END
+BEGIN
+path = DC-Balance
+calculation = DSBA_NEU_SIG
+bit =	8
+descriptionOn = If DSba was enabled, then the neu value calculated was significant.
+descriptionOff = If DSba was enabled, then the neu value calculated was normal.
+END
+BEGIN
+path = DC-Balance
+calculation = DSBA_NEU_SIG_LOW
+bit =	9	
+descriptionOn = If DSba was enabled, and neu value was significant, the neu value was < 1400.
+descriptionOff = If DSba was enabled, and neu value was significant, the neu value was > 1600.
+END
+#
+# Digital Lockbeam
+#
+BEGIN
+path = DC-Lockbeam
+calculation = SRA_ON
+bit =	0	
+descriptionOn = Sra was enabled.
+descriptionOff = Sra was disabled.
+END
+BEGIN
+path = DC-Lockbeam
+calculation = SRA_NEU_SIG
+bit =	1
+descriptionOn = If Sra was enabled, then the neu value calculated was significant.
+descriptionOff = If Sra was enabled, then the neu value calculated was normal.
+END
+BEGIN
+path = DC-Lockbeam
+calculation = SRA_NEU_SIG_LOW
+bit =	2	
+descriptionOn = If Sra was enabled, and neu value was significant, the neu value was < 1400.
+descriptionOff = If Sra was enabled, and neu value was significant, the neu value was > 1600.
+END
+BEGIN
+path = DC-Lockbeam
+calculation = SRA_GAMMA_SIG
+bit =	4
+descriptionOn = If Sra was enabled, then the gamma value calculated was significant.
+descriptionOff = If Sra was enabled, then the gamma value calculated was normal.
+END
+BEGIN
+path = DC-Lockbeam
+calculation = SRA_GAMMA_SIG_LOW
+bit =	5	
+descriptionOn = If Sra was enabled, and gamma value was significant, the gamma value was < 0.90.
+descriptionOff = If Sra was enabled, and gamma value was significant, the gamma value was > 1.10.
+END

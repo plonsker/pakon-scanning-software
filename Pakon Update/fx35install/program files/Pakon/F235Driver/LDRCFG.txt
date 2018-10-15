@@ -1,0 +1,13 @@
+# Fields as follows: 1) Magic Number, 0xC0 for "Driver firmware loader", 0xC2 for "EEPROM firmware loader"
+#                    2) USB Vendor ID
+#                    3) USB Product ID
+#                    4) USB Product Version
+#                    5) Friendly name to show in drop-down box
+#                    6) Hex-file-name if firmware is to be loaded into EEPROM
+#
+
+0xC0 0x0F05 0xF235 0xAA00 0x04 0x01 "0xAA00: Pakon F235 V1.00, First Release - FX2 Rev B and D"
+0xC0 0x0F05 0xF235 0xAA01 0x04 0x01 "0xAA01: Pakon F235 V1.01, Development Kit - FX2 Rev B"
+0xC0 0x0F05 0xF235 0xAA02 0x04 0x01 "0xAA02: Pakon F235 V1.02, FX2 Rev E, Gated Fifo Write Enable"
+0xC0 0x0F05 0xF235 0xAA05 0x04 0x01 "0xAA05: Pakon F235 V1.05, FX2 Rev E, USB Board Rev B1"
+0xC0 0x0F05 0xF235 0xAA05 0x04 0x02 "0xAA05: Pakon F235 V1.06, FX2 Rev E, USB Board Rev D DDR FIFO"

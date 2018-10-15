@@ -1,0 +1,95 @@
+# At least one ".map" file MUST contain the key 'pnr.map'
+# Only the first '.map' file containing this key is read
+
+key = pnr.map
+version = 2004/Apr/08
+
+# NOTE: in scene context, 
+# metric == 0 --> ANS_METRIC_UNKNOWN
+# metric == 1 --> ANS_PD12
+# metric == 2 --> ANS_RIM12
+# metric == 3 --> ANS_ROM12
+
+# AnsKeySelector:
+# Selection Parameters
+mapping =
+sourceType i32 filmIso i32 IsKodakCamera bool _AnselPath_ c11 productCode i16 genCode i16 mode i32
+
+# FPS
+# RGB - default
+any  any     any CN-Fps any any   1   pnr-srcType-speed-FPS-lcc.dpi
+# Scrub DPIs
+any  any     any CN-Fps 26   3    2   pnr-srcType-speed-FPS-26-3-scrub.dpi
+any  any     any CN-Fps 35   1    2   pnr-srcType-speed-FPS-35-1-scrub.dpi
+any  any     any CN-Fps 35   2    2   pnr-srcType-speed-FPS-35-2-scrub.dpi
+any  any     any CN-Fps 35   3    2   pnr-srcType-speed-FPS-35-3-scrub.dpi
+any  any     any CN-Fps 43   1    2   pnr-srcType-speed-FPS-43-1-scrub.dpi
+any  any     any CN-Fps 43   2    2   pnr-srcType-speed-FPS-43-2-scrub.dpi
+any  any     any CN-Fps 78   2    2   pnr-srcType-speed-FPS-78-2-scrub.dpi
+any  any     any CN-Fps 79   7    2   pnr-srcType-speed-FPS-79-7-scrub.dpi
+any  any     any CN-Fps 82   3    2   pnr-srcType-speed-FPS-82-3-scrub.dpi
+any  any     any CN-Fps 87   2    2   pnr-srcType-speed-FPS-87-2-scrub.dpi
+any  any     any CN-Fps 113  12   2   pnr-srcType-speed-FPS-113-12-scrub.dpi
+any  any     any CN-Fps any any   2   pnr-srcType-speed-FPS-default-scrub.dpi
+any  any     any CN-Fps any any  any  pnr-srcType-speed-FPS-default.dpi
+
+# 35 mm color neg
+1     25     any  any   any  any  any   pnr-CN-35-0025.dpi
+1    100     any  any   any  any  any   pnr-CN-35-0100.dpi
+1    125     any  any   any  any  any   pnr-CN-35-0125.dpi
+1    160     any  any   any  any  any   pnr-CN-35-0160.dpi
+1    200     any  any   any  any  any   pnr-CN-35-0200.dpi
+1    400     any  any   any  any  any   pnr-CN-35-0400.dpi
+1    800     any  any   any  any  any   pnr-CN-35-0800.dpi
+1   1000     any  any   any  any  any   pnr-CN-35-1000.dpi
+1   1600     any  any   any  any  any   pnr-CN-35-1600.dpi
+1   3200     any  any   any  any  any   pnr-CN-35-3200.dpi
+1    any     any  any   any  any  any   pnr-CN-35-default.dpi
+
+# 24 mm (aka. aps) color neg 
+2   100     any   any   any  any  any   pnr-CN-APS-0100.dpi
+2   200     any   any   any  any  any   pnr-CN-APS-0200.dpi
+2   400     any   any   any  any  any   pnr-CN-APS-0400.dpi
+2   800     any   any   any  any  any   pnr-CN-APS-0800.dpi
+2   any     any   any   any  any  any   pnr-CN-APS-default.dpi
+
+# 110 color neg 
+11  any     any   any   any  any  any   pnr-CN-110-default.dpi
+
+# 120 color neg 
+9   any     any   any   any  any  any   pnr-CN-120-default.dpi
+
+# Digital Camera 
+5 (0, 565) false  any   any  any  any   pnr-srcType-speed-OM-digitalCamera.dpi
+5   any     any	  any   any  any  any   pnr-srcType-speed-digitalCamera.dpi
+
+# archive
+7   any     any   any   any  any  any   pnr-archive-default.dpi
+
+# f) none of the above 
+any any     any   any   any  any  any   pnr-default-default.dpi
+
+#
+# 2004/Frb/10 LJBeato
+# added mode as a selector
+#
+# 2004/Jan/17  RWalvoord
+# Added Path selector, with CN-Fpim directed to its own DPI, all
+# others unchanged (via "any")
+# 
+# 2003/Aug/25  LJBeato ATC_3016
+# Changed all the source types to enum values 
+#
+# 2003/Aug/11  LJBeato ATC_3016
+# Added the 5 section. 
+# (NOTE:) OM is for Non-Kodak digital cameras
+#
+# R.Leo  2003/Jul/15  ATC_3157
+# Original version, using dsba.map as a model. 
+# Selection Parameters are source type and iso speed. 
+# source type     ISO    Key (key is NOT the same as file name)
+# ------------    ---    --------------------------------------
+
+# R.Leo  2003/Aug/18  ATC_3157
+# Updated comments as suggested at peer review. 
+# 

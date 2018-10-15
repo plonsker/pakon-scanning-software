@@ -1,0 +1,36 @@
+#	The default terminal node for Freq.Decomp. selection requires
+#	that class 2's be changed to class 0 to allow for the Shasta
+#	recalculation or the tone limit process application.
+#	However, this DEI tree has maintained the class of 2's because 
+#	of internal logic issues for DEI classification (to be addressed
+#	with the future revisit of Ansel 4.0 DEI logic concerns)
+# nNodes =
+27
+# node      metric          threshold   lessEqual   greater class
+   0    EXPOSURE               -1.5          1          2      2
+   1    TERMINAL                0.0         -1         -1      2
+   2    LUM_STDDEV            285.044        3          14     2
+   3    EDGE_WORK_TOTAL        57.672        4          5      2
+   4    TERMINAL                0.0         -1         -1      2
+   5    LUM_WORK_TOTAL        176.883        6          7      2
+   6    EDGE_WORK_LOW          39.512        8          9      2
+   7    TERMINAL                0.0         -1         -1      2
+   8    LUM_SKEW                1.128       10         11      2
+   9    TERMINAL                0.0         -1         -1      3
+   10   TERMINAL                0.0         -1         -1      2
+   11   LUM_WORK_HIGH          41.908       12          13     2
+   12   TERMINAL                0.0         -1         -1      2
+   13   TERMINAL                0.0         -1         -1      3
+   14   EDGE_WORK_TOTAL       115.330       15          22     3
+   15   LUM_SKEW                0.244       16          17     3
+   16   EDGE_WORK_SUMLOW       63.431       18          19     2
+   17   EDGE_WORK_HIGH         19.0         20          21     3
+   18   TERMINAL                0.0         -1         -1      2
+   19   TERMINAL                0.0         -1         -1      3
+   20   TERMINAL                0.0         -1         -1      2
+   21   TERMINAL                0.0         -1         -1      3
+   22   LUM_STDDEV            424.832       23          24     3
+   23   TERMINAL                0.0         -1         -1      3
+   24   LUM_SKEW               -0.062       25          26     4
+   25   TERMINAL                0.0         -1         -1      3
+   26   TERMINAL                0.0         -1         -1      4

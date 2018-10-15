@@ -1,0 +1,8 @@
+#  This is just a sample
+#  mins and max values should be in TRUE stops
+
+scale = 2000
+max = 4095
+stops = 1.5
+exposure_min = -2.0
+exposure_max = 5.0

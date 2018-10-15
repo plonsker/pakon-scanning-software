@@ -1,0 +1,56 @@
+version = 1.1
+key = dtt-srcType-archive.dpi
+#
+#Bit numbers 3, 7, 11, and 15 must remain zeros, and
+#	therefore will not be used in any dpi values.
+#
+#
+BEGIN
+path = Archive
+calculation = NRA_ON
+bit = 0
+descriptionOn = Nra was enabled.
+descriptionOff = Nra was disabled.
+END
+BEGIN
+path = Archive
+calculation = NRA_USED
+bit =	1	
+descriptionOn = Nra ran.
+descriptionOff = Nra did not run.
+END
+BEGIN
+path = Archive
+calculation = SRA_ON
+bit =	2	
+descriptionOn = Sra was enabled.
+descriptionOff = Sra was disabled.
+END
+BEGIN
+path = Archive
+calculation = SRA_NEU_SIG
+bit =	4
+descriptionOn = If Sra was enabled, then the neu value calculated was significant.
+descriptionOff = If Sra was enabled, then the neu value calculated was normal.
+END
+BEGIN
+path = Archive
+calculation = SRA_NEU_SIG_LOW
+bit =	5	
+descriptionOn = If Sra was enabled, and neu value was significant, the neu value was < 1400.
+descriptionOff = If Sra was enabled, and neu value was significant, the neu value was > 1600.
+END
+BEGIN
+path = Archive
+calculation = SRA_GAMMA_SIG
+bit =	6
+descriptionOn = If Sra was enabled, then the gamma value calculated was significant.
+descriptionOff = If Sra was enabled, then the gamma value calculated was normal.
+END
+BEGIN
+path = Archive
+calculation = SRA_GAMMA_SIG_LOW
+bit =	8	
+descriptionOn = If Sra was enabled, and gamma value was significant, the gamma value was < 0.90.
+descriptionOff = If Sra was enabled, and gamma value was significant, the gamma value was > 1.10.
+END

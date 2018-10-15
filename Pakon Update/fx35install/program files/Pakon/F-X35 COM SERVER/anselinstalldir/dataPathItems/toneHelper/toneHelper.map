@@ -1,0 +1,15 @@
+# The key MUST be "tonehelper.map"
+key = tonehelper.map
+version = 04/28/2004
+
+mapping =
+_AnselPath_ c11
+CN-Premium  ansel-toneHelper-CNPremium
+CN-Enhanced ansel-toneHelper-default
+CN-Fps      ansel-toneHelper-CNFps
+DC-Premium  ansel-toneHelper-DCPremium
+any         ansel-toneHelper-default
+
+# Change Log: 
+# 11/24/2003 -- KRD -- ATC00003920
+#     added DC-Premium line

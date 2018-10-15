@@ -1,0 +1,34 @@
+#
+# Pyramid Noise Reduction FPS DPI file
+#
+Key = pnr-srcType-speed-FPS-default-scrub.dpi
+Version = 2004/July/14
+
+NoiseScale = 2.7            # Noise scaling factor (-sfac) 
+PyrNoiseFactor = 1.0        # Pyramid to pyramid noise factor (-nfac)
+MaxHighStopExposure = 0.0   # Used for positive Exposure range eg. = 999
+MinHighStopExposure = 0.0   # Used for lower positive Exposure range eg. = 0.0
+MinLowStopExposure = -1.75  # UpperStopExposureLimit = -1.75 (absolute val min)
+                            # Used for negative Exposure range.
+MaxLowStopExposure = -999.0 # LowerStopExposureLimit = -999.0(absolute val max)
+                            # Used for negative Exposure range.
+WindowSize = 5              # Dimension of the filter window (-win)
+NumPyrLevels = 3            # Number of pyramid levels (-npyr)
+NumSkipLevels = 0           # number of pyr levels not filtered (skip)
+SigmaBands = 3
+DefaultSigma = 33 44.12 55.0
+#
+# New for FPS
+#
+Mode = 2                    # mode 2 is RGB Scrubbing mode
+Nodes3DLut = 17
+LumFactor = 1.0
+ChrFactor = 1.0
+# for scrubbing mode
+ScrubbingScaleFactor = 0.665
+profilePath = profiles\k200_fpim_to_rpd_v1.32.pf
+#
+# And this is the end
+# Change Log:
+# 07/14/2004    K.DeLong/B.Fintel   ATC00004476
+# changed PyrNoiseFactor,ScrubbingScaleFactor reflecting phase C testing

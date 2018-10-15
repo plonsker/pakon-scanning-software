@@ -1,0 +1,25 @@
+VERSION = 2001-04-30
+KEY = neutralGammaAdjust.dpi
+
+# The lower gamma limit of Gamma Adjustment
+LOW_THRESHOLD = 0.7
+
+# The upper gamma limit of Gamma Adjustment
+HIGH_THRESHOLD = 2.0
+
+# If the mean is lower than this value, the second mean gamma will be used
+MEAN_LOW_THRESHOLD_PERCENT = 30.07
+
+# If the mean is greater than this value, CNA gamma will be used
+MEAN_HIGH_THRESHOLD_PERCENT = 50
+
+# The absolute value of the highpass filtered image is compared to the
+# product of edgeThreshold and the standard deviation of the high pass
+# filtered image in order to creat the edge map
+EDGE_THRESHOLD = 0.75
+
+# After the gamma is applied, the black point is reset so that this
+# percentage of the pixels are clipped to 0
+NEUTRAL_BLACK_OFFSET_PERCENT = 0.0
+# Controls the amount that the chroma channels are scaled (saturation)
+CITRAS_SCALAR = 1.0

@@ -1,0 +1,23 @@
+#
+# Pyramid Noise Reduction negative35-1000 DPI file
+#
+Key = pnr-CN-35-1000.dpi
+Version = 4.00
+NoiseScale = 1.5            # Noise scaling factor (-sfac) 
+PyrNoiseFactor = 1.75       # Pyramid to pyramid noise factor (-nfac)
+MaxHighStopExposure = 999.0 # Use for positive Exposure range eg. = 999
+MinHighStopExposure = -1.0  # Use for lower positive Exposure range eg. = -1.0
+                            # -1.0 used to overlap LowStopExposure range.
+MinLowStopExposure = 0.0    # UpperStopExposureLimit = 999.0 (old value)
+                            # Used for negative Exposure range.
+							# Absolute min val
+MaxLowStopExposure = -999.0 # LowerStopExposureLimit = -999.0 (old value)
+                            # Used for negative Exposure range.
+							# Absolute max val
+WindowSize = 5              # Dimension of the filter window (-win)
+NumPyrLevels = 1            # Number of pyramid levels (-npyr)
+NumSkipLevels = 0           # number of pyr levels not filtered (skip)
+SigmaBands = 3
+DefaultSigma = 33 44.12 55.0
+
+# And this is the end

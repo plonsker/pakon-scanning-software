@@ -1,0 +1,3 @@
+# This is the Common SRA parameters file for ROM 12
+#
+SRA_GRAY_POINT = 1550

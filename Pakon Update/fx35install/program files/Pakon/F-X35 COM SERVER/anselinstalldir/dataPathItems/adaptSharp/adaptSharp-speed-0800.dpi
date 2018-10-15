@@ -1,0 +1,24 @@
+#
+# Adaptive Sharpening DPI
+# (800 speed)
+#
+
+# this key must appear in the ".map" file in order to be selectable
+key = ansel-adaptSharp-800
+version = 09/16/2003
+
+lowGradientThreshold = -1
+highGradientThreshold = 2100
+maxGradient = 22500
+sigma = 0.9
+minSharpeningFactor = 2.0
+maxSharpeningFactor = 3.5
+minSnr = 0.4
+maxSnr = 2.0
+morphWindowSize = 5
+morphSlope = 2.1
+highPassGain = 0.0
+noiseBlockSize = 7
+minValue = 0
+maxValue = 4095
+toneDiffDelta = 17

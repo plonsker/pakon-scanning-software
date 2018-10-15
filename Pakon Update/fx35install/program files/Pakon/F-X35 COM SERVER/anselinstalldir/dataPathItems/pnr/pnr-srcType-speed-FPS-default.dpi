@@ -1,0 +1,43 @@
+#
+# Pyramid Noise Reduction FPS DPI file
+#
+Key = pnr-srcType-speed-FPS-default.dpi
+Version = 2004/July/14
+
+
+NoiseScale = 2.7            # Noise scaling factor (-sfac) 
+PyrNoiseFactor = 1.0        # Pyramid to pyramid noise factor (-nfac)
+
+# Since Mode = 1 (LCC mode), the exposure levels don't really matter.
+# They don't matter for scrubbing, either.
+# (We may want to change how the current implementation works, but this is true for now)
+MaxHighStopExposure = 0.0 # Used for positive Exposure range eg. = 999
+MinHighStopExposure = 0.0  # Used for lower positive Exposure range eg. = 0.0
+MinLowStopExposure =  -1.75   # UpperStopExposureLimit = -1.75 (absolute val min)
+                            # Used for negative Exposure range.
+MaxLowStopExposure = -999.0 # LowerStopExposureLimit = -999.0(absolute val max)
+                            # Used for negative Exposure range.
+
+WindowSize = 5              # Dimension of the filter window (-win)
+NumPyrLevels = 3            # Number of pyramid levels (-npyr)
+NumSkipLevels = 0           # number of pyr levels not filtered (skip)
+SigmaBands = 3
+DefaultSigma = 33 44.12 55.0
+#
+# New for FPS
+# Mode 0 = RGB mode
+# Mode 1 = lcc mode
+# Mode 2 = RGB Scrubbing mode
+Mode = 1
+Nodes3DLut = 33
+LumFactor = 1.0
+ChrFactor = 3.0
+
+# Adding back residual is turned off by making this "ScrubbingScaleFactor" 0.0. 
+# (Now, we can add scaled residual back, even if we're not in scrubbing mode)
+ScrubbingScaleFactor = 0.665
+#
+# And this is the end
+# Change Log:
+# 07/14/2004    K.DeLong/B.Fintel   ATC00004476
+# Changed almost all the values based on phase C testing

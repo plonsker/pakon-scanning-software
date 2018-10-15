@@ -1,0 +1,544 @@
+
+
+20
+
+
+ JSObject                                     Mean
+
+ IndexRange       1      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+    0.424736    -2982.22
+
+
+ JSObject                                    Sigma
+
+ IndexRange       1      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+   0.0816552     529.391
+
+
+ JSObject                                      Min
+
+ IndexRange       1      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+    0.108569    -3499.83
+
+
+ JSObject                                      Max
+
+ IndexRange       1      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+    0.687861    -475.957
+
+
+ JSObject                               Covariance
+
+ IndexRange       1      2      1      2      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+    0.187068    -1244.18
+    -1244.189.17387e+006
+
+
+ JSObject                          PosCodeVector_0
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.31225    0.832955
+
+
+ JSObject                          PosCodeVector_1
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     2.57679     1.86811
+
+
+ JSObject                          PosCodeVector_2
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.62759     1.93788
+
+
+ JSObject                          PosCodeVector_3
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.86401     2.20382
+
+
+ JSObject                          PosCodeVector_4
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.62364     3.81492
+
+
+ JSObject                          PosCodeVector_5
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.44973     2.33638
+
+
+ JSObject                          PosCodeVector_6
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.30317     1.21655
+
+
+ JSObject                          PosCodeVector_7
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.22192     2.05962
+
+
+ JSObject                          PosCodeVector_8
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.63757     1.59314
+
+
+ JSObject                          PosCodeVector_9
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.91332     2.70411
+
+
+ JSObject                         PosCodeVector_10
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1      1.6017    0.870818
+
+
+ JSObject                         PosCodeVector_11
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1      1.4136     4.39152
+
+
+ JSObject                         PosCodeVector_12
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.73027     3.01256
+
+
+ JSObject                         PosCodeVector_13
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1      1.3091     3.17823
+
+
+ JSObject                         PosCodeVector_14
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     2.54095     2.57781
+
+
+ JSObject                         PosCodeVector_15
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.23464     2.77412
+
+
+ JSObject                         PosCodeVector_16
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.45081    0.472294
+
+
+ JSObject                         PosCodeVector_17
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.88779     3.50592
+
+
+ JSObject                         PosCodeVector_18
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.72676     1.16035
+
+
+ JSObject                         PosCodeVector_19
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           1     1.24717     1.62622
+
+
+ JSObject                          NegCodeVector_0
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    -1.75886   -0.681001
+
+
+ JSObject                          NegCodeVector_1
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0   -0.609105   -0.641654
+
+
+ JSObject                          NegCodeVector_2
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    0.308702   -0.754265
+
+
+ JSObject                          NegCodeVector_3
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0   -0.214328   -0.788387
+
+
+ JSObject                          NegCodeVector_4
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    0.462188    0.350312
+
+
+ JSObject                          NegCodeVector_5
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    -2.41906   -0.560772
+
+
+ JSObject                          NegCodeVector_6
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    0.432571     1.27096
+
+
+ JSObject                          NegCodeVector_7
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0  0.00881362   0.0239986
+
+
+ JSObject                          NegCodeVector_8
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    -1.08776   -0.737406
+
+
+ JSObject                          NegCodeVector_9
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    0.810549  -0.0649781
+
+
+ JSObject                         NegCodeVector_10
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    0.392879    -0.27593
+
+
+ JSObject                         NegCodeVector_11
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    -1.41601     -0.2529
+
+
+ JSObject                         NegCodeVector_12
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0  -0.0693139   -0.435443
+
+
+ JSObject                         NegCodeVector_13
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    -3.24259    -0.28498
+
+
+ JSObject                         NegCodeVector_14
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0   -0.480935    0.383452
+
+
+ JSObject                         NegCodeVector_15
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    0.790025   -0.650379
+
+
+ JSObject                         NegCodeVector_16
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    -2.13677    0.153338
+
+
+ JSObject                         NegCodeVector_17
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0   -0.861002   -0.166373
+
+
+ JSObject                         NegCodeVector_18
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0   -0.353338   -0.153712
+
+
+ JSObject                         NegCodeVector_19
+
+ IndexRange       0      2      0      0      0      0
+
+ MinMaxValue            0           0
+
+ Data 
+
+
+           0    -1.27556    0.473375

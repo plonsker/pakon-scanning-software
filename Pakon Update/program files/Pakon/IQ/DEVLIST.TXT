@@ -1,0 +1,1902 @@
+//
+// ATAPI/USB/FIREWIRE Recorders
+//
+
+"CRW-3212A"         ASUS_CRW3212      // ASUS
+"CRW-3212U"         ASUS_CRW3212      // ASUS
+
+"CRW-4012A"         ASUS_CRW4012      // ASUS
+
+"CRW-4816A"         ASUS_CRW4816      // ASUS
+"CRW-4824A"         ASUS_CRW4816      // ASUS
+"CRW-4824AH"        ASUS_CRW4816      // ASUS
+"CRW-4832A"         ASUS_CRW4816      // ASUS
+
+"CRW-5224A"         ASUS_CRW5224      // ASUS
+"CRW-5232A"         ASUS_CRW5224      // ASUS
+"CRW-5232AS"        ASUS_CRW5224      // ASUS
+
+"CD-RW  CW-8121"    CDRW_8X8X24       // Matsushita
+
+"UJDA730"           CDRW_16X10X24     // Matsushita
+"UJDA730 DVD/CDRW"  CDRW_16X10X24     // Matsushita
+"UJDA745"           CDRW_16X10X24     // Matsushita
+"UJDA745 DVD/CDRW"  CDRW_16X10X24     // Matsushita
+"CDRW/DVD SBW-161"  CDRW_16X10X24     // QSI
+"DVD/CDRW SBW-161"  CDRW_16X10X24     // QSI
+"IDE1612CO"         CDRW_16X10X24     // BTC
+
+"CD-RW  CW-8122"    CDRW_24X12X40     // Matsushita
+"CD-RW  CW-8123"    CDRW_24X12X40     // Matsushita
+"UJDA740"           CDRW_24X12X40     // Matsushita
+"UJDA740 DVD/CDRW"  CDRW_24X12X40     // Matsushita
+"CDRW/DVD UJDA740"  CDRW_24X12X40     // Matsushita
+"BCE2408IM"         CDRW_24X12X40     // BTC
+"BCO2408SM"         CDRW_24X12X40     // BTC
+"IDE2408CO"         CDRW_24X12X40     // BTC
+"CDRW-2410E"        CDRW_24X12X40     // Traxdata
+
+"BCE3212IM"         CDRW_32X12X40     // BTC
+"IDE3216CO"         CDRW_32X12X40     // BTC
+"IDE3216IM"         CDRW_32X12X40     // BTC
+"CD-RW CW3201"      CDRW_32X12X40     // Optorite
+
+"BCP 8000+"         CDRW_40X12X48     // BTC
+"BCP 8000"          CDRW_40X12X48     // BTC
+"RIP 8000"          CDRW_40X12X48     // BTC
+"AXT 8000"          CDRW_40X12X48     // BTC
+"GEN 8000"          CDRW_40X12X48     // BTC
+"BCE4010IM"         CDRW_40X12X48     // BTC
+"BCE4012IM"         CDRW_40X12X48     // BTC
+"BCO4012IM"         CDRW_40X12X48     // BTC
+"BCE4016IM"         CDRW_40X12X48     // BTC
+"BCO4016IM"         CDRW_40X12X48     // BTC
+"IDE4012"           CDRW_40X12X48     // BTC
+"IDE4016"           CDRW_40X12X48     // BTC
+"IDE4016CO"         CDRW_40X12X48     // BTC
+"CDRW23042EXT3-C"   CDRW_40X12X48     // Iomega
+"BurnMAX40"         CDRW_40X12X48     // Polaroid
+"BurnMAX40 CB"      CDRW_40X12X48     // Polaroid
+"BurnMAX40EX"       CDRW_40X12X48     // Polaroid
+"BurnMAX40EX CB"    CDRW_40X12X48     // Polaroid
+"BurnMAX40PX"       CDRW_40X12X48     // Polaroid
+"CDRW-4012E"        CDRW_40X12X48     // Traxdata
+"CW078D CD-R/RW"    CDRW_40X12X48     // CyberDrive
+"CW079D CD-R/RW"    CDRW_40X12X48     // CyberDrive
+"CD-RW CW4001"      CDRW_40X12X48     // Optorite
+
+"BCE4812IM"         CDRW_48X16X48     // BTC
+"BCE4816IM"         CDRW_48X16X48     // BTC
+"BCO4816IM"         CDRW_48X16X48     // BTC
+"IDE4812"           CDRW_48X16X48     // BTC
+"IDE4816"           CDRW_48X16X48     // BTC
+"IDE4816CO"         CDRW_48X16X48     // BTC
+"BurnMAX48"         CDRW_48X16X48     // Polaroid
+"BurnMAX48 CB"      CDRW_48X16X48     // Polaroid
+"CDRW-4812E"        CDRW_48X16X48     // Traxdata
+"CDRW-4816E"        CDRW_48X16X48     // Traxdata
+"CW088D CD-R/RW"    CDRW_48X16X48     // CyberDrive
+"CW089D CD-R/RW"    CDRW_48X16X48     // CyberDrive
+"CD-RW CW4801"      CDRW_48X16X48     // Optorite
+
+"BCE4824IM"         CDRW_48X24X48     // BTC
+"BCE4832IM"         CDRW_48X24X48     // BTC
+"IDE4824"           CDRW_48X24X48     // BTC
+"IDE4832"           CDRW_48X24X48     // BTC
+"BurnMAX48EX"       CDRW_48X24X48     // Polaroid
+"BurnMAX48EX CB"    CDRW_48X24X48     // Polaroid
+"CDRW55296INT-C"    CDRW_48X24X48     // Iomega
+"CDRW55292EXT3-C"   CDRW_48X24X48     // Iomega
+"CDDVD482416INT-C"  CDRW_48X24X48     // Iomega
+"CDDVD482416E23-C"  CDRW_48X24X48     // Iomega
+"CDRW-4824E"        CDRW_48X24X48     // Traxdata
+"481648AX"          CDRW_48X24X48     // Verbatim/Cendyne
+  
+"BCE5216IM"         CDRW_52X24X52     // BTC
+"BCE5224IM"         CDRW_52X24X52     // BTC
+"BCE5224SO"         CDRW_52X24X52     // BTC
+"BCE5224UI"         CDRW_52X24X52     // BTC
+"IDE5216CO"         CDRW_52X24X52     // BTC
+"IDE5224"           CDRW_52X24X52     // BTC
+"IDE5224SO"         CDRW_52X24X52     // BTC
+"CD-RW 52X24-B0"    CDRW_52X24X52     // BTC
+"CD-RW 52X32-B0"    CDRW_52X24X52     // BTC
+"CDRW64896INT-C"    CDRW_52X24X52     // Iomega
+"CDRW64892EXT3-C"   CDRW_52X24X52     // Iomega
+"BurnMAX52"         CDRW_52X24X52     // Polaroid
+"BurnMAX52CB"       CDRW_52X24X52     // Polaroid
+"BurnMAX52EX"       CDRW_52X24X52     // Polaroid
+"BurnMAX52EX SO"    CDRW_52X24X52     // Polaroid
+"BurnMAX52SO"       CDRW_52X24X52     // Polaroid
+"CDRW-5224E"        CDRW_52X24X52     // Traxdata
+"CD-RW  CRX220E2"   CDRW_52X24X52     // Sony
+"CDRW-5212E"        CDRW_52X24X52     // Traxdata
+"CDRW-5216E"        CDRW_52X24X52     // Traxdata
+"CDRW-5224E SO"     CDRW_52X24X52     // Traxdata
+"52MAXX 2452AK"     CDRW_52X24X52     // Memorex
+"CR-487ETE"         CDRW_52X24X52     // Mitsumi
+"CR-488ETE"         CDRW_52X24X52     // Mitsumi
+"CD-RW RW5220E"     CDRW_52X24X52     // Creative Labs
+"CW098D CD-R/RW"    CDRW_52X24X52     // CyberDrive
+"CW099D CD-R/RW"    CDRW_52X24X52     // CyberDrive
+  
+"BCE5232IM"         CDRW_52X32X52     // BTC
+"BCE5232SO"         CDRW_52X32X52     // BTC
+"IDE5232"           CDRW_52X32X52     // BTC
+"IDE5232SO"         CDRW_52X32X52     // BTC
+"CDRW86528INT-C"    CDRW_52X32X52     // Iomega
+"CDRW86522EXT3-C"   CDRW_52X32X52     // Iomega
+"CDDVD522416INT-C"  CDRW_52X32X52     // Iomega
+"CDDVD522416E23-C"  CDRW_52X32X52     // Iomega
+
+"XR-W2080"          JVC_XRW2080       // JVC
+"XR-W2082"          JVC_XRW2080       // JVC
+"XR-RW2224"         JVC_XRW2080       // JVC
+"RW2224"            JVC_XRW2080       // RWD
+"CD-RW2224"         JVC_XRW2080       // Memorex
+"H2242"             JVC_XRW2080       // Hi-Val
+"CD-RW RW2024E"     JVC_XRW2080       // Creative Labs
+"CD-RW 2024E"       JVC_XRW2080       // Creative Labs
+
+"XR-W4080"          JVC_XRW4080       // JVC
+"XR-W4082"          JVC_XRW4080       // JVC
+"XR-RW4224"         JVC_XRW4080       // JVC
+"XR-RW4424"         JVC_XRW4080       // JVC
+"RW4224"            JVC_XRW4080       // RWD
+"RW4424"            JVC_XRW4080       // RWD
+"CD-RW4224A"        JVC_XRW4080       // Smart & Friendly
+"CD-RW4424A"        JVC_XRW4080       // Smart & Friendly
+"H4242"             JVC_XRW4080       // Hi-Val
+"CD-RW RW4224E"     JVC_XRW4080       // Creative Labs
+"CD-RW RW4424E"     JVC_XRW4080       // Creative Labs
+"CD-RW4224"         JVC_XRW4080       // Memorex
+"CD-RW4424"         JVC_XRW4080       // Memorex
+
+"CD-RW CED-8041B"   LGE_4X2X24        // LG Electronics
+"CD-REWRITER-4C"    LGE_4X2X24        // Micro Solutions
+
+"CD-RW CED-8042B"   LGE_4X4X24        // LG Electronics
+
+"CD-RW CED-8083B"   LGE_4X4X32        // LG Electronics
+
+"CD-RW CED-8080B"   LGE_8X4X32        // LG Electronics
+"CD-RW CED-8081B"   LGE_8X4X32        // LG Electronics
+"CD-RW CED-8082B"   LGE_8X4X32        // LG Electronics
+"Combo GCC-8080B"   LGE_8X4X32        // LG Electronics
+"Combo GCC-8080N"   LGE_8X4X32        // LG Electronics
+"Combo GCC-8081B"   LGE_8X4X32        // LG Electronics
+"Combo GCC-8081N"   LGE_8X4X32        // LG Electronics
+"Combo GCC-8082B"   LGE_8X4X32        // LG Electronics
+"Combo GCC-8082N"   LGE_8X4X32        // LG Electronics
+"Combo GCC-8083B"   LGE_8X4X32        // LG Electronics
+"Combo GCC-8083N"   LGE_8X4X32        // LG Electronics
+"CD-RW GCE-8080N"   LGE_8X4X32        // LG Electronics
+"CD-Writer+ 9100b"  LGE_8X4X32        // Hewlett Packard
+"CD-REWRITER-8C"    LGE_8X4X32        // Micro Solutions
+
+"CD-RW CED-8120B"   LGE_12X8X32       // LG Electronics
+"CD-RW GCE-8121B"   LGE_12X8X32       // LG Electronics
+"RW/DVD GCC-4120B"  LGE_12X8X32       // LG Electronics
+"RW/DVD GCC-4120N"  LGE_12X8X32       // LG Electronics
+"CD-Writer+ 9500b"  LGE_12X8X32       // Hewlett Packard
+
+"CD-RW GCE-8160B"   LGE_16X10X40      // LG Electronics
+"RW/DVD GCC-4160B"  LGE_16X10X40      // LG Electronics
+"RW/DVD GCC-4160N"  LGE_16X10X40      // LG Electronics
+"CD-Writer cd16b"   LGE_16X10X40      // Hewlett Packard
+"CD-RW CW1601"      LGE_16X10X40      // OptoRite
+"CD-RW 16/8/40X"    LGE_16X10X40      // Generic
+"CD-RW 16/12/40X"   LGE_16X10X40      // Generic
+
+"CD-RW GCE-8240B"   LGE_24X10X40      // LG Electronics
+"RW/DVD GCC-4240B"  LGE_24X10X40      // LG Electronics
+"RW/DVD GCC-4240N"  LGE_24X10X40      // LG Electronics
+"RW/DVD GCC-4241N"  LGE_24X10X40      // LG Electronics
+"CD-RW GCC-5240P"   LGE_24X10X40      // LG Electronics
+"CD-RW GCC-5241P"   LGE_24X10X40      // LG Electronics
+
+"CD-RW GCE-8320B"   LGE_32X10X40      // LG Electronics
+"RW/DVD GCC-4320B"  LGE_32X10X40      // LG Electronics
+"RW/DVD GCC-4320N"  LGE_32X10X40      // LG Electronics
+
+"CD-RW GCE-8400B"   LGE_40X12X40      // LG Electronics
+"RW/DVD GCC-4400B"  LGE_40X12X40      // LG Electronics
+"RW/DVD GCC-4400N"  LGE_40X12X40      // LG Electronics
+"CD-RW MS-8340"     LGE_40X12X40      // MSI
+"CD-RW MS-8340S"    LGE_40X12X40      // MSI
+"CD-RW CW4002"      LGE_40X12X40      // OptoRite
+
+"CD-RW GCE-8480B"   LGE_48X16X48      // LG Electronics
+
+"CD-RW GCE-8481B"   LGE_48X24X48      // LG Electronics
+"CD-RW GCE-8483B"   LGE_48X24X48      // LG Electronics
+"RW/DVD GCC-4480B"  LGE_48X24X48      // LG Electronics
+"RW/DVD GCC-4480N"  LGE_48X24X48      // LG Electronics
+"RW/DVD GCC-4481B"  LGE_48X24X48      // LG Electronics
+"CD-RW MS-8348"     LGE_48X24X48      // MSI
+"CD-RW MS-8348S"    LGE_48X24X48      // MSI
+"CD-RW 48XMax"      LGE_48X24X48      // MSI
+"CD-RW CW4802"      LGE_48X24X48      // OptoRite
+
+"CD-RW GCE-8520B"   LGE_52X24X52      // LG Electronics
+"CD-RW GCE-8523B"   LGE_52X24X52      // LG Electronics
+"CD-RW GCE-8524B"   LGE_52X24X52      // LG Electronics
+"CD-RW GCE-8525B"   LGE_52X24X52      // LG Electronics
+"RW/DVD GCC-4520B"  LGE_52X24X52      // LG Electronics
+"RW/DVD GCC-4520N"  LGE_52X24X52      // LG Electronics
+"RW/DVD GCC-4521B"  LGE_52X24X52      // LG Electronics
+"CD-RW MS-8352"     LGE_52X24X52      // MSI
+"CD-RW MS-8352M"    LGE_52X24X52      // MSI
+"CD-RW 52XMax"      LGE_52X24X52      // MSI
+
+"DVDRAM GMA-4020B"  LGE_GMA4020       // LG Electronics
+"DVD-RW GMA-4020B"  LGE_GMA4020       // LG Electronics
+
+"DVDRAM GSA-4040B"  LGE_GSA4040       // LG Electronics
+"DVDRW4224INQ-D"    LGE_GSA4040       // Iomega
+"DVDRW4224E2Q-D"    LGE_GSA4040       // Iomega
+
+"DVDRAM GSA-4080B"  LGE_GSA4081       // LG Electronics
+"DVDRAM GSA-4081B"  LGE_GSA4081       // LG Electronics
+"DVDRW8424INQ-D"    LGE_GSA4081       // Iomega
+"DVDRW8424E2Q-D"    LGE_GSA4081       // Iomega
+
+"DVDRAM GSA-4082B"  LGE_GSA4082       // LG Electronics
+"DVDRW8824INQ-D"    LGE_GSA4082       // Iomega
+"DVDRW8824E2Q-D"    LGE_GSA4082       // Iomega
+
+"CD-R   CW-7582"    MATSHITA_CW7582   // Matsushita
+"CDR4800"           MATSHITA_CW7582   // Traxdata
+"CDR4800E"          MATSHITA_CW7582   // Creative Labs
+
+"CD-RW  CW-7585"    MATSHITA_CW7585   // Matsushita
+"CD-RW  CW-7586"    MATSHITA_CW7585   // Matsushita
+"CD-RW  CW-7586SI"  MATSHITA_CW7585   // Matsushita
+"CD-RW  CW-8571"    MATSHITA_CW7585   // Matsushita
+"CD-RW   CW-8571"   MATSHITA_CW7585   // Matsushita
+"CD-RW RW8433E"     MATSHITA_CW7585   // Creative Labs
+"CD-RW  RW8433E"    MATSHITA_CW7585   // Creative Labs
+"CD-RW RW8439E"     MATSHITA_CW7585   // Creative Labs
+"CD-RW  RW8439E"    MATSHITA_CW7585   // Creative Labs
+
+"CD-RW  CW-8572"    MATSHITA_CW8572   // Matsushita
+
+"CR-4801TE"         MITSUMI_CR4801TE  // Mitsumi
+
+"CR-4802TE"         MITSUMI_CR4802TE  // Mitsumi
+"CD-REWRITER-4B"    MITSUMI_CR4802TE  // Micro Solutions
+
+"CR-4804TE"         MITSUMI_CR4804TE  // Mitsumi
+"CR-4804TE USB"     MITSUMI_CR4804TE  // Mitsumi
+"CD-Writer+ 8290"   MITSUMI_CR4804TE  // Hewlett Packard
+"CD-Writer cd4f"    MITSUMI_CR4804TE  // Hewlett Packard
+
+"CR-4805TE"         MITSUMI_CR4805TE  // Mitsumi
+"CR-48X5TE"         MITSUMI_CR4805TE  // Mitsumi
+"CR-48X5TE USB"     MITSUMI_CR4805TE  // Mitsumi
+"CD-Writer+ 8200f"  MITSUMI_CR4805TE  // Hewlett Packard
+"CD-Writer+ 9100f"  MITSUMI_CR4805TE  // Hewlett Packard
+"CD-REWRITER-8A"    MITSUMI_CR4805TE  // Micro Solutions
+"BCE840IE"          MITSUMI_CR4805TE  // BTC
+"CELERUS"           MITSUMI_CR4805TE  // Philips
+
+"CR-4808TE"         MITSUMI_CR4808TE  // Mitsumi
+"CR-48X8TE"         MITSUMI_CR4808TE  // Mitsumi
+"CD-Writer cd16f"   MITSUMI_CR4808TE  // Hewlett Packard
+"SFINX16"           MITSUMI_CR4808TE  // Waitec
+
+"CR-4809TE"         MITSUMI_CR4809TE  // Mitsumi
+"CR-48X9TE"         MITSUMI_CR4809TE  // Mitsumi
+"STORM24/1"         MITSUMI_CR4809TE  // Waitec
+"FREECOM24D"        MITSUMI_CR4809TE  // Freecom
+"241040AB"          MITSUMI_CR4809TE  // Verbatim/Cendyne
+"CW048D CD-R/RW"    MITSUMI_CR4809TE  // CyberDrive
+
+"CR-48XATE"         MITSUMI_CR48XATE  // Mitsumi
+"321240 CDRW"       MITSUMI_CR48XATE  // Philips
+"R/RW 32x10"        MITSUMI_CR48XATE  // Philips
+"R/RW 32x12"        MITSUMI_CR48XATE  // Philips
+"STORM32/1"         MITSUMI_CR48XATE  // Waitec
+"STORM32/2"         MITSUMI_CR48XATE  // Waitec
+"SFINX32"           MITSUMI_CR48XATE  // Waitec
+"FREECOM32D"        MITSUMI_CR48XATE  // Freecom
+"321240AB"          MITSUMI_CR48XATE  // Verbatim/Cendyne
+"CW058D CD-R/RW"    MITSUMI_CR48XATE  // CyberDrive
+"EW058U CD-R/RW"    MITSUMI_CR48XATE  // CyberDrive
+"CD-R/RW 32X10"     MITSUMI_CR48XATE  // Acer
+"CD-R/RW 32X12"     MITSUMI_CR48XATE  // Acer
+"CD-R/RW 32X12X40"  MITSUMI_CR48XATE  // Acer
+
+"CR-48XCTE"         MITSUMI_CR48XCTE  // Mitsumi
+"401240 CDRW"       MITSUMI_CR48XCTE  // Philips
+"401248 CDRW"       MITSUMI_CR48XCTE  // Philips
+"STORM40/1"         MITSUMI_CR48XCTE  // Waitec
+"FREECOM40D"        MITSUMI_CR48XCTE  // Freecom
+"401248AB"          MITSUMI_CR48XCTE  // Verbatim/Cendyne
+"CW068D CD-R/RW"    MITSUMI_CR48XCTE  // CyberDrive
+"EW068U CD-R/RW"    MITSUMI_CR48XCTE  // CyberDrive
+"CD-R/RW 40X12"     MITSUMI_CR48XCTE  // Acer
+
+"CR-48XFTE"         MITSUMI_CR48XFTE  // Mitsumi
+"482448 CDRW"       MITSUMI_CR48XFTE  // Philips
+"STORM48/1"         MITSUMI_CR48XFTE  // Waitec
+"481248AB"          MITSUMI_CR48XFTE  // Verbatim/Cendyne
+"481648AB"          MITSUMI_CR48XFTE  // Verbatim/Cendyne
+"CD-R/RW 48X12"     MITSUMI_CR48XFTE  // Acer
+"CD-R/RW 48X16"     MITSUMI_CR48XFTE  // Acer
+"CD-R/RW 48X20"     MITSUMI_CR48XFTE  // Acer
+
+"DVD+RW ND-1000A"   NEC_ND1000        // NEC
+
+"DVD+RW ND-1100A"   NEC_ND1100        // NEC
+"DVD+RW ND-5100A"   NEC_ND1100        // NEC
+"DVD+RW MP5163"     NEC_ND1100        // Ricoh
+"DVD+RW RW5163"     NEC_ND1100        // Ricoh
+"DVDR   PX-504A"    NEC_ND1100        // Plextor
+"DVD Writer 300n"   NEC_ND1100        // Hewlett Packard
+"DVDRW4216INP-A"    NEC_ND1100        // Iomega
+"DW-7801TE"         NEC_ND1100        // Mitsumi
+"DVDRW420N"         NEC_ND1100        // TDK
+
+"DVDRW416"          NEC_ND1100        // Philips
+"DVDRW428"          NEC_ND1100        // Philips
+"DVDRW448"          NEC_ND1100        // Philips
+"DVD8301"           NEC_ND1100        // Philips
+"DVDRW8301"         NEC_ND1100        // Philips
+"DVD+RW-D48"        NEC_ND1100        // Philips
+"DVD+RW-S44"        NEC_ND1100        // Philips
+"DVD Writer 300C"   NEC_ND1100        // Hewlett Packard
+"DVD+RW SR-P08B"    NEC_ND1100        // Samsung
+
+"DVD_RW ND-1300A"   NEC_ND1300        // NEC
+"DVD_RW ND-5300A"   NEC_ND1300        // NEC
+"DVDRW4216IND-A"    NEC_ND1300        // Iomega
+"DW-7802TE"         NEC_ND1300        // Mitsumi
+"DVDRW0404N"        NEC_ND1300        // TDK
+"DVD R/RW SR-W04B"  NEC_ND1300        // Samsung
+"DVD+/-RW4B"        NEC_ND1300        // Freecom
+ 
+"DVD+RW ND-2100A"   NEC_ND2100        // NEC
+"DVD Writer 400c"   NEC_ND2100        // Hewlett Packard
+"DVD Writer 400n"   NEC_ND2100        // Hewlett Packard
+
+"DVD_RW ND-2500A"   NEC_ND2500        // NEC
+"DVD_RW ND-2510A"   NEC_ND2500        // NEC
+"DVD+-RW ND-2510A"  NEC_ND2500        // NEC
+"DVD+-RW ND-6500A"  NEC_ND2500        // NEC
+"DVD+RW MP5308D"    NEC_ND2500        // Ricoh
+"DW-7872TE"         NEC_ND2500        // Mitsumi
+"DVDRW880N"         NEC_ND2500        // TDK
+"DVDRW882N"         NEC_ND2500        // TDK
+"DVD Writer 420n"   NEC_ND2500        // Hewlett Packard
+"DVD Writer 520n"   NEC_ND2500        // Hewlett Packard
+"DVD+/-RW True8XI"  NEC_ND2500        // Memorex
+"DVD+/-RW8B"        NEC_ND2500        // Freecom
+
+"DVD_RW ND-3500A"   NEC_ND3500        // NEC
+"DVD_RW ND-3500AD"  NEC_ND3500        // NEC
+"DVD_RW ND-3500AG"  NEC_ND3500        // NEC
+"DVDRW1616N"        NEC_ND3500        // TDK
+
+"CDD3610"           PHILIPS_CDD3600   // Philips
+"CDD3610 CD-R/RW"   PHILIPS_CDD3600   // Philips
+"PCA267CR"          PHILIPS_CDD3600   // Philips
+"DEVELOPMENT - 97"  PHILIPS_CDD3600   // Philips
+"ReWritable-2x2x6"  PHILIPS_CDD3600   // Philips
+"CD-Writer+ 7100"   PHILIPS_CDD3600   // Hewlett Packard
+"CD-Writer+ 7200"   PHILIPS_CDD3600   // Hewlett Packard
+"CR-622"            PHILIPS_CDD3600   // Memorex
+"CRW-1622"          PHILIPS_CDD3600   // Memorex
+"CDRW-622"          PHILIPS_CDD3600   // Wearnes
+"CDRW-2422"         PHILIPS_CDD3600   // Wearnes
+"CD-R/RW CRW6206A"  PHILIPS_CDD3600   // Acer
+"CD-R/RW 2X2X6"     PHILIPS_CDD3600   // Acer
+"BCE 621E"          PHILIPS_CDD3600   // BTC
+"SOCRATES"          PHILIPS_CDD3600   // OTI
+"WT2036EI"          PHILIPS_CDD3600   // Waitec
+"CDRW602"           PHILIPS_CDD3600   // CyberDrive
+"CDRW602     1.20"  PHILIPS_CDD3600   // CyberDrive
+"ODE6121"           PHILIPS_CDD3600   // Delta
+"ODE-6121"          PHILIPS_CDD3600   // Delta
+"ODR6121"           PHILIPS_CDD3600   // Delta
+"ODR-6121"          PHILIPS_CDD3600   // Delta
+"CDR6121"           PHILIPS_CDD3600   // Delta
+"CDE6121"           PHILIPS_CDD3600   // Delta
+"CD-R/RW SCW-230"   PHILIPS_CDD3600   // Samsung
+"CD-R/RW SCW-430"   PHILIPS_CDD3600   // Samsung
+"CDRW2260+"         PHILIPS_CDD3600   // Traxdata
+"JCD-62RW"          PHILIPS_CDD3600   // JCCOM
+
+"CDD3801 CD-R/RW"   PHILIPS_CDD3800   // Philips
+"PCA382RW IDE"      PHILIPS_CDD3800   // Philips
+"R/RW 2x2x24"       PHILIPS_CDD3800   // Philips
+"CDRW-2224"         PHILIPS_CDD3800   // Memorex
+"ZIPCD 650"         PHILIPS_CDD3800   // Iomega
+"WT2422EI"          PHILIPS_CDD3800   // Waitec
+"CDRW2224 PLUS"     PHILIPS_CDD3800   // Traxdata
+"CD-R/RW CRW6232A"  PHILIPS_CDD3800   // Acer
+"CD-R/RW 2X2X32"    PHILIPS_CDD3800   // Acer
+"CD-R/RW 2X2X24"    PHILIPS_CDD3800   // Acer
+"BCE242IE"          PHILIPS_CDD3800   // BTC
+
+"CDD4201 CD-R/RW"   PHILIPS_CDD4200   // Philips
+"R/RW 4x4x24"       PHILIPS_CDD4200   // Philips
+"CD-Writer+ 8000"   PHILIPS_CDD4200   // Hewlett Packard
+"CD-R/RW SW-204B"   PHILIPS_CDD4200   // Samsung
+"CD-R/RW SW-204F"   PHILIPS_CDD4200   // Samsung
+"COMBO SM-304B"     PHILIPS_CDD4200   // Samsung
+"CDRW/DVD SM-304B"  PHILIPS_CDD4200   // Samsung
+"CD-R/RW CRW4424A"  PHILIPS_CDD4200   // Acer
+"CD-R/RW 4X4X24"    PHILIPS_CDD4200   // Acer
+"CD-R/RW CRW4230A"  PHILIPS_CDD4200   // Acer
+"CD-R/RW 4X2X30"    PHILIPS_CDD4200   // Acer
+"CD-R/RW CRW4430A"  PHILIPS_CDD4200   // Acer
+"CD-R/RW 4X4X30"    PHILIPS_CDD4200   // Acer
+"CD-R/RW CRW4232A"  PHILIPS_CDD4200   // Acer
+"CD-R/RW 4X2X32"    PHILIPS_CDD4200   // Acer
+"CD-R/RW CRW4432A"  PHILIPS_CDD4200   // Acer
+"CD-R/RW 4X4X32"    PHILIPS_CDD4200   // Acer
+"ZIPCD 650 USB"     PHILIPS_CDD4200   // Iomega
+"ZIPCD 4x650"       PHILIPS_CDD4200   // Iomega
+"WT2444EI"          PHILIPS_CDD4200   // Waitec
+"CDRW4424 PLUS"     PHILIPS_CDD4200   // Traxdata
+"CD-REWRITER-4E"    PHILIPS_CDD4200   // Micro Solutions
+"CW043D CD-R/RW"    PHILIPS_CDD4200   // CyberDrive
+"BCE324IE"          PHILIPS_CDD4200   // BTC
+"BCE424IE"          PHILIPS_CDD4200   // BTC
+
+"CDD4401 CD-R/RW"   PHILIPS_CDD4400   // Philips
+"PCRW404"           PHILIPS_CDD4400   // Philips
+"R/RW 4x4x32"       PHILIPS_CDD4400   // Philips
+"CDRW4432 PLUS"     PHILIPS_CDD4400   // Traxdata
+"WT3244EI"          PHILIPS_CDD4400   // Waitec
+"CDRW-4424"         PHILIPS_CDD4400   // Wearnes
+
+"CD-R/RW 6X4X30"    PHILIPS_CDD4600   // Acer
+"CD-R/RW CRW6430A"  PHILIPS_CDD4600   // Acer
+"CD-R/RW 6X4X32"    PHILIPS_CDD4600   // Acer
+"CD-R/RW CRW6432A"  PHILIPS_CDD4600   // Acer
+
+"CDD4801 CD-R/RW"   PHILIPS_CDD4800   // Philips
+"PCRW804"           PHILIPS_CDD4800   // Philips
+"R/RW 8x4x32"       PHILIPS_CDD4800   // Philips
+"CD-Writer+ 9100c"  PHILIPS_CDD4800   // Hewlett Packard
+"CD-Writer+ 9200c"  PHILIPS_CDD4800   // Hewlett Packard
+"CD-R/RW SW-208B"   PHILIPS_CDD4800   // Samsung
+"CD-R/RW SW-208F"   PHILIPS_CDD4800   // Samsung
+"COMBO SM-308B"     PHILIPS_CDD4800   // Samsung
+"CDRW/DVD SM-308B"  PHILIPS_CDD4800   // Samsung
+"CD-R/RW 8X4X24"    PHILIPS_CDD4800   // Acer
+"CD-R/RW CRW8424A"  PHILIPS_CDD4800   // Acer
+"CD-R/RW 8X4X30"    PHILIPS_CDD4800   // Acer
+"CD-R/RW CRW8430A"  PHILIPS_CDD4800   // Acer
+"CD-R/RW 8X4X32"    PHILIPS_CDD4800   // Acer
+"CD-R/RW CRW8432A"  PHILIPS_CDD4800   // Acer
+"ZIPCD 8x650"       PHILIPS_CDD4800   // Iomega
+"ZIPCD1024INT-A"    PHILIPS_CDD4800   // Iomega
+"ZIPCD1024EXT"      PHILIPS_CDD4800   // Iomega
+"SHUTTLE 8432"      PHILIPS_CDD4800   // Waitec
+"CDRW-8432i"        PHILIPS_CDD4800   // Wearnes
+"CD-RW RW8435E"     PHILIPS_CDD4800   // Creative Labs
+"CD-RW RW8438E"     PHILIPS_CDD4800   // Creative Labs
+"CW018D CD-R/RW"    PHILIPS_CDD4800   // CyberDrive
+"CW017D CD-R/RW"    PHILIPS_CDD4800   // CyberDrive
+"BCE832IE"          PHILIPS_CDD4800   // BTC
+
+"CD-R/RW 10X4X32"   PHILIPS_CDRW1004  // Acer
+"CD-R/RW 10X8X32"   PHILIPS_CDRW1004  // Acer
+
+"PCRW1208"          PHILIPS_CDRW1208  // Philips
+"PCRW1208A"         PHILIPS_CDRW1208  // Philips
+"PCRW1208MR"        PHILIPS_CDRW1208  // Philips
+"PCRW1208JR"        PHILIPS_CDRW1208  // Philips
+"PCRW1208UE"        PHILIPS_CDRW1208  // Philips
+"CDD4851 CD-R/RW"   PHILIPS_CDRW1208  // Philips
+"R/RW 12x8"         PHILIPS_CDRW1208  // Philips
+"R/RW 12x10"        PHILIPS_CDRW1208  // Philips
+"CD-R/RW SW-212B"   PHILIPS_CDRW1208  // Samsung
+"CD-R/RW SW-212F"   PHILIPS_CDRW1208  // Samsung
+"CD-R/RW 12X8X32"   PHILIPS_CDRW1208  // Acer
+"SAURUS"            PHILIPS_CDRW1208  // Waitec
+"DATA 32X12X8"      PHILIPS_CDRW1208  // Diamond
+"CW028D CD-R/RW"    PHILIPS_CDRW1208  // CyberDrive
+
+"PCRW1610"          PHILIPS_CDRW1610  // Philips
+"PCRW1610A"         PHILIPS_CDRW1610  // Philips
+"CDRW1610"          PHILIPS_CDRW1610  // Philips
+"CDRW1610A"         PHILIPS_CDRW1610  // Philips
+"CDRW1612"          PHILIPS_CDRW1610  // Philips
+"CDRW1612A"         PHILIPS_CDRW1610  // Philips
+"CDRWDVD1610"       PHILIPS_CDRW1610  // Philips
+"CDRWDVD1612"       PHILIPS_CDRW1610  // Philips
+"R/RW 16x10A"       PHILIPS_CDRW1610  // Philips
+"R/RW 16x12A"       PHILIPS_CDRW1610  // Philips
+"RW16x8/DVD"        PHILIPS_CDRW1610  // Philips
+"RW16x10/DVD"       PHILIPS_CDRW1610  // Philips
+"RW16x12/DVD"       PHILIPS_CDRW1610  // Philips
+"CD-Writer cd16c"   PHILIPS_CDRW1610  // Hewlett Packard
+"CD-R/RW 16X10"     PHILIPS_CDRW1610  // Acer
+"ALADAR"            PHILIPS_CDRW1610  // Waitec
+"DATA 40X16X10"     PHILIPS_CDRW1610  // Diamond
+"CW038D CD-R/RW"    PHILIPS_CDRW1610  // CyberDrive
+
+"PCRW2010"          PHILIPS_CDRW2010  // Philips
+"PCRW2010A"         PHILIPS_CDRW2010  // Philips
+"CDRW2010"          PHILIPS_CDRW2010  // Philips
+"CDRW2010A"         PHILIPS_CDRW2010  // Philips
+"CDRWDVD2010"       PHILIPS_CDRW2010  // Philips
+"R/RW 20x10"        PHILIPS_CDRW2010  // Philips
+"CD-R/RW 20X10"     PHILIPS_CDRW2010  // Acer
+"LTR-20101B"        PHILIPS_CDRW2010  // Lite-On
+"DATA 40X20X10"     PHILIPS_CDRW2010  // Diamond
+
+"PCRW2410"          PHILIPS_CDRW2410  // Philips
+"PCRW2410A"         PHILIPS_CDRW2410  // Philips
+"CDRW2410"          PHILIPS_CDRW2410  // Philips
+"CDRW2410A"         PHILIPS_CDRW2410  // Philips
+"PCRW2412"          PHILIPS_CDRW2410  // Philips
+"CDRW2412"          PHILIPS_CDRW2410  // Philips
+"CDRW2412A"         PHILIPS_CDRW2410  // Philips
+"CDRWDVD2410"       PHILIPS_CDRW2410  // Philips
+"CDRWDVD2412"       PHILIPS_CDRW2410  // Philips
+"RW24x10/DVD"       PHILIPS_CDRW2410  // Philips
+"RW24x12/DVD"       PHILIPS_CDRW2410  // Philips
+"R/RW 24x10A"       PHILIPS_CDRW2410  // Philips
+"R/RW 24x12A"       PHILIPS_CDRW2410  // Philips
+"241040 CDRW"       PHILIPS_CDRW2410  // Philips
+"241240 CDRW"       PHILIPS_CDRW2410  // Philips
+"CD-R/RW 24X10"     PHILIPS_CDRW2410  // Acer
+"DATA 40X24X10"     PHILIPS_CDRW2410  // Diamond
+
+"CDRW3210"          PHILIPS_CDRW3210  // Philips
+"CDRW3210A"         PHILIPS_CDRW3210  // Philips
+"CDRWDVD3210"       PHILIPS_CDRW3210  // Philips
+"CDRWDVD3212"       PHILIPS_CDRW3210  // Philips
+"CD-R/RW 32X10"     PHILIPS_CDRW3210  // Acer
+"DATA 40X32X10"     PHILIPS_CDRW3210  // Diamond
+
+"CDRW4012"          PHILIPS_CDRW4012  // Philips
+"CDRW4012A"         PHILIPS_CDRW4012  // Philips
+"CDRW4012P"         PHILIPS_CDRW4012  // Philips
+"CDRW4016A"         PHILIPS_CDRW4012  // Philips
+"CDRWDVD4010"       PHILIPS_CDRW4012  // Philips
+"CDRWDVD4012"       PHILIPS_CDRW4012  // Philips
+"R/RW 40x12A"       PHILIPS_CDRW4012  // Philips
+"R/RW 40x16A"       PHILIPS_CDRW4012  // Philips
+
+"CDRW4824"          PHILIPS_CDRW4824  // Philips
+"CDRW4824A"         PHILIPS_CDRW4824  // Philips
+"CDRWDVD4824"       PHILIPS_CDRW4824  // Philips
+"CDRW48A"           PHILIPS_CDRW4824  // Philips
+"R/RW 48xA"         PHILIPS_CDRW4824  // Philips
+
+"CDRW5224"          PHILIPS_CDRW5224  // Philips
+"CDRW5224A"         PHILIPS_CDRW5224  // Philips
+"CDRWDVD5224"       PHILIPS_CDRW5224  // Philips
+
+"DVD-RW  DVR-103"   PIONEER_DVR103    // Pioneer
+"DVD-RW  DVR-303"   PIONEER_DVR103    // Pioneer
+"DVD-RW GCA-4020B"  PIONEER_DVR103    // LG Electronics
+
+"DVD-RW  DVR-104"   PIONEER_DVR104    // Pioneer
+"DRW-0208P"         PIONEER_DVR104    // ASUS
+"DVDRW0200E"        PIONEER_DVR104    // TDK
+"DVDRW0200W"        PIONEER_DVR104    // TDK
+
+"DVD-RW  DVR-105"   PIONEER_DVR105    // Pioneer
+"DVD-RW  DVR-K11"   PIONEER_DVR105    // Pioneer
+"DVD RW DW-M10A"    PIONEER_DVR105    // Sony
+"DV-W50E"           PIONEER_DVR105    // Teac
+"DVD-ROM SD-R5002"  PIONEER_DVR105    // Toshiba
+"DVD-ROM SD-R5112"  PIONEER_DVR105    // Toshiba
+"DVD-ROM SD-R6012"  PIONEER_DVR105    // Toshiba
+"DVD-ROM SD-R6112"  PIONEER_DVR105    // Toshiba
+"DVD-RW DRW-0402P"  PIONEER_DVR105    // ASUS
+"DRW-0402P"         PIONEER_DVR105    // ASUS
+"DVDRW0400E"        PIONEER_DVR105    // TDK
+"DVDRW0400W"        PIONEER_DVR105    // TDK
+
+"DVD-RW  DVR-106"   PIONEER_DVR106    // Pioneer
+"DVD-RW  DVR-106A"  PIONEER_DVR106    // Pioneer
+"DVD-RW  DVR-106D"  PIONEER_DVR106    // Pioneer
+"DVD-RW DVR-106RD"  PIONEER_DVR106    // Pioneer
+"DVD-RW  DVR-K12D"  PIONEER_DVR106    // Pioneer
+"DV-W50D"           PIONEER_DVR106    // Teac
+"DRW-0402P/D"       PIONEER_DVR106    // ASUS
+"DVD+/-RW Dual-X1"  PIONEER_DVR106    // Memorex
+
+"DVD-RW  DVR-107"   PIONEER_DVR107    // Pioneer
+"DVD-RW  DVR-107A"  PIONEER_DVR107    // Pioneer
+"DVD-RW  DVR-107D"  PIONEER_DVR107    // Pioneer
+"DVD-RW  DVR-K13"   PIONEER_DVR107    // Pioneer *****
+"DVD-RW  DVR-K13RA" PIONEER_DVR107    // Acer *****
+"DRW-0804P/D"       PIONEER_DVR107    // ASUS *****
+"DRW-0804P-D"       PIONEER_DVR107    // ASUS *****
+"DV-W58D"           PIONEER_DVR107    // Teac
+"DVD+/-RW True-8X"  PIONEER_DVR107    // Memorex
+
+"DVD-RW  DVR-108"   PIONEER_DVR108    // Pioneer
+"DVD-RW  DVR-K14"   PIONEER_DVR108    // Pioneer *****
+"DRW-1604P/D"       PIONEER_DVR108    // ASUS *****
+"DRW-1604P-D"       PIONEER_DVR108    // ASUS *****
+"DV-W516D"          PIONEER_DVR108    // Teac
+
+"CD-R   PX-W8432T"  PLEXTOR_PXW8432   // Plextor
+"CD-RW RW8432E"     PLEXTOR_PXW8432   // Creative Labs
+"CDRW8432"          PLEXTOR_PXW8432   // TDK
+"CD-R   WT3284"     PLEXTOR_PXW8432   // Waitec
+
+"CD-R   PX-W124T"   PLEXTOR_PXW124    // Plextor
+
+"CD-R   PX-W1210A"  PLEXTOR_PXW1210   // Plextor
+"CD-RW RW121032E"   PLEXTOR_PXW1210   // Creative Labs
+"CDRW121032"        PLEXTOR_PXW1210   // TDK
+"ZIPCD3840INT-A"    PLEXTOR_PXW1210   // Iomega
+
+"CD-R   PX-W1610A"  PLEXTOR_PXW1610   // Plextor
+"CD-Writer+ 9700p"  PLEXTOR_PXW1610   // Hewlett Packard
+"CDRW161040"        PLEXTOR_PXW1610   // TDK
+"CDRW6400INT"       PLEXTOR_PXW1610   // Iomega
+
+"CD-R   PX-W2410A"  PLEXTOR_PXW2410   // Plextor
+"CD-R   PX-S2410T"  PLEXTOR_PXW2410   // Plextor
+"CDRW241040"        PLEXTOR_PXW2410   // TDK
+"CD-Writer cd24p"   PLEXTOR_PXW2410   // Hewlett Packard
+"CDRW9600INT-A"     PLEXTOR_PXW2410   // Iomega
+
+"CD-R   PX-W4012A"  PLEXTOR_PXW4012   // Plextor
+"CDRW19200INT-A"    PLEXTOR_PXW4012   // Iomega
+
+"CD-R   PX-W4824A"  PLEXTOR_PXW4824   // Plextor
+"CD-R   PX-W4824U"  PLEXTOR_PXW4824   // Plextor
+
+"CD-R   PX-W5224A"  PLEXTOR_PXW5224   // Plextor
+
+"CD-R   PREMIUM"    PLEXTOR_PXW5232   // Plextor
+
+"CD-R   PX-S88T"    PLEXTOR_PXS88     // Plextor
+"CD-R   PX-208T"    PLEXTOR_PXS88     // Plextor
+"CD-R/RW SCW-081"   PLEXTOR_PXS88     // QSI
+"CD-RW SCW-081"     PLEXTOR_PXS88     // QSI
+
+"CD-R   PX-320A"    PLEXTOR_PX320     // Plextor
+
+"DVDR   PX-708A"    PLEXTOR_PX708     // Plextor
+"DVDRW840G"         PLEXTOR_PX708     // TDK
+
+"DVDR   PX-712A"    PLEXTOR_PX712     // Plextor
+
+"CDRW/DVD SBW-241"  QSI_SBW241        // QSI
+"CDRW/DVD SBW-242"  QSI_SBW241        // QSI
+"DVD/CDRW SBW-242"  QSI_SBW241        // QSI
+"CDRW/DVD SBW242U"  QSI_SBW241        // QSI
+
+"CDRW/DVD DBW-481"  QSI_DBW481        // QSI
+
+"CDRW/DVD DBW-521"  QSI_DBW521        // QSI
+"CDRW/DVD DBW521A"  QSI_DBW521        // QSI
+
+"DVDRW SDW-041"     QSI_SDW041        // QSI
+"DVDRW DDW-041"     QSI_DDW041        // QSI
+"DVDRW DDW-061"     QSI_DDW061        // QSI
+"DVDRW DDW-082"     QSI_DDW082        // QSI
+
+"MP6200A"           RICOH_MP6200A     // Ricoh
+"OMNIWRITER26A"     RICOH_MP6200A     // Philips
+"CRW620"            RICOH_MP6200A     // Acer
+"CRW622"            RICOH_MP6200A     // Acer
+"CD-REWRITER-2A"    RICOH_MP6200A     // Micro Solutions
+
+"CD-R/RW MP7030A"   RICOH_MP7040      // Ricoh
+"CD-R/RW RW7030A"   RICOH_MP7040      // Ricoh
+"CD-R/RW MP7040A"   RICOH_MP7040      // Ricoh
+"CD-R/RW RW7040A"   RICOH_MP7040      // Ricoh
+"CD-RW IMW040420"   RICOH_MP7040      // Imation
+"ARW4420"           RICOH_MP7040      // Actima
+"CRW9420"           RICOH_MP7040      // A-Open
+"CDRW4420"          RICOH_MP7040      // Memorex
+"CDRW-4420"         RICOH_MP7040      // Memorex
+"MCD-RW44-20"       RICOH_MP7040      // Maxell
+"OME-W141"          RICOH_MP7040      // Delta
+"OIP-PW2004A"       RICOH_MP7040      // Delta
+"OIP-RW2004A"       RICOH_MP7040      // Delta
+"CD-REWRITER-4D"    RICOH_MP7040      // Micro Solutions
+"CDRW4420a"         RICOH_MP7040      // Mitsubishi
+"CD-RW CDW-U4424"   RICOH_MP7040      // TORiSAN
+"UJDA310"           RICOH_MP7040      // Matsushita
+
+"CD-R/RW MP7060A"   RICOH_MP7060      // Ricoh
+"CD-R/RW RW7060A"   RICOH_MP7060      // Ricoh
+"CD-R/RW MP7063A"   RICOH_MP7060      // Ricoh
+"CD-R/RW RW7063A"   RICOH_MP7060      // Ricoh
+"CD-RW RW6424E"     RICOH_MP7060      // Creative Labs
+"CDRW-6424"         RICOH_MP7060      // Memorex
+"CD-RW6424A"        RICOH_MP7060      // Smart & Friendly
+"CD-R/RW SW-206"    RICOH_MP7060      // Samsung
+"CD-R/RW SW-207F"   RICOH_MP7060      // Samsung
+"CRW9624"           RICOH_MP7060      // A-Open
+"DVD/CDRW MP9060"   RICOH_MP7060      // Ricoh
+"DVD/CDRW RW9060"   RICOH_MP7060      // Ricoh
+"CDRW/DVD 6424-4"   RICOH_MP7060      // Memorex
+"ZIPCD-DVDROM"      RICOH_MP7060      // Iomega
+"DRW4624"           RICOH_MP7060      // A-Open
+"UJDA320"           RICOH_MP7060      // Matsushita
+"MDVDRW6424"        RICOH_MP7060      // Generic
+"DVD/RW 4X6X4X24"   RICOH_MP7060      // Generic
+
+"CD-R/RW MP7080A"   RICOH_MP7080      // Ricoh
+"CD-R/RW RW7080A"   RICOH_MP7080      // Ricoh
+"CD-R/RW MP7083A"   RICOH_MP7080      // Ricoh
+"CD-R/RW RW7083A"   RICOH_MP7080      // Ricoh
+"CD-R/RW SW-408B"   RICOH_MP7080      // Samsung
+"CDRW/DVD SM-408B"  RICOH_MP7080      // Samsung
+"CDRW/DVD SN-308B"  RICOH_MP7080      // Samsung
+"CDRW8432"          RICOH_MP7080      // Memorex
+"CRW9832"           RICOH_MP7080      // A-Open
+"UJDA330"           RICOH_MP7080      // Matsushita
+"UJDA340"           RICOH_MP7080      // Matsushita
+
+"CD-R/RW MP7120A"   RICOH_MP7120      // Ricoh
+"CD-R/RW RW7120A"   RICOH_MP7120      // Ricoh
+"CRW1232"           RICOH_MP7120      // A-Open
+"TwelveMAXX 1032"   RICOH_MP7120      // Memorex
+"12X10X32 CD-RW"    RICOH_MP7120      // BUSlink
+
+"CD-R/RW MP7125A"   RICOH_MP7125      // Ricoh
+"CD-R/RW MP7125AP"  RICOH_MP7125      // Ricoh
+"CD-R/RW RW7125A"   RICOH_MP7125      // Ricoh
+"DVD/CDRW MP9120"   RICOH_MP7125      // Ricoh
+"DVD/CDRW RW9120"   RICOH_MP7125      // Ricoh
+"CDRW/DVD SM-312B"  RICOH_MP7125      // Samsung
+"CDRW/DVD SM-312F"  RICOH_MP7125      // Samsung
+"CD-Writer+ 9900j"  RICOH_MP7125      // Hewlett Packard
+"CD-RW CRW1232 A"   RICOH_MP7125      // A-Open
+"CD-RW CRW1232PRO"  RICOH_MP7125      // A-Open
+"CD-Writer cd12n"   RICOH_MP7125      // Hewlett Packard
+"CD-Writer cd12r"   RICOH_MP7125      // Hewlett Packard
+"CDRW121032A"       RICOH_MP7125      // TDK
+"NR-7700A"          RICOH_MP7125      // NEC
+"TwelveMAXX 1032A"  RICOH_MP7125      // Memorex
+"TwelveMAXX 1032P"  RICOH_MP7125      // Memorex
+"DVD-ROM SD-R9012"  RICOH_MP7125      // Toshiba
+"12X10X32 CD-RW P"  RICOH_MP7125      // BUSlink
+"12X10X32 CD-RW A"  RICOH_MP7125      // BUSlink
+
+"CD-R/RW MP7163A"   RICOH_MP7163      // Ricoh
+"CD-R/RW RW7163A"   RICOH_MP7163      // Ricoh
+"CD-R/RW SW-216B"   RICOH_MP7163      // Samsung
+"CDRW/DVD SM-316B"  RICOH_MP7163      // Samsung
+"CDRW/DVD SM-316F"  RICOH_MP7163      // Samsung
+"CD-RW CRW1632"     RICOH_MP7163      // A-Open
+"CD-Writer cd16n"   RICOH_MP7163      // Hewlett Packard
+"NR-7800A"          RICOH_MP7163      // NEC
+"NR-7800B"          RICOH_MP7163      // NEC
+"CD-RW NR-7800A"    RICOH_MP7163      // NEC
+"IMW161032IA"       RICOH_MP7163      // Imation
+"FREECOM16B"        RICOH_MP7163      // Freecom
+"CD-R/RW SR-C8102"  RICOH_MP7163      // Toshiba
+"16X10X32 CD-RW"    RICOH_MP7163      // BUSlink
+"WRA-GA32"          RICOH_MP7163      // Artec
+
+"CD-R/RW MP7200A"   RICOH_MP7200      // Ricoh
+"CD-R/RW RW7200A"   RICOH_MP7200      // Ricoh
+"DVD/CDRW MP9200"   RICOH_MP7200      // Ricoh
+"DVD/CDRW RW9200"   RICOH_MP7200      // Ricoh
+"CD-R/RW SW-220B"   RICOH_MP7200      // Samsung
+"CD-Writer cd20j"   RICOH_MP7200      // Hewlett Packard
+"CD-RW CRW2040"     RICOH_MP7200      // A-Open
+"RW-201040"         RICOH_MP7200      // QPS
+"UJDA840"           RICOH_MP7200      // Matsushita
+"20X10X40 CD-RW"    RICOH_MP7200      // BUSlink
+"WRA-KA40"          RICOH_MP7200      // Artec
+
+"CD-R/RW MP7240A"   RICOH_MP7240      // Ricoh
+"CD-R/RW RW7240A"   RICOH_MP7240      // Ricoh
+"CD-R/RW SW-224B"   RICOH_MP7240      // Samsung
+"CD-R/RW SW-224F"   RICOH_MP7240      // Samsung
+"CDRW/DVD SN-324B"  RICOH_MP7240      // Samsung
+"CDRW/DVD SN-324F"  RICOH_MP7240      // Samsung
+"CDRW/DVD SU-324B"  RICOH_MP7240      // Samsung
+"CDRW/DVD SU-324F"  RICOH_MP7240      // Samsung
+"NR-7900A"          RICOH_MP7240      // NEC
+"CD-RW CRW2440"     RICOH_MP7240      // A-Open
+"CD-RW CRW2448"     RICOH_MP7240      // A-Open
+"CQ2440"            RICOH_MP7240      // CyQ've
+"CD-RW  CRX175E2"   RICOH_MP7240      // Sony
+"RW-241040"         RICOH_MP7240      // QPS
+"CRW2440PRO"        RICOH_MP7240      // Traxdata
+"IMW241040IAB"      RICOH_MP7240      // Imation
+"FREECOM24B"        RICOH_MP7240      // Freecom
+"UJDD410"           RICOH_MP7240      // Matsushita
+"UJDA750"           RICOH_MP7240      // Matsushita
+"UJDA750 DVD/CDRW"  RICOH_MP7240      // Matsushita
+"UJDA755"           RICOH_MP7240      // Matsushita
+"UJDA755 DVD/CDRW"  RICOH_MP7240      // Matsushita
+"DVD-ROM SD-R2312"  RICOH_MP7240      // Toshiba
+"DVD-ROM SD-R2412"  RICOH_MP7240      // Toshiba
+"DVD-ROM SD-R2512"  RICOH_MP7240      // Toshiba
+"24X10X40 CD-RW"    RICOH_MP7240      // BUSlink
+"24X10X48 CD-RW"    RICOH_MP7240      // BUSlink
+"WRA-OA40"          RICOH_MP7240      // Artec
+
+"CD-R/RW MP7320A"   RICOH_MP7320      // Ricoh
+"CD-R/RW RW7320A"   RICOH_MP7320      // Ricoh
+"CD-RW MP7320A"     RICOH_MP7320      // Ricoh
+"CD-RW RW7320A"     RICOH_MP7320      // Ricoh
+"CD-R/RW SW-232B"   RICOH_MP7320      // Samsung
+"CD-R/RW SW-232F"   RICOH_MP7320      // Samsung
+"CDRW/DVD SM-332B"  RICOH_MP7320      // Samsung
+"CDRW/DVD SM-332F"  RICOH_MP7320      // Samsung
+"CD-RW CRW3248"     RICOH_MP7320      // A-Open
+"32X12X48 CD-RW"    RICOH_MP7320      // A-Open
+"CQ3248"            RICOH_MP7320      // CyQ've
+"CD-RW RW3260E"     RICOH_MP7320      // Creative Labs
+"RW-321040"         RICOH_MP7320      // QPS
+"RW-321048"         RICOH_MP7320      // QPS
+"IMW321248IA"       RICOH_MP7320      // Imation
+"DVD-ROM SD-R1312"  RICOH_MP7320      // Toshiba
+"32X12X48 CD-RW"    RICOH_MP7320      // BUSlink
+"WRA-WA40"          RICOH_MP7320      // Artec
+"WRA-WA48"          RICOH_MP7320      // Artec
+"32x12x48 CDR-RW"   RICOH_MP7320      // Generic
+
+"CD-R/RW MP7400A"   RICOH_MP7400      // Ricoh
+"CD-R/RW RW7400A"   RICOH_MP7400      // Ricoh
+"CD-RW MP7400A"     RICOH_MP7400      // Ricoh
+"CD-RW RW7400A"     RICOH_MP7400      // Ricoh
+"MP7400A"           RICOH_MP7400      // Ricoh
+"RW7400A"           RICOH_MP7400      // Ricoh
+"CD-R/RW SW-240B"   RICOH_MP7400      // Samsung
+"CD-R/RW SW-240F"   RICOH_MP7400      // Samsung
+"CDRW/DVD SM-340B"  RICOH_MP7400      // Samsung
+"CDRW/DVD SM-340F"  RICOH_MP7400      // Samsung
+"CD-RW CRW4048"     RICOH_MP7400      // A-Open
+"CD-RW CRW4050"     RICOH_MP7400      // A-Open
+"40X12X50 CD-RW"    RICOH_MP7400      // A-Open
+"CQ4048"            RICOH_MP7400      // CyQ've
+"CD-RW  CRX195E4"   RICOH_MP7400      // Sony
+"CD-RW RW4012E"     RICOH_MP7400      // Creative Labs
+"RW-401248"         RICOH_MP7400      // QPS
+"CD-RW NR-9100A"    RICOH_MP7400      // NEC
+"CD-RW NR-9200A"    RICOH_MP7400      // NEC
+"IMW401248IA"       RICOH_MP7400      // Imation
+"FREECOM40B"        RICOH_MP7400      // Freecom
+"FREECOM40B1"       RICOH_MP7400      // Freecom
+"UJDD420"           RICOH_MP7400      // Matsushita
+"40X12X48 CD-RW"    RICOH_MP7400      // BUSlink
+"40X12X50 CD-RW"    RICOH_MP7400      // BUSlink
+"WRR-4048"          RICOH_MP7400      // Artec
+"WSM-4048"          RICOH_MP7400      // Artec
+"LCW-E40U2"         RICOH_MP7400      // Generic
+"LCW-E40FU2"        RICOH_MP7400      // Generic
+"DM-828"            RICOH_MP7400      // Generic
+
+"CD-R/RW MP7480A"   RICOH_MP7480      // Ricoh
+"CD-R/RW RW7480A"   RICOH_MP7480      // Ricoh
+"CD-RW MP7480A"     RICOH_MP7480      // Ricoh
+"CD-RW RW7480A"     RICOH_MP7480      // Ricoh
+"CD-R/RW SW-248B"   RICOH_MP7480      // Samsung
+"CD-R/RW SW-248F"   RICOH_MP7480      // Samsung
+"CDRW/DVD SM-348B"  RICOH_MP7480      // Samsung
+"CDRW/DVD SM-348F"  RICOH_MP7480      // Samsung
+"CD-RW CRW4848"     RICOH_MP7480      // A-Open
+"CD-RW CRW4850"     RICOH_MP7480      // A-Open
+"CD-RW CRW4852"     RICOH_MP7480      // A-Open
+"CQ4848"            RICOH_MP7480      // CyQ've
+"CQ4850"            RICOH_MP7480      // CyQ've
+"RW-481248"         RICOH_MP7480      // QPS
+"CD-RW NR-9300A"    RICOH_MP7480      // NEC
+"48X24X52 CD-RW"    RICOH_MP7480      // BUSlink
+"48X12X50 CD-RW"    RICOH_MP7480      // BUSlink
+"WRR-4848"          RICOH_MP7480      // Artec
+"WSM-4848"          RICOH_MP7480      // Artec
+"CD-RW4812"         RICOH_MP7480      // Generic
+
+"CD-R/RW MP7520A"   RICOH_MP7520      // Ricoh
+"CD-R/RW RW7520A"   RICOH_MP7520      // Ricoh
+"CD-RW MP7520A"     RICOH_MP7520      // Ricoh
+"CD-RW RW7520A"     RICOH_MP7520      // Ricoh
+"CD-R/RW SW-252B"   RICOH_MP7520      // Samsung
+"CD-R/RW SW-252F"   RICOH_MP7520      // Samsung
+"CD-R/RW SW-252S"   RICOH_MP7520      // Samsung
+"CDRW/DVD SM-352B"  RICOH_MP7520      // Samsung
+"CDRW/DVD SM-352F"  RICOH_MP7520      // Samsung
+"CD-RW CRW5224"     RICOH_MP7520      // A-Open
+"CD-RW CRW5232"     RICOH_MP7520      // A-Open
+"52X24X52 CD-RW"    RICOH_MP7520      // A-Open
+"52X32X52 CD-RW"    RICOH_MP7520      // A-Open
+"CQ5252"            RICOH_MP7520      // CyQ've
+"CD-RW NR-9400A"    RICOH_MP7520      // NEC
+"STORM52/2"         RICOH_MP7520      // Waitec
+"STORM52/3"         RICOH_MP7520      // Waitec
+"52X24X52 CD-RW"    RICOH_MP7520      // BUSlink
+"WRR-52X"           RICOH_MP7520      // Artec
+
+"CD-R/RW MP8040A"   RICOH_MP8040      // Ricoh
+"CD-R/RW RW8040A"   RICOH_MP8040      // Ricoh
+"CD-REWRITER-4F"    RICOH_MP8040      // Micro Solutions
+"NR-8400A"          RICOH_MP8040      // NEC
+"UJDA710"           RICOH_MP8040      // Matsushita
+"UJDA710 DVD/CDRW"  RICOH_MP8040      // Matsushita
+
+"CD-R/RW MP8080A"   RICOH_MP8080      // Ricoh
+"CD-R/RW RW8080A"   RICOH_MP8080      // Ricoh
+"CD-R/RW MP8088A"   RICOH_MP8080      // Ricoh
+"CD-R/RW RW8088A"   RICOH_MP8080      // Ricoh
+"CD-R/RW MP8088P"   RICOH_MP8080      // Ricoh
+"CD-R/RW RW8088P"   RICOH_MP8080      // Ricoh
+"NR-8500A"          RICOH_MP8080      // NEC
+"UJDA720"           RICOH_MP8080      // Matsushita
+"UJDA720 DVD/CDRW"  RICOH_MP8080      // Matsushita
+"CD-R/RW SR-C8002"  RICOH_MP8080      // Toshiba
+
+"DVD+RW MP5120"     RICOH_MP5120      // Ricoh
+"DVD+RW RW5120"     RICOH_MP5120      // Ricoh
+"DVD Writer 100j"   RICOH_MP5120      // Hewlett Packard
+"DVDRW1208"         RICOH_MP5120      // Philips
+"DVDRW6001"         RICOH_MP5120      // Philips
+"DVD+RW-D01"        RICOH_MP5120      // Philips
+
+"DVD+RW MP5125"     RICOH_MP5125      // Ricoh
+"DVD+RW RW5125"     RICOH_MP5125      // Ricoh
+"DVD+RW  DRU-120A"  RICOH_MP5125      // Sony
+"DVD Writer 200j"   RICOH_MP5125      // Hewlett Packard
+"DVDRW228"          RICOH_MP5125      // Philips
+"DVDRW248"          RICOH_MP5125      // Philips
+"DVDRW424"          RICOH_MP5125      // Philips
+"DVDRW6002"         RICOH_MP5125      // Philips
+"DVDRW6003"         RICOH_MP5125      // Philips
+"DVD6002"           RICOH_MP5125      // Philips
+"DVD6003"           RICOH_MP5125      // Philips
+"DVD+RW-D28"        RICOH_MP5125      // Philips
+"DVD+RW-D38"        RICOH_MP5125      // Philips
+"DVRW2412PRO"       RICOH_MP5125      // A-Open
+"DVD+R/RW 2.4x8AA"  RICOH_MP5125      // Memorex
+"DVD+RW 8812"       RICOH_MP5125      // Artec
+"DVD+RW R8812"      RICOH_MP5125      // Artec
+"CQ2400EXT"         RICOH_MP5125      // CyQ've
+"CQ2400PLUS"        RICOH_MP5125      // CyQ've
+"DR-DVDRW248"       RICOH_MP5125      // I/O Magic
+"DVDRW-iU4.7P2"     RICOH_MP5125      // IO Data
+"DVDRW0202G"        RICOH_MP5125      // TDK
+
+"DVD+RW MP5240"     RICOH_MP5240      // Ricoh
+"DVD+RW RW5240"     RICOH_MP5240      // Ricoh
+"MP5240A"           RICOH_MP5240      // Ricoh
+"MP5240A24"         RICOH_MP5240      // Ricoh
+"RW5240A"           RICOH_MP5240      // Ricoh
+"DRW4410"           RICOH_MP5240      // A-Open
+"DRW-0404R"         RICOH_MP5240      // Asus
+"CQ4000PLUS"        RICOH_MP5240      // CyQ've
+
+"DVD+RW MP8160"     RICOH_MP8160      // Ricoh
+"DVD+RW RW8160"     RICOH_MP8160      // Ricoh
+"SDVD6004"          RICOH_MP8160      // Philips
+
+"LTR-0841"          SANYO_CDRW8432    // Lite-On
+"CD-RW CRX0811"     SANYO_CDRW8432    // Sony
+
+"CRD-BP900F"        SANYO_CDRW12432   // Sanyo
+"CRD-BP900P"        SANYO_CDRW12432   // Sanyo
+"CRD-BP900U"        SANYO_CDRW12432   // Sanyo
+"ZIPCDINT1536"      SANYO_CDRW12432   // Iomega
+"CDBP-12432A"       SANYO_CDRW12432   // Lacie
+
+"CRD-BP1300P"       SANYO_CDRW121032  // Sanyo
+"CD-Writer cd12i"   SANYO_CDRW121032  // Hewlett Packard
+"CD-RW RW1210E"     SANYO_CDRW121032  // Creative Labs
+"ZIPCD3840INT"      SANYO_CDRW121032  // Iomega
+"ZIPCD3840INT-E"    SANYO_CDRW121032  // Iomega
+"CDBP-121032A"      SANYO_CDRW121032  // Lacie
+"Twelve MAXX 1032"  SANYO_CDRW121032  // Memorex
+"MCD-RW12-1032"     SANYO_CDRW121032  // Maxell
+"TRUECOPY12A"       SANYO_CDRW121032  // R-Quest
+"CD-Writer cd12d"   SANYO_CDRW121032  // Hewlett Packard
+"CDR-1232DD"        SANYO_CDRW121032  // Lite-On
+"CDR-1232M"         SANYO_CDRW121032  // Lite-On
+"CDR-1232MC"        SANYO_CDRW121032  // Lite-On
+"CDR-1232S"         SANYO_CDRW121032  // Lite-On
+"LTR-12101B"        SANYO_CDRW121032  // Lite-On
+"LTR-12101C"        SANYO_CDRW121032  // Lite-On
+"LTR-12102B"        SANYO_CDRW121032  // Lite-On
+"LTR-12102C"        SANYO_CDRW121032  // Lite-On
+"CDRW121032plus"    SANYO_CDRW121032  // Traxdata
+
+"CRD-BP1400P"       SANYO_CDRW161040  // Sanyo
+"CD-RW CRX1611"     SANYO_CDRW161040  // Sony
+"CDRW161040B"       SANYO_CDRW161040  // Generic
+"CDRW161040X"       SANYO_CDRW161040  // TDK
+"CDRW161040XA"      SANYO_CDRW161040  // TDK
+"CDBP-161040A"      SANYO_CDRW161040  // Lacie
+"T-REX-EIDE"        SANYO_CDRW161040  // Waitec
+"SixteenMAXX 1040"  SANYO_CDRW161040  // Memorex
+"16MAXX 1040JB"     SANYO_CDRW161040  // Memorex
+"MCD-RW16-1040-L"   SANYO_CDRW161040  // Maxell
+"CDRW161040plus"    SANYO_CDRW161040  // Traxdata
+"CDRW6400INT-B"     SANYO_CDRW161040  // Iomega
+"CDRW6402EXT-B"     SANYO_CDRW161040  // Iomega
+"TRUECOPY16A"       SANYO_CDRW161040  // R-Quest
+"CD-Writer cd16d"   SANYO_CDRW161040  // Hewlett Packard
+"CD-Writer cd16r"   SANYO_CDRW161040  // Hewlett Packard
+"CDR-1640MB"        SANYO_CDRW161040  // Lite-On
+"CDR-1640MC"        SANYO_CDRW161040  // Lite-On
+"CDR-1640MM"        SANYO_CDRW161040  // Lite-On
+"CDR-1640SB"        SANYO_CDRW161040  // Lite-On
+"LTR-16101B"        SANYO_CDRW161040  // Lite-On
+"LTR-16101C"        SANYO_CDRW161040  // Lite-On
+"LTR-16102B"        SANYO_CDRW161040  // Lite-On
+"LTR-16102C"        SANYO_CDRW161040  // Lite-On
+"16X CD-RW DRIVE"   SANYO_CDRW161040  // Generic
+
+"CDR-2040MC"        SANYO_CDRW201040  // Lite-On
+"CDR-2040MM"        SANYO_CDRW201040  // Lite-On
+
+"CRD-BP1500P"       SANYO_CDRW241040  // Sanyo
+"CRD-BP1500U"       SANYO_CDRW241040  // Sanyo
+"CD-RW  CRX175A1"   SANYO_CDRW241040  // Sony
+"CD-RW CRX2411"     SANYO_CDRW241040  // Sony
+"CD-RW CRX830E"     SANYO_CDRW241040  // Sony
+"CDRW241040B"       SANYO_CDRW241040  // TDK
+"CDRW241040X"       SANYO_CDRW241040  // TDK
+"CDRW241040UEX"     SANYO_CDRW241040  // TDK
+"CD-RW RW2410E"     SANYO_CDRW241040  // Creative Labs
+"CDBP-241040A"      SANYO_CDRW241040  // Lacie
+"24MAXX 1040"       SANYO_CDRW241040  // Memorex
+"MCD-RW24-1040-L"   SANYO_CDRW241040  // Maxell
+"CDRW9600INT-B"     SANYO_CDRW241040  // Iomega
+"CDRW9602EXT-B"     SANYO_CDRW241040  // Iomega
+"CDRW9602EXT3-B"    SANYO_CDRW241040  // Iomega
+"VBT241040A"        SANYO_CDRW241040  // Verbatim
+"241040AL"          SANYO_CDRW241040  // Verbatim/Cendyne
+"MEGALUS/1"         SANYO_CDRW241040  // Waitec
+"TRUECOPY24A"       SANYO_CDRW241040  // R-Quest
+"IMW241040IA"       SANYO_CDRW241040  // Imation
+"CRW-2410A"         SANYO_CDRW241040  // ASUS
+"CRW-2410S"         SANYO_CDRW241040  // ASUS
+"CDR-2440DH"        SANYO_CDRW241040  // Lite-On
+"CDR-2440DS"        SANYO_CDRW241040  // Lite-On
+"CDR-2440MB"        SANYO_CDRW241040  // Lite-On
+"CDR-2440MM"        SANYO_CDRW241040  // Lite-On
+"CDR-2440SD"        SANYO_CDRW241040  // Lite-On
+"LTR-24101B"        SANYO_CDRW241040  // Lite-On
+"LTR-24101C"        SANYO_CDRW241040  // Lite-On
+"LTR-24102B"        SANYO_CDRW241040  // Lite-On
+"LTR-24102C"        SANYO_CDRW241040  // Lite-On
+"LTR-24102M"        SANYO_CDRW241040  // Lite-On
+"LTR-24102S"        SANYO_CDRW241040  // Lite-On
+"LTR-24102U"        SANYO_CDRW241040  // Lite-On
+"LTR-24103S"        SANYO_CDRW241040  // Lite-On
+"LXR-24101A"        SANYO_CDRW241040  // Lite-On
+"LXR-24101B"        SANYO_CDRW241040  // Lite-On
+"LXR-24102"         SANYO_CDRW241040  // Lite-On
+"LXR-24102S"        SANYO_CDRW241040  // Lite-On
+"LXR-24102U"        SANYO_CDRW241040  // Lite-On
+"LXR-24103"         SANYO_CDRW241040  // Lite-On
+"LXR-24163"         SANYO_CDRW241040  // Lite-On
+"CD-RW 24X10X40"    SANYO_CDRW241040  // Acer
+"CD-R/RW 24X10X40"  SANYO_CDRW241040  // Acer
+"24X CD-RW DRIVE"   SANYO_CDRW241040  // Polaroid
+"SMART CLONE24"     SANYO_CDRW241040  // Generic
+"SMART-CLONE2440"   SANYO_CDRW241040  // Generic
+"CDRW241032FPX"     SANYO_CDRW241040  // Generic
+"CDRW241032UPX"     SANYO_CDRW241040  // Generic
+"CDRW241040FPX"     SANYO_CDRW241040  // Generic
+"CXR-1X24"          SANYO_CDRW241040  // Generic
+"CXR-2X24"          SANYO_CDRW241040  // Generic
+"CXR-3X24"          SANYO_CDRW241040  // Generic
+"CXR-2440B"         SANYO_CDRW241040  // Generic
+"CXR-2440S"         SANYO_CDRW241040  // Generic
+"COMBI LSC-24081"   SANYO_CDRW241040  // Generic
+"COMBI LSC-24081S"  SANYO_CDRW241040  // Generic
+"COMBI LSC-24101"   SANYO_CDRW241040  // Generic
+"COMBI LSC-24101S"  SANYO_CDRW241040  // Generic
+"COMBI LSC-24121"   SANYO_CDRW241040  // Generic
+"COMBI LSC-24121S"  SANYO_CDRW241040  // Generic
+"COMBO LSC-24081"   SANYO_CDRW241040  // Generic
+"COMBO LSC-24081M"  SANYO_CDRW241040  // Generic
+"COMBO LSC-24081S"  SANYO_CDRW241040  // Generic
+"COMBO LSC-24082"   SANYO_CDRW241040  // Generic
+"COMBO LSC-24082K"  SANYO_CDRW241040  // Generic
+"COMBO LSC-24082M"  SANYO_CDRW241040  // Generic
+"COMBO LSC-24082S"  SANYO_CDRW241040  // Generic
+"COMBO LSC-24101"   SANYO_CDRW241040  // Generic
+"COMBO LSC-24101S"  SANYO_CDRW241040  // Generic
+"COMBO LSC-24121"   SANYO_CDRW241040  // Generic
+"COMBO LSC-24121S"  SANYO_CDRW241040  // Generic
+"LSC-24081MX"       SANYO_CDRW241040  // Generic
+"LSC-24081X"        SANYO_CDRW241040  // Generic
+"LSC-24082KX"       SANYO_CDRW241040  // Generic
+"DGM-241040"        SANYO_CDRW241040  // Generic
+"XJ-SC241"          SANYO_CDRW241040  // Generic
+"XJ-SC241M"         SANYO_CDRW241040  // Generic
+"XJ-SC242K"         SANYO_CDRW241040  // Generic
+"XJ-SC242M"         SANYO_CDRW241040  // Generic
+"XJ-SC242S"         SANYO_CDRW241040  // Generic
+"CBRW2B-24X"        SANYO_CDRW241040  // Generic
+"CBXRW-24X"         SANYO_CDRW241040  // Generic
+"CLW-224A"          SANYO_CDRW241040  // Generic
+
+"CRD-BP1600P"       SANYO_CDRW321040  // Sanyo
+"QPSCRD-BP1600P"    SANYO_CDRW321040  // QPS
+"CD-RW  CRX185E1"   SANYO_CDRW321040  // Sony
+"CD-RW  CRX185E2"   SANYO_CDRW321040  // Sony
+"CD-RW  CRX185E3"   SANYO_CDRW321040  // Sony
+"CDRW321040B"       SANYO_CDRW321040  // TDK
+"CDRW321040X"       SANYO_CDRW321040  // TDK
+"CDRW321240B"       SANYO_CDRW321040  // TDK
+"CDRW321240X"       SANYO_CDRW321040  // TDK
+"CD-RW RW3210E"     SANYO_CDRW321040  // Creative Labs
+"CDBP-321040A"      SANYO_CDRW321040  // Lacie
+"CDBP-321240A"      SANYO_CDRW321040  // Lacie
+"32MAXX 1240AJ"     SANYO_CDRW321040  // Memorex
+"32MAXX 1240AK"     SANYO_CDRW321040  // Memorex
+"CDRW15360INT-B"    SANYO_CDRW321040  // Iomega
+"CDRW15362EXT3-B"   SANYO_CDRW321040  // Iomega
+"VBT321040A"        SANYO_CDRW321040  // Verbatim
+"321240AL"          SANYO_CDRW321040  // Verbatim/Cendyne
+"STORM32"           SANYO_CDRW321040  // Waitec
+"FREECOM32A"        SANYO_CDRW321040  // Freecom
+"LTR-32102H"        SANYO_CDRW321040  // Lite-On
+"LTR-32102S"        SANYO_CDRW321040  // Lite-On
+"LTR-32103S"        SANYO_CDRW321040  // Lite-On
+"LTR-32105S"        SANYO_CDRW321040  // Lite-On
+"LTR-32123H"        SANYO_CDRW321040  // Lite-On
+"LTR-32123S"        SANYO_CDRW321040  // Lite-On
+"LTR-32125K"        SANYO_CDRW321040  // Lite-On
+"LTR-32125M"        SANYO_CDRW321040  // Lite-On
+"LTR-32125S"        SANYO_CDRW321040  // Lite-On
+"LTR-32125W"        SANYO_CDRW321040  // Lite-On
+"LXR-322"           SANYO_CDRW321040  // Lite-On
+"LXR-323"           SANYO_CDRW321040  // Lite-On
+"LXR-32122"         SANYO_CDRW321040  // Lite-On
+"LXR-32122A"        SANYO_CDRW321040  // Lite-On
+"LXR-32122B"        SANYO_CDRW321040  // Lite-On
+"LXR-32122C"        SANYO_CDRW321040  // Lite-On
+"LXR-32122S"        SANYO_CDRW321040  // Lite-On
+"LXR-32123"         SANYO_CDRW321040  // Lite-On
+"LXR-32125"         SANYO_CDRW321040  // Lite-On
+"JLR-3240H"         SANYO_CDRW321040  // Lite-On
+"CDR-3240MH"        SANYO_CDRW321040  // Lite-On
+"CDR-3240MS"        SANYO_CDRW321040  // Lite-On
+"CDR-3240S"         SANYO_CDRW321040  // Lite-On
+"CDR-3240WD"        SANYO_CDRW321040  // Lite-On
+"LTR-3248MH"        SANYO_CDRW321040  // Lite-On
+"CDR-3248MS"        SANYO_CDRW321040  // Lite-On
+"MAR-321040S"       SANYO_CDRW321040  // Lite-On
+"MAR-321040SD"      SANYO_CDRW321040  // Lite-On
+"CD-RW 32X10X40"    SANYO_CDRW321040  // Acer
+"CD-RW 32X12X40"    SANYO_CDRW321040  // Acer
+"COMBO 32X12"       SANYO_CDRW321040  // Acer
+"32X CD-RW DRIVE"   SANYO_CDRW321040  // Polaroid
+"SMART CLONE32"     SANYO_CDRW321040  // Generic
+"SMART-CLONE3240"   SANYO_CDRW321040  // Generic
+"CDR-5S32"          SANYO_CDRW321040  // Generic
+"CDR-5K32"          SANYO_CDRW321040  // Generic
+"CDR-5W32"          SANYO_CDRW321040  // Generic
+"CDR-6S32"          SANYO_CDRW321040  // Generic
+"CXR-2X32"          SANYO_CDRW321040  // Generic
+"CXR-3X32"          SANYO_CDRW321040  // Generic
+"CXR-3240"          SANYO_CDRW321040  // Generic
+"CXR-3240A"         SANYO_CDRW321040  // Generic
+"CXR-3240B"         SANYO_CDRW321040  // Generic
+"CXR-3240C"         SANYO_CDRW321040  // Generic
+"CXR-3240S"         SANYO_CDRW321040  // Generic
+"DGM-321240"        SANYO_CDRW321040  // Generic
+"RWJ-321S"          SANYO_CDRW321040  // Generic
+"CBRW3S-32X"        SANYO_CDRW321040  // Generic
+"CBRW5S-32X"        SANYO_CDRW321040  // Generic
+"CBRW6S-32X"        SANYO_CDRW321040  // Generic
+"CLW-232A"          SANYO_CDRW321040  // Generic
+
+"CRD-BP1700P"       SANYO_CDRW401248  // Sanyo
+"CRD-BP1700U"       SANYO_CDRW401248  // Sanyo
+"CRD-BPI1700P"      SANYO_CDRW401248  // QPS
+"CRD-BPO1700P"      SANYO_CDRW401248  // QPS
+"QPSCRD-BP1700P"    SANYO_CDRW401248  // QPS
+"CD-RW  CRX195E1"   SANYO_CDRW401248  // Sony
+"CDRW401240B"       SANYO_CDRW401248  // TDK
+"CDRW401240X"       SANYO_CDRW401248  // TDK
+"CDRW401248B"       SANYO_CDRW401248  // TDK
+"CDRW401248UEX"     SANYO_CDRW401248  // TDK
+"CD-RW RW4010E"     SANYO_CDRW401248  // Creative Labs
+"CDBP-401240A"      SANYO_CDRW401248  // Lacie
+"CDBP-401248A"      SANYO_CDRW401248  // Lacie
+"40MAXX 1240AJ"     SANYO_CDRW401248  // Memorex
+"40MAXX 1248AJ"     SANYO_CDRW401248  // Memorex
+"40EMAX 1240AJ"     SANYO_CDRW401248  // Memorex
+"40EMAX 2440AJ"     SANYO_CDRW401248  // Memorex
+"MCD-RW4012-48"     SANYO_CDRW401248  // Maxell
+"CDRW19202EXT2-B"   SANYO_CDRW401248  // Iomega
+"CDRW23040INT-B"    SANYO_CDRW401248  // Iomega
+"CDRW23042EXT-B"    SANYO_CDRW401248  // Iomega
+"CDRW23042EXT3-B"   SANYO_CDRW401248  // Iomega
+"CDRW38402EXT2-B"   SANYO_CDRW401248  // Iomega
+"MCD-RW4012-48"     SANYO_CDRW401248  // Maxell
+"MCD-RW40-1248-L"   SANYO_CDRW401248  // Maxell
+"401248AL"          SANYO_CDRW401248  // Verbatim/Cendyne
+"STORM40"           SANYO_CDRW401248  // Waitec
+"FRISBYII"          SANYO_CDRW401248  // Waitec
+"FREECOM40A"        SANYO_CDRW401248  // Freecom
+"IMW402440EA"       SANYO_CDRW401248  // Imation
+"CDR-4048S"         SANYO_CDRW401248  // Lite-On
+"CDR-4048SD"        SANYO_CDRW401248  // Lite-On
+"CDR-4048W"         SANYO_CDRW401248  // Lite-On
+"COB-1K4012"        SANYO_CDRW401248  // Lite-On
+"LTR-40125K"        SANYO_CDRW401248  // Lite-On
+"LTR-40125S"        SANYO_CDRW401248  // Lite-On
+"LTR-40125W"        SANYO_CDRW401248  // Lite-On
+"LTR-40126H"        SANYO_CDRW401248  // Lite-On
+"LTR-40126K"        SANYO_CDRW401248  // Lite-On
+"LTR-40126S"        SANYO_CDRW401248  // Lite-On
+"LTR-40246S"        SANYO_CDRW401248  // Lite-On
+"LXR-402"           SANYO_CDRW401248  // Lite-On
+"LXR-403"           SANYO_CDRW401248  // Lite-On
+"LXR-40122"         SANYO_CDRW401248  // Lite-On
+"LXR-40122A"        SANYO_CDRW401248  // Lite-On
+"LXR-40122B"        SANYO_CDRW401248  // Lite-On
+"LXR-40122C"        SANYO_CDRW401248  // Lite-On
+"LXR-40123"         SANYO_CDRW401248  // Lite-On
+"LXR-40243"         SANYO_CDRW401248  // Lite-On
+"MAR-401248S"       SANYO_CDRW401248  // Lite-On
+"MAR-401248SD"      SANYO_CDRW401248  // Lite-On
+"MAR-401248W"       SANYO_CDRW401248  // Lite-On
+"CD-RW 40X12"       SANYO_CDRW401248  // Acer
+"40X CD-RW DRIVE"   SANYO_CDRW401248  // Polaroid
+"SMART CLONE40"     SANYO_CDRW401248  // Generic
+"SMART-CLONE4048"   SANYO_CDRW401248  // Generic
+"CDRW401248UEX"     SANYO_CDRW401248  // Generic
+"CDR-5K40"          SANYO_CDRW401248  // Generic
+"CDR-5S40"          SANYO_CDRW401248  // Generic
+"CDR-5W40"          SANYO_CDRW401248  // Generic
+"CDR-6K40"          SANYO_CDRW401248  // Generic
+"CDR-6S40"          SANYO_CDRW401248  // Generic
+"DGM-401248"        SANYO_CDRW401248  // Generic
+"XJ-HC401K"         SANYO_CDRW401248  // Generic
+"RWJ-401S"          SANYO_CDRW401248  // Generic
+"CBRW5S-40X"        SANYO_CDRW401248  // Generic
+"CBRW6K-40X"        SANYO_CDRW401248  // Generic
+"CBRW6S-40X"        SANYO_CDRW401248  // Generic
+"CBXRW-40X"         SANYO_CDRW401248  // Generic
+"CBXRW-40XB"        SANYO_CDRW401248  // Generic
+"CLW-240A"          SANYO_CDRW401248  // Generic
+
+"CRD-BP1800P"       SANYO_CDRW481648  // Sanyo
+"CD-RW  CRX210E1"   SANYO_CDRW481648  // Sony
+"CD-RW  CRX215E1"   SANYO_CDRW481648  // Sony
+"CD-RW  CRX216E"    SANYO_CDRW481648  // Sony
+"CD-RW  CRX300E"    SANYO_CDRW481648  // Sony
+"CDRW4800B"         SANYO_CDRW481648  // TDK
+"CDRW4800X"         SANYO_CDRW481648  // TDK
+"CDRW481248B"       SANYO_CDRW481648  // TDK
+"CDRW482448B"       SANYO_CDRW481648  // TDK
+"CD-RW RW4810E"     SANYO_CDRW481648  // Creative Labs
+"CD-RW RW4811E"     SANYO_CDRW481648  // Creative Labs
+"48MAXX 1248AJ"     SANYO_CDRW481648  // Memorex
+"48MAXX 2448AJ"     SANYO_CDRW481648  // Memorex
+"48MAX 244816AJ"    SANYO_CDRW481648  // Memorex
+"MCD-RW4812-48"     SANYO_CDRW481648  // Maxell
+"MCD-RW4824-48"     SANYO_CDRW481648  // Maxell
+"CDRW55296INT-B"    SANYO_CDRW481648  // Iomega
+"CDRW55292EXT3-B"   SANYO_CDRW481648  // Iomega
+"CDDVD482416INT-B"  SANYO_CDRW481648  // Iomega
+"481248AL"          SANYO_CDRW481648  // Verbatim/Cendyne
+"481648AL"          SANYO_CDRW481648  // Verbatim/Cendyne
+"482448AL"          SANYO_CDRW481648  // Verbatim/Cendyne
+"IMW482448DV81AC"   SANYO_CDRW481648  // Imation
+"CDR-4848S"         SANYO_CDRW481648  // Lite-On
+"COB-1K4816"        SANYO_CDRW481648  // Lite-On
+"COB-1H4816"        SANYO_CDRW481648  // Lite-On
+"CD-RW SOHR-4828S"  SANYO_CDRW481648  // Lite-On
+"CD-RW SOHR-4838S"  SANYO_CDRW481648  // Lite-On
+"CD-RW SOHR-48A8S"  SANYO_CDRW481648  // Lite-On
+"COMBO SOHC-4822K"  SANYO_CDRW481648  // Lite-On
+"COMBO SOHC-4832K"  SANYO_CDRW481648  // Lite-On
+"COMBO SOHC-4835H"  SANYO_CDRW481648  // Lite-On
+"COMBO SOHC-4835K"  SANYO_CDRW481648  // Lite-On
+"LTC-48161"         SANYO_CDRW481648  // Lite-On
+"LTC-48161H"        SANYO_CDRW481648  // Lite-On
+"LTC-48161K"        SANYO_CDRW481648  // Lite-On
+"LTR-48125G"        SANYO_CDRW481648  // Lite-On
+"LTR-48125S"        SANYO_CDRW481648  // Lite-On
+"LTR-48125W"        SANYO_CDRW481648  // Lite-On
+"LTR-48126S"        SANYO_CDRW481648  // Lite-On
+"LTR-48166K"        SANYO_CDRW481648  // Lite-On
+"LTR-48166S"        SANYO_CDRW481648  // Lite-On
+"LTR-48246K"        SANYO_CDRW481648  // Lite-On
+"LTR-48246S"        SANYO_CDRW481648  // Lite-On
+"LTR-48247S"        SANYO_CDRW481648  // Lite-On
+"LTR-48327K"        SANYO_CDRW481648  // Lite-On
+"LTR-48327S"        SANYO_CDRW481648  // Lite-On
+"CD-RW 48X12"       SANYO_CDRW481648  // Acer
+"CD-RW 48X16"       SANYO_CDRW481648  // Acer
+"CD-RW 48X20"       SANYO_CDRW481648  // Acer
+"CD-RW 48X24"       SANYO_CDRW481648  // Acer
+"CDRW 48X16"        SANYO_CDRW481648  // Acer
+"CDRW 48X24"        SANYO_CDRW481648  // Acer
+"CDRW DRIVE 48X16"  SANYO_CDRW481648  // Acer
+"CDRW DRIVE 48X24"  SANYO_CDRW481648  // Acer
+"COMBO 48X24"       SANYO_CDRW481648  // Acer
+"48X CD-RW DRIVE"   SANYO_CDRW481648  // Polaroid
+"CD-RW CW5203"      SANYO_CDRW481648  // OptoRite
+"R/RW 48xB"         SANYO_CDRW481648  // Philips
+"CDRW48P"           SANYO_CDRW481648  // Philips
+"PBRW4824"          SANYO_CDRW481648  // Philips
+"CDR-5G48"          SANYO_CDRW481648  // Generic
+"CDR-5S48"          SANYO_CDRW481648  // Generic
+"CDR-5W48"          SANYO_CDRW481648  // Generic
+"CDR-6K48"          SANYO_CDRW481648  // Generic
+"CDR-6S48"          SANYO_CDRW481648  // Generic
+"CDR-7K48"          SANYO_CDRW481648  // Generic
+"CDR-7S48"          SANYO_CDRW481648  // Generic
+"CDRW48P"           SANYO_CDRW481648  // Generic
+"CDRW 482448A"      SANYO_CDRW481648  // Generic
+"CD-RW 48/24/48X"   SANYO_CDRW481648  // Generic
+"DGM-481248"        SANYO_CDRW481648  // Generic
+"DGM-482448"        SANYO_CDRW481648  // Generic
+"XJ-HC481K"         SANYO_CDRW481648  // Generic
+"RWJ-481S"          SANYO_CDRW481648  // Generic
+"RWJ-482S"          SANYO_CDRW481648  // Generic
+"RWJ-483S"          SANYO_CDRW481648  // Generic
+"CBCO1H-48X"        SANYO_CDRW481648  // Generic
+"CBCO1K-48X"        SANYO_CDRW481648  // Generic
+"CBRW6S-48X"        SANYO_CDRW481648  // Generic
+"CBRW7K-48X"        SANYO_CDRW481648  // Generic
+"CBRW7S-48X"        SANYO_CDRW481648  // Generic
+
+"CRD-BP1900P"       SANYO_CDRW522452  // Sanyo
+"CD-RW  CRX220E1"   SANYO_CDRW522452  // Sony
+"CD-RW  CRX225A1"   SANYO_CDRW522452  // Sony
+"CD-RW  CRX225E1"   SANYO_CDRW522452  // Sony
+"CD-RW  CRX230E"    SANYO_CDRW522452  // Sony
+"CD-RW  CRX230ED"   SANYO_CDRW522452  // Sony
+"CD-RW  CRX320E"    SANYO_CDRW522452  // Sony
+"CDRW5200B"         SANYO_CDRW522452  // TDK
+"CDRW5201B"         SANYO_CDRW522452  // TDK
+"CDRW523252B"       SANYO_CDRW522452  // TDK
+"52MAXX 3252AJ"     SANYO_CDRW522452  // Memorex
+"52MAXX 2452AJ"     SANYO_CDRW522452  // Memorex
+"MCD-RW5224-52"     SANYO_CDRW522452  // Maxell
+"MCD-RW5232-52"     SANYO_CDRW522452  // Maxell
+"CDRW64896INT-B"    SANYO_CDRW522452  // Iomega
+"CDRW64892EXT3-B"   SANYO_CDRW522452  // Iomega
+"CDRW86528INT-B"    SANYO_CDRW522452  // Iomega
+"CDRW86522EXT3-B"   SANYO_CDRW522452  // Iomega
+"CDDVD522416INT-B"  SANYO_CDRW522452  // Iomega
+"CDDVD523216E23-B"  SANYO_CDRW522452  // Iomega
+"522452AL"          SANYO_CDRW522452  // Verbatim/Cendyne
+"523252AL"          SANYO_CDRW522452  // Verbatim/Cendyne
+"CD-RW SOHR-5228S"  SANYO_CDRW522452  // Lite-On
+"CD-RW SOHR-5238S"  SANYO_CDRW522452  // Lite-On
+"CD-RW SOHR-52A8S"  SANYO_CDRW522452  // Lite-On
+"COMBO SOHC-5222K"  SANYO_CDRW522452  // Lite-On
+"COMBO SOHC-5232K"  SANYO_CDRW522452  // Lite-On
+"COMBO SOHC-5235H"  SANYO_CDRW522452  // Lite-On
+"COMBO SOHC-5235K"  SANYO_CDRW522452  // Lite-On
+"LTR-52246S"        SANYO_CDRW522452  // Lite-On
+"LTR-52247S"        SANYO_CDRW522452  // Lite-On
+"LTR-52326K"        SANYO_CDRW522452  // Lite-On
+"LTR-52326S"        SANYO_CDRW522452  // Lite-On
+"LTR-52327K"        SANYO_CDRW522452  // Lite-On
+"LTR-52327S"        SANYO_CDRW522452  // Lite-On
+"CD-RW 50X16"       SANYO_CDRW522452  // Acer
+"CD-RW 50X20"       SANYO_CDRW522452  // Acer
+"CD-RW 52X20"       SANYO_CDRW522452  // Acer
+"CD-RW 52X24"       SANYO_CDRW522452  // Acer
+"CD-RW 52X32"       SANYO_CDRW522452  // Acer
+"CDRW 52X24"        SANYO_CDRW522452  // Acer
+"CDRW 52X32"        SANYO_CDRW522452  // Acer
+"CDRW DRIVE 52X24"  SANYO_CDRW522452  // Acer
+"CDRW DRIVE 52X32"  SANYO_CDRW522452  // Acer
+"COMBO 52X24"       SANYO_CDRW522452  // Acer
+"COMBO 52X32"       SANYO_CDRW522452  // Acer
+"STORM52/1"         SANYO_CDRW522452  // Waitec
+"CD-RW CW5201"      SANYO_CDRW522452  // OptoRite
+"CD-RW CW5202"      SANYO_CDRW522452  // OptoRite
+"CD-RW CW5205"      SANYO_CDRW522452  // OptoRite
+"CD-RW MS8352"      SANYO_CDRW522452  // MSI
+"CD-RW MS8352S"     SANYO_CDRW522452  // MSI
+"CDRW522452plus"    SANYO_CDRW522452  // Traxdata
+"CDRW52P"           SANYO_CDRW522452  // Philips
+"PBRW5224"          SANYO_CDRW522452  // Philips
+"CDR-6K52"          SANYO_CDRW522452  // Generic
+"CDR-6S52"          SANYO_CDRW522452  // Generic
+"CDR-7K52"          SANYO_CDRW522452  // Generic
+"CDR-7S52"          SANYO_CDRW522452  // Generic
+"CDRW 522452A"      SANYO_CDRW522452  // Generic
+"CDRW 523252A"      SANYO_CDRW522452  // Generic
+"CD-RW 52/24/52X"   SANYO_CDRW522452  // Generic
+"CD-RW 52/32/52X"   SANYO_CDRW522452  // Generic
+"LRW-5224L"         SANYO_CDRW522452  // Generic
+"CBRW6K-52X"        SANYO_CDRW522452  // Generic
+"CBRW6S-52X"        SANYO_CDRW522452  // Generic
+"CBRW7K-52X"        SANYO_CDRW522452  // Generic
+"CBRW7S-52X"        SANYO_CDRW522452  // Generic
+
+"CRD-BPDV2"         SANYO_CRDBPDV2    // Sanyo
+"DVD RW DD0201"     SANYO_CRDBPDV2    // Optorite
+"DVD RW DD0203"     SANYO_CRDBPDV2    // Optorite
+"DVD DUAL 4XMax"    SANYO_CRDBPDV2    // Generic
+  
+"CRD-BPDV3"         SANYO_CRDBPDV3    // Sanyo
+"DVD RW DD0401"     SANYO_CRDBPDV3    // Optorite
+"DVD RW DD0405"     SANYO_CRDBPDV3    // Optorite
+  
+"CD-RW  CRX100E"    SONY_CRX100       // Sony
+"CD-RW  CRX10U"     SONY_CRX100       // Sony
+"CD-Writer+ 8100"   SONY_CRX100       // Hewlett Packard
+
+"CD-R   CRX110E"    SONY_CRX110       // Sony
+
+"CD-Writer+ 7500"   SONY_CRX120_2X    // Hewlett Packard
+
+"CD-RW  CRX120E"    SONY_CRX120_4X    // Sony
+"CD-RW  CRX500E"    SONY_CRX120_4X    // Sony
+"CD-R   CRX510E"    SONY_CRX120_4X    // Sony
+"CD-Writer+ 8200"   SONY_CRX120_4X    // Hewlett Packard
+"CD-R/RW ECW-043"   SONY_CRX120_4X    // QSI
+"CRS446U"           SONY_CRX120_4X    // A-Open
+
+"CD-RW  CRX130E"    SONY_CRX130       // Sony
+"CD-Writer+ 8200a"  SONY_CRX130       // Hewlett Packard
+
+"CD-RW  CRX140E"    SONY_CRX140       // Sony
+"CD-RW  CRX700E"    SONY_CRX140       // Sony
+"CD-RW  CRX800E"    SONY_CRX140       // Sony
+"CD-RW  CRX75A"     SONY_CRX140       // Sony
+"CD-Writer+ 9100"   SONY_CRX140       // Hewlett Packard
+"NR-7500A"          SONY_CRX140       // NEC
+"BCE833IE"          SONY_CRX140       // BTC
+
+"CD-RW  CRX145E"    SONY_CRX145       // Sony
+"CD-RW  CRX145RP"   SONY_CRX145       // Sony
+"CD-Writer+ 9300"   SONY_CRX145       // Hewlett Packard
+"BCE1032IE"         SONY_CRX145       // BTC
+
+"CD-RW  CRX160E"    SONY_CRX160       // Sony
+"CD-RW  CRX200E"    SONY_CRX160       // Sony
+"CD-Writer+ 9500"   SONY_CRX160       // Hewlett Packard
+"BCE128IE"          SONY_CRX160       // BTC
+
+"CD-RW  CRX168B"    SONY_CRX168       // Sony
+"CD-RW  CRX810E"    SONY_CRX168       // Sony
+
+"CD-RW  CRX85A"     SONY_CRX85        // Sony
+"CD-RW  CRX85MA"    SONY_CRX85        // Sony
+"CD-RW  CRX85U"     SONY_CRX85        // Sony
+
+"CD-RW  CRX175A"    SONY_CRX175       // Sony
+"CD-RW  CRX175E"    SONY_CRX175       // Sony
+"CD-RW  CRX820E"    SONY_CRX175       // Sony
+"CD-RW  CRX20MU"    SONY_CRX175       // Sony
+"FREECOM24C"        SONY_CRX175       // Freecom
+  
+"CD-RW  CRX185A"    SONY_CRX185       // Sony
+"CD-RW  CRX185E"    SONY_CRX185       // Sony
+"CD-RW  CRX185M"    SONY_CRX185       // Sony
+"CD-RW  CRX830E"    SONY_CRX185       // Sony
+
+"CD-RW  CRX195A"    SONY_CRX195       // Sony
+"CD-RW  CRX195E"    SONY_CRX195       // Sony
+
+"CD-RW  CRX225A"    SONY_CRX225       // Sony
+"CD-RW  CRX225E"    SONY_CRX225       // Sony
+
+"DVD RW DRU-500A"   SONY_DRU500       // Sony
+"DVD RW DW-U10A"    SONY_DRU500       // Sony
+"DVD RW DW-U12A"    SONY_DRU500       // Sony
+"DVD RW DW-P50A"    SONY_DRU500       // Sony
+"DVDRW LDW-400D"    SONY_DRU500       // Lite-On
+
+"DVD RW DRU-510A"   SONY_DRU510       // Sony
+"DVD RW DW-U14A"    SONY_DRU510       // Sony
+"DVD+R/RW 4412AJ"   SONY_DRU510       // Memorex
+"DVDRW LDW-440D"    SONY_DRU510       // Lite-On
+
+"DVDRW LDW-411S"    SONY_DRU510       // Lite-On
+"DVDRW LDW-451S"    SONY_DRU510       // Lite-On
+"DVD RW GCA-4040N"  SONY_DRU510       // LG Electronics
+"DVD+RW GCA-4040N"  SONY_DRU510       // LG Electronics
+"DVD-MULTI SRT08B"  SONY_DRU510       // Samsung
+"DVD+RW SN-W08B"    SONY_DRU510       // Samsung
+"DRW1004IM"         SONY_DRU510       // BTC
+"IDE1004"           SONY_DRU510       // BTC
+"DRW-1S41"          SONY_DRU510       // 4KUS
+"DVD+/-RW4J"        SONY_DRU510       // Freecom
+"DVD+/-RW4J1"       SONY_DRU510       // Freecom
+"DVD+/-RW4K"        SONY_DRU510       // Freecom
+
+"DVD RW DRU-530A"   SONY_DRU530       // Sony
+"DVD RW DRU-700A"   SONY_DRU530       // Sony
+"DVD RW DW-U18A"    SONY_DRU530       // Sony
+"DVDRW LDW-811S"    SONY_DRU530       // Lite-On
+"DVDRW LDW-851S"    SONY_DRU530       // Lite-On
+"DVDRW SOHW-812S"   SONY_DRU530       // Lite-On
+"DVDRW SOHW-832S"   SONY_DRU530       // Lite-On
+"DV-W58D"           SONY_DRU530       // Teac
+"DVDUR/RW 8412AJ"   SONY_DRU530       // Memorex
+"DRW-1S81"          SONY_DRU530       // 4KUS
+"DRW1008IM"         SONY_DRU530       // BTC
+"IDE1008"           SONY_DRU530       // BTC
+"DVD+/-RW8J"        SONY_DRU530       // Freecom
+"DVD+/-RW8J1"       SONY_DRU530       // Freecom
+"DVD+/-RW8K"        SONY_DRU530       // Freecom
+
+"DVD RW DRU-540A"   SONY_DRU540       // Sony
+"DVD RW DD1201"     SONY_DRU540       // Optorite
+"DVD RW DD1205"     SONY_DRU540       // Optorite
+
+"DVD RW DW-U50A"    SONY_DWU50        // Sony
+
+"DVD RW DW-U54A"    SONY_DWU54        // Sony
+
+"CD-W24E"           TEAC_CDW54        // Teac
+"CD-W54E"           TEAC_CDW54        // Teac
+"CD-REWRITER-4H"    TEAC_CDW54        // Micro Solutions
+"CD-REWRITER-4G"    TEAC_CDW54        // Micro Solutions
+
+"CD-W28E"           TEAC_CDW58        // Teac
+"CD-W58E"           TEAC_CDW58        // Teac
+"DW-28E"            TEAC_CDW58        // Teac
+"CD-REWRITER-8B"    TEAC_CDW58        // Micro Solutions
+
+"CD-W512E"          TEAC_CDW512       // Teac
+"CD-W512EB"         TEAC_CDW512       // Teac
+"IMW121032A"        TEAC_CDW512       // Imation
+"IMW121032IB"       TEAC_CDW512       // Imation
+"IMW121032IAB"      TEAC_CDW512       // Imation
+"RAPTOR RED"        TEAC_CDW512       // Waitec
+
+"CD-W216E"          TEAC_CDW516       // Teac
+"CD-W516E"          TEAC_CDW516       // Teac
+"CD-W516EB"         TEAC_CDW516       // Teac
+"CD-W516EC"         TEAC_CDW516       // Teac
+
+"CD-W524E"          TEAC_CDW524       // Teac
+"CD-W224E"          TEAC_CDW524       // Teac
+"CD-W224EA"         TEAC_CDW524       // Teac
+"DW-224E"           TEAC_CDW524       // Teac
+"241040AT"          TEAC_CDW524       // Verbatim/Cendyne
+
+"CD-W540E"          TEAC_CDW540       // Teac
+"FREECOM40F"        TEAC_CDW540       // Freecom
+"401248AT"          TEAC_CDW540       // Verbatim/Cendyne
+
+"CD-W548E"          TEAC_CDW548       // Teac
+"DW-548D"           TEAC_CDW548       // Teac
+"481248AT"          TEAC_CDW548       // Verbatim/Cendyne
+
+"CD-W552E"          TEAC_CDW552       // Teac
+"CD-W552EL"         TEAC_CDW552       // Teac
+"522452AU"          TEAC_CDW552       // Verbatim/Cendyne
+"523252AU"          TEAC_CDW552       // Verbatim/Cendyne
+
+"DVD-ROM SD-R1002"  TOSHIBA_SDR1002   // Toshiba
+"DVD-ROM SD-R2002"  TOSHIBA_SDR1002   // Toshiba
+
+"DVD-ROM SD-R1102"  TOSHIBA_SDR1102   // Toshiba
+"DVD-ROM SD-R2102"  TOSHIBA_SDR1102   // Toshiba
+"CDRW/DVD SDR2102"  TOSHIBA_SDR1102   // Toshiba
+
+"DVD-ROM SD-R1202"  TOSHIBA_SDR1202   // Toshiba
+"DVD-ROM SD-R2212"  TOSHIBA_SDR1202   // Toshiba
+
+"DVD-ROM SD-R5002"  TOSHIBA_SDR5002   // Toshiba
+"DVD-ROM SD-R5112"  TOSHIBA_SDR5112   // Toshiba
+"DVD-ROM SD-R6012"  TOSHIBA_SDR6012   // Toshiba
+"DVD-ROM SD-R6112"  TOSHIBA_SDR6112   // Toshiba
+
+"CDR401"            YAMAHA_CDR400     // Yamaha
+"CDR401t"           YAMAHA_CDR400     // Yamaha
+
+"CRW4001"           YAMAHA_CRW4260    // Yamaha
+"CRW4261"           YAMAHA_CRW4260    // Yamaha
+"CRW-2642"          YAMAHA_CRW4260    // Memorex
+"CRW-426"           YAMAHA_CRW4260    // Dysan
+"CRW-1426"          YAMAHA_CRW4260    // Dysan
+"CDRW-642"          YAMAHA_CRW4260    // Wearnes
+"CDRW-642e"         YAMAHA_CRW4260    // Wearnes
+"CDRW-1642"         YAMAHA_CRW4260    // Wearnes
+"CDRW-1642e"        YAMAHA_CRW4260    // Wearnes
+"CD-REWRITER-4A"    YAMAHA_CRW4260    // Micro Solutions
+"JCD-1642RW"        YAMAHA_CRW4260    // JCCOM
+"JCD-64RW"          YAMAHA_CRW4260    // JCCOM
+
+"CRW2216E"          YAMAHA_CRW2216    // Yamaha
+"CDRW-2216"         YAMAHA_CRW2216    // Memorex
+"CDRW-1622"         YAMAHA_CRW2216    // Wearnes
+"CDRW-1622e"        YAMAHA_CRW2216    // Wearnes
+"JCD-1622RW"        YAMAHA_CRW2216    // JCCOM
+  
+"CRW4416E"          YAMAHA_CRW4416    // Yamaha
+"CDRW-4416"         YAMAHA_CRW4416    // Memorex
+"PCA460RW"          YAMAHA_CRW4416    // Philips
+"CDRW-1688"         YAMAHA_CRW4416    // Wearnes
+
+"CRW8424E"          YAMAHA_CRW8424    // Yamaha
+
+"CRW8824E"          YAMAHA_CRW8824    // Yamaha
+
+"CRW2100E"          YAMAHA_CRW2100    // Yamaha
+"CRW2100IX"         YAMAHA_CRW2100    // Yamaha
+"CD-Writer+ 9700k"  YAMAHA_CRW2100    // Hewlett Packard
+
+"CRW2200E"          YAMAHA_CRW2200    // Yamaha
+"CRW2200IX"         YAMAHA_CRW2200    // Yamaha
+"CRW2200UX"         YAMAHA_CRW2200    // Yamaha
+
+"CRW3200E"          YAMAHA_CRW3200    // Yamaha
+"CD-RW CRW3200EZ"   YAMAHA_CRW3200    // Yamaha
+"CD-RW SW-224PS"    YAMAHA_CRW3200    // Samsung
+"FREECOM24E"        YAMAHA_CRW3200    // Freecom
+"STORM24"           YAMAHA_CRW3200    // Waitec
+"R/RW 24x10A"       YAMAHA_CRW3200    // Generic
+"R/RW 24x12A"       YAMAHA_CRW3200    // Generic
+
+"CRW-F1E"           YAMAHA_CRWF1      // Yamaha
+"STORM48/2"         YAMAHA_CRWF1      // Waitec
+
+"CRW-70"            YAMAHA_CRW70      // Yamaha
+
+*********************************************************************
+
+//
+// SCSI Recorders
+//
+
+"CD-Writer 6020"    HP_6020           // Hewlett Packard
+
+"XR-W2001"          JVC_XRW2001       // JVC
+"RCD-1000"          JVC_XRW2001       // Pinnacle
+"RCD5020"           JVC_XRW2001       // Pinnacle
+
+"XR-W2010"          JVC_XRW2010       // JVC
+"RCD5040"           JVC_XRW2010       // Pinnacle 
+
+"XR-W2020"          JVC_XRW2020       // JVC
+"R2626"             JVC_XRW2020       // JVC
+"RCD5060"           JVC_XRW2020       // Pinnacle
+"CD-R2006PLUS"      JVC_XRW2020       // Smart & Friendly
+
+"XR-W2040"          JVC_XRW2040       // JVC
+"XR-W2042"          JVC_XRW2040       // JVC
+"CD-RW226"          JVC_XRW2040       // Smart & Friendly
+
+"XR-W4080S"         JVC_XRW4080       // JVC
+"XR-W4082S"         JVC_XRW4080       // JVC
+"CD-RW4224S"        JVC_XRW4080       // Smart & Friendly
+"CD-RW4424S"        JVC_XRW4080       // Smart & Friendly
+
+"KHSW/OB-01"        KODAK_PCD600      // Kodak
+
+"CD-R   CW-7501"    MATSHITA_CW7501   // Matsushita
+"CD-R   LK-MW602"   MATSHITA_CW7501   // Matsushita
+"CDR4210"           MATSHITA_CW7501   // Creative Labs
+"CDR4240"           MATSHITA_CW7501   // Plasmon
+
+"CD-R   CW-7502"    MATSHITA_CW7502   // Matsushita
+
+"CD-R   CW-7503"    MATSHITA_CW7503   // Matsushita
+
+"CDD521/10"         PHILIPS_CDD521    // Philips
+"CDD521/02"         PHILIPS_CDD521    // Kodak
+"RF4100"            PHILIPS_CDD521    // Plasmon
+"RF4102"            PHILIPS_CDD521    // Plasmon
+
+"CDD522/10"         PHILIPS_CDD522    // Philips
+"PCD225"            PHILIPS_CDD522    // Kodak
+"PLAYWRITE 2002"    PHILIPS_CDD522    // MBI
+
+"CDD2000"           PHILIPS_CDD2000   // Philips
+"CDD2000/00"        PHILIPS_CDD2000   // Philips
+"CDD2000/09"        PHILIPS_CDD2000   // Philips
+"CDR4220"           PHILIPS_CDD2000   // Plasmon
+"C4324/C4325"       PHILIPS_CDD2000   // Hewlett Packard
+"CDR100IPW"         PHILIPS_CDD2000   // Grundig
+"CD-R CR-2401TS"    PHILIPS_CDD2000   // Mitsumi
+"CDR-432"           PHILIPS_CDD2000   // Wearnes
+"CD-R2000"          PHILIPS_CDD2000   // Hightech
+"CDR-240"           PHILIPS_CDD2000   // Kodak
+"CRD-R24S"          PHILIPS_CDD2000   // Sanyo
+"CD-WO EW-50"       PHILIPS_CDD2000   // Taiyo Yuden
+"CDVR-2X4"          PHILIPS_CDD2000   // Mitsubishi
+
+"CDD2600"           PHILIPS_CDD2600   // Philips
+"CDD2600/00"        PHILIPS_CDD2600   // Philips
+"CDD2600/01"        PHILIPS_CDD2600   // Philips
+"CD-R CR-2601TS"    PHILIPS_CDD2600   // Mitsumi
+"CDR-632P"          PHILIPS_CDD2600   // Wearnes
+"CDVR2X6"           PHILIPS_CDD2600   // Mitsubishi
+
+"CDD3600"           PHILIPS_CDD3600   // Philips
+"CDD3600 CD-R/RW"   PHILIPS_CDD3600   // Philips
+"WT2036"            PHILIPS_CDD3600   // Waitec
+"CRW2260 PRO"       PHILIPS_CDD3600   // Traxdata
+
+"CDRW3210S"         PHILIPS_CDRW3210  // Philips
+"CDRWDVD3210S"      PHILIPS_CDRW3210  // Philips
+
+"CD-WO DW-S114X"    PIONEER_DWS114X   // Pioneer
+"CD-WO DR-R504X"    PIONEER_DWS114X   // Pioneer
+
+"DVD-RW  DVR-303"   PIONEER_DVR103    // Pioneer
+
+"CD-R   PX-R412C"   PLEXTOR_PXR412    // Plextor
+
+"CD-R   PX-W4220T"  PLEXTOR_PXW4220   // Plextor
+
+"CD-R   PX-R820T"   PLEXTOR_PXR820    // Plextor
+"CD-R    8x/20x"    PLEXTOR_PXR820    // Hewlett Packard
+"CD-R IMR080020"    PLEXTOR_PXR820    // Imation
+
+"CD-R   PX-W8220T"  PLEXTOR_PXW8220   // Plextor
+"CD-R   WT2082"     PLEXTOR_PXW8220   // Waitec
+"CD-RW IMW080220"   PLEXTOR_PXW8220   // Imation
+
+"CD-R   PX-W124TS"  PLEXTOR_PXW124    // Plextor
+"CDRW-12432S"       PLEXTOR_PXW124    // Lacie
+
+"CD-R   PX-W1210S"  PLEXTOR_PXW1210   // Plextor
+"CD-R   PX-W2410S"  PLEXTOR_PXW2410   // Plextor
+"CD-R   PX-W4012S"  PLEXTOR_PXW4012   // Plextor
+  
+"RO-1420C"          RICOH_RS1420C     // Ricoh
+"CR-1420C"          RICOH_RS1420C     // Acer
+"CD-R   PX-R24CS"   RICOH_RS1420C     // Plextor
+
+"MP6200S"           RICOH_MP6200S     // Ricoh
+"MP6201S"           RICOH_MP6200S     // Ricoh
+"OMNIWRITER26"      RICOH_MP6200S     // Philips
+"CRW620"            RICOH_MP6200S     // Memorex
+"RCDW226"           RICOH_MP6200S     // Pinnacle
+"CDRW226"           RICOH_MP6200S     // Mitsubishi
+"680RW"             RICOH_MP6200S     // Nomai
+"LTR-511"           RICOH_MP6200S     // Lite-On
+
+"CD-R/RW MP7040S"   RICOH_MP7040      // Ricoh
+"CD-R/RW RW7040S"   RICOH_MP7040      // Ricoh
+"CDRW4420s"         RICOH_MP7040      // Memorex
+"CDRW-4420s"        RICOH_MP7040      // Memorex
+
+"CD-R/RW MP7060S"   RICOH_MP7060      // Ricoh
+"CD-R/RW RW7060S"   RICOH_MP7060      // Ricoh
+"CDRW-6424S"        RICOH_MP7060      // Memorex
+"CD-RW6424s"        RICOH_MP7060      // Smart & Friendly
+
+"CD-R/RW MP7080S"   RICOH_MP7080      // Ricoh
+"CD-R/RW RW7080S"   RICOH_MP7080      // Ricoh
+
+"CD-R/RW MP8040S"   RICOH_MP8040      // Ricoh
+"CD-R/RW RW8040S"   RICOH_MP8040      // Ricoh
+"CD-Writer+ M820"   RICOH_MP8040      // Hewlett Packard
+"CDRRW01"           RICOH_MP8040      // Matsushita
+
+"CD-R CRD-R800S"    SANYO_CDR8020     // Sanyo
+"CD-R CDR-N820S"    SANYO_CDR8020     // Caravell
+"CD-R8020"          SANYO_CDR8020     // Smart & Friendly
+
+"CRD-RW1"           SANYO_CDRW8220    // Sanyo
+"CRD-RW1N"          SANYO_CDRW8220    // Sanyo
+"CD-RW8220"         SANYO_CDRW8220    // Smart & Friendly
+"CD-RW BOOSTER"     SANYO_CDRW8220    // Lacie
+"CDRW-BOOSTER"      SANYO_CDRW8220    // Lacie
+"CRW-8220S"         SANYO_CDRW8220    // Caravell
+"QPS-R8220S"        SANYO_CDRW8220    // QPS
+"CD-RW 8220S"       SANYO_CDRW8220    // Memorex
+
+"CRD-RW2"           SANYO_CDRW12432   // Sanyo
+"CRD-BP2"           SANYO_CDRW12432   // Sanyo
+"CD-RW12432"        SANYO_CDRW12432   // Smart & Friendly
+"CDRW-12432S"       SANYO_CDRW12432   // Lacie
+"CDBP-12432S"       SANYO_CDRW12432   // Lacie
+"LTR-1240"          SANYO_CDRW12432   // Lite-On
+"LTR-1240B"         SANYO_CDRW12432   // Lite-On
+
+"CRD-BP3"           SANYO_CDRW121032  // Sanyo
+"RAPTOR"            SANYO_CDRW121032  // Waitec
+"CDBP-121032S"      SANYO_CDRW121032  // Lacie
+"TRUECOPY12S"       SANYO_CDRW121032  // R-Quest
+
+"CRD-BP4"           SANYO_CDRW161040  // Sanyo
+"CDBP-161040S"      SANYO_CDRW161040  // Lacie
+"SMARTDRIVE4"       SANYO_CDRW161040  // Mediaform
+"T-REX"             SANYO_CDRW161040  // Waitec
+"TRUECOPY16S"       SANYO_CDRW161040  // R-Quest
+
+"CRD-BP5"           SANYO_CDRW241040  // Sanyo
+"CDBP-241040S"      SANYO_CDRW241040  // Lacie
+"TRUECOPY24S"       SANYO_CDRW241040  // R-Quest
+
+"CRD-BP6"           SANYO_CDRW321040  // Sanyo
+"CDBP-321040S"      SANYO_CDRW321040  // Lacie
+
+"CDW-900E"          SONY_CDW900E      // Sony
+
+"CD-R   CDU920S"    SONY_CDU920S      // Sony
+"CDS615E"           SONY_CDU920S      // Olympus
+"CD-R1002"          SONY_CDU920S      // Hightech
+"CD-R 650"          SONY_CDU920S      // Optima
+
+"CD-R   CDU924S"    SONY_CDU924S      // Sony
+"CD-R   CDU940S"    SONY_CDU924S      // Sony
+"CDS620E"           SONY_CDU924S      // Olympus
+"CD-R2001"          SONY_CDU924S      // Smart & Friendly
+"CD-R2004"          SONY_CDU924S      // Smart & Friendly
+
+"CD-R   CDU948S"    SONY_CDU948S      // Sony
+
+"CD-RW  CRX140S"    SONY_CRX140       // Sony
+"CD-Writer+ 9200"   SONY_CRX140       // Hewlett Packard
+
+"CD-RW  CRX145S"    SONY_CRX145       // Sony
+"CD-Writer+ 9400"   SONY_CRX145       // Hewlett Packard
+
+"CD-RW  CRX160S"    SONY_CRX160       // Sony
+"CD-Writer+ 9600"   SONY_CRX160       // Hewlett Packard
+
+"CD-R50S"           TEAC_CDR50S       // Teac
+"CD-R50S-000"       TEAC_CDR50S       // Teac
+"RCD 4X4"           TEAC_CDR50S       // Pinnacle
+"CDVR4X4"           TEAC_CDR50S       // Mitsubishi
+
+"CD-R55S"           TEAC_CDR55S       // Teac
+"CD-R55S-000"       TEAC_CDR55S       // Teac
+"RCD 4X12"          TEAC_CDR50S       // Pinnacle
+"CD-R4012"          TEAC_CDR55S       // Smart & Friendly
+"CD-R4012SAF"       TEAC_CDR55S       // Smart & Friendly
+"CDR4120"           TEAC_CDR55S       // Traxdata
+"WT412"             TEAC_CDR55S       // Waitec
+
+"CD-R56S4"          TEAC_CDR56S4      // Teac
+
+"CD-R56S"           TEAC_CDR56S       // Teac
+"CDR6240"           TEAC_CDR56S       // Traxdata
+"CD-R6024"          TEAC_CDR56S       // Smart & Friendly
+"WT624"             TEAC_CDR56S       // Waitec
+
+"CD-R58S"           TEAC_CDR58S       // Teac
+"WT824"             TEAC_CDR58S       // Waitec
+
+"CD-W54S"           TEAC_CDW54        // Teac
+
+"CD-W512S"          TEAC_CDW512       // Teac
+"CD-W512SB"         TEAC_CDW512       // Teac
+"CD-W516S"          TEAC_CDW516       // Teac
+
+"CDR100"            YAMAHA_CDR100     // Yamaha
+
+"CDR102"            YAMAHA_CDR102     // Yamaha
+
+"CDR200"            YAMAHA_CDR200     // Yamaha
+"CDR200t"           YAMAHA_CDR200     // Yamaha
+"CDR4200"           YAMAHA_CDR200     // Traxdata
+
+"CDR400c"           YAMAHA_CDR400     // Yamaha
+"CDR400t"           YAMAHA_CDR400     // Yamaha
+"CD-R4006"          YAMAHA_CDR400     // Smart & Friendly
+"CDVR4X6"           YAMAHA_CDR400     // Mitsubishi
+"CDR4600"           YAMAHA_CDR400     // Traxdata
+
+"CRW2260"           YAMAHA_CRW2260    // Yamaha
+"CDRW2260 PRO"      YAMAHA_CRW2260    // Traxdata
+
+"CRW4260"           YAMAHA_CRW4260    // Yamaha
+"CDRW4260 PRO"      YAMAHA_CRW4260    // Traxdata
+"WT4046"            YAMAHA_CRW4260    // Waitec
+
+"CRW2216S"          YAMAHA_CRW2216    // Yamaha
+
+"CRW4416S"          YAMAHA_CRW4416    // Yamaha
+"CDRW-4416S"        YAMAHA_CRW4416    // Memorex
+  
+"CRW6416S"          YAMAHA_CRW6416    // Yamaha
+  
+"CRW8424S"          YAMAHA_CRW8424    // Yamaha
+"CRW8824S"          YAMAHA_CRW8424    // Yamaha
+  
+"CRW2100S"          YAMAHA_CRW2100    // Yamaha
+  
+"CRW2200S"          YAMAHA_CRW2200    // Yamaha
+  
+"CRW3200S"          YAMAHA_CRW3200    // Yamaha
+
+"CRW-F1S"           YAMAHA_CRWF1      // Yamaha

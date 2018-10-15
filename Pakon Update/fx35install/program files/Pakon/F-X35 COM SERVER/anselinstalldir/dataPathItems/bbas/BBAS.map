@@ -1,0 +1,8 @@
+# AnsBBASMappingDpi:
+key = BBAS.map
+version = 2004/May/07
+
+# Selection Parameters
+mapping =
+_AnselPath_ c11
+any      ansel-BBAS-Default

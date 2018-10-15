@@ -1,0 +1,16 @@
+key = fugc-default-default.dpi
+version = 09/18/2002
+mode = RGB
+bAdjustSaturation = false
+aFilmAimDmin = 500 1000 1000
+# rgbWorkLut value can be 0 (red), 1 (green), 2 (blue)
+rgbWorkLut = 1
+minValue = 0
+maxValue = 4095
+lowWorkRange = 400 599
+midWorkRange = 600 724
+highWorkRange = 725 849
+lowRangeMultiplier = 0
+midRangeMultiplier = 0
+highRangeMultiplier = 0
+

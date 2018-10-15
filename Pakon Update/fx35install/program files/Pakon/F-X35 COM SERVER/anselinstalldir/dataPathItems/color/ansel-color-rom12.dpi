@@ -1,0 +1,12 @@
+key = ansel-colorAdjust-romm
+version = 12/08/2004
+
+# 
+# Values changed to correspond with change in the forward lut.
+# The forward lut now takes us from ROMM to an RPD-like space.
+# These button values are RPD buttons.
+
+redButtonValue = 25
+greenButtonValue = 25
+blueButtonValue = 25
+neutralButtonValue = 75

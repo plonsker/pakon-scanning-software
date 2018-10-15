@@ -1,0 +1,29 @@
+VERSION = 2002-12-03
+KEY = blackPrinting.dpi
+
+# New ILAB EBP settings - implement in DLS 5-26-04 as part of CR 1386 BAS
+
+# KRD changed LUMA_THRESHOLD_MAX and CHROMA_THRESHOLD_MAX to match 
+# values within EBPDefaults.h (the IMA transform)
+
+#lumaThreshold
+#  This times the mean of the luma channel is the threshold for the
+# luminance channel
+LUMA_THRESHOLD = 0.3
+
+#lumaThresholdMax
+#  Maximum allowable value for the luma threshold
+LUMA_THRESHOLD_MAX = 400
+
+#chromaThreshold
+#  This times the mean of the luma channel is the threshold for the
+#  chroma channel
+CHROMA_THRESHOLD = 0.1
+
+#chromaThresholdMax
+#  Maximum allowable value for the chroma threshold
+CHROMA_THRESHOLD_MAX = 160
+
+#ratio
+#  Used to determine the width of the transition period
+RATIO = 0.6

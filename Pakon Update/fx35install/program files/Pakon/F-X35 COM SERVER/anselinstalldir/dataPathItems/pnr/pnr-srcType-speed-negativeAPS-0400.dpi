@@ -1,0 +1,22 @@
+#
+# Pyramid Noise Reduction negativeAPS-0400 DPI file
+#
+Key = pnr-CN-APS-0400.dpi
+Version = 4.00
+NoiseScale = 1.5            # Noise scaling factor (-sfac) 
+PyrNoiseFactor = 1.75       # Pyramid to pyramid noise factor (-nfac)
+MaxHighStopExposure = 999.0 # Used for positive Exposure range eg. = 999
+MinHighStopExposure = -1.0  # Used for lower positive Exposure range eg. = 0.0
+                            # UpperStopExposureLimit = 1.25  D.Jasinski 
+			          #  suggested optimization
+MinLowStopExposure = 0.0    # UpperStopExposureLimit = -1.75 (absolute val min)
+                            #  Used for negative Exposure range.
+MaxLowStopExposure = -999.0 # LowerStopExposureLimit = -999.0(absolute val max)
+                            #  Used for negative Exposure range.
+WindowSize = 5              # Dimension of the filter window (-win)
+NumPyrLevels = 1            # Number of pyramid levels (-npyr)
+NumSkipLevels = 0           # number of pyr levels not filtered (skip)
+SigmaBands = 3
+DefaultSigma = 33 44.12 55.0
+
+# And this is the end

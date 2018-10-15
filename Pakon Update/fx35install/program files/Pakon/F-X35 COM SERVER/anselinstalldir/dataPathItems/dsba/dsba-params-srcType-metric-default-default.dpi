@@ -1,0 +1,47 @@
+KEY = dsba-default.dpi
+VERSION = 07/09/2003
+DSBA_SRA_FWD_LUT_KEY = common-sraFwdLut-metric-rom12.lut
+DSBA_SRA_DATA_KEY = common-sraData-metric-rom12.dpi
+# This is the DSBA parameters file for ROM 12 (ROMM HARROW)
+# This file represents the default dpi values for DSba. Its corresponding 
+# default SRA dpi file is: dsba-params-srcType-metric-default-default.dpi
+# modified 8-6-01 gjones
+# Updated to match ILab SC 6.1 
+# as used at District Photo 1-15-03 Geoff Houston
+
+
+DSBA_PAX_RATIO  =   0.75
+DSBA_PAX_SIZE   =  24
+DSBA_NEU_BUTTON = 156
+DSBA_GM_BUTTON  =  15.6
+DSBA_ILL_BUTTON =  21.5
+
+DSBA_NUM_SETS =  1          # Number of sets of parameters to read in.
+DSBA_NEU_UNDER_CONSTRAINT = -2.5
+DSBA_NEU_OVER_CONSTRAINT  =  1.2
+DSBA_GM_UNDER_CONSTRAINT  =  0.30
+DSBA_GM_OVER_CONSTRAINT   =  0.40 
+DSBA_ILL_UNDER_CONSTRAINT =  0.20
+DSBA_ILL_OVER_CONSTRAINT  =  0.20 
+DSBA_EDGE_THRESH          =  2.0
+DSBA_EDGE_COEF            =  0.60
+DSBA_EDGE_CONST           = -1.0822
+DSBA_WSRX_CONST           =  2.522
+DSBA_SFS_FACTOR           =  1.0
+DSBA_SFS_BEAK_ANGLE       =  9.0
+DSBA_SFS_BEAK_WIDTH       =  5.0
+DSBA_SFS_BEAK_MULT        = 10.0
+DSBA_SFS_SIGMA            =  3.0
+DSBA_SFS_MIN_CORR         =  0.1
+DSBA_SFS_ASPECT_RATIO     =  3.0
+# New parameters for use in the Preference() function.
+DSBA_RED_FPA              =  -40.0
+DSBA_GREEN_FPA            =  -40.0
+DSBA_BLUE_FPA             =  -40.0
+DSBA_RED_NEU              =  0.5
+DSBA_GREEN_NEU            =  0.5
+DSBA_BLUE_NEU             =  0.5
+DSBA_RED_NEO              =  0.65
+DSBA_GREEN_NEO            =  0.65
+DSBA_BLUE_NEO             =  0.65
+DSBA_CMM                  =  0

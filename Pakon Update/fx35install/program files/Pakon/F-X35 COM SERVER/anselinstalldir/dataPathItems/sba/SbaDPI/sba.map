@@ -1,0 +1,105 @@
+# At least one ".map" file MUST contain the key 'sba.map'
+# Only the first '.map' file containing this key is read
+# Modified to use small image sba
+
+key = sba.map
+version = 09/30/2003
+
+# NOTE: in scene context, 
+# metric == 0 --> ANS_METRIC_UNKNOWN
+# metric == 1 --> ANS_PD12
+# metric == 2 --> ANS_RIM12
+# metric == 3 --> ANS_ROM12
+
+# sourceType == 0  --> ANS_SOURCE_UNKNOWN
+# sourceType == 1  --> ANS_NEGATIVE_35
+# sourceType == 2  --> ANS_NEGATIVE_APS
+# sourceType == 3  --> ANS_CHROME_35
+# sourceType == 4  --> ANS_CHROME_APS
+# sourceType == 5  --> ANS_DIGITAL_CAMERA
+# sourceType == 6  --> ANS_SCANNED_PRINT
+# sourceType == 7  --> ANS_ARCHIVE
+# sourceType == 8  --> ANS_JPEG
+# sourceType == 9  --> ANS_NEGATIVE_120
+# sourceType == 10 --> ANS_CHROME_120
+# sourceType == 11 --> ANS_NEGATIVE_110
+# sourceType == 12 --> ANS_CHROME_110
+
+# Note: Scanners are set by NAME, not by scannerCode. For reference, though,
+# the old scanner codes are shown below, along with their enumerated values
+# and their "character string" names
+# The length of the scanner name is "AnsScannerNameSize" as defined in AnsDefs.h
+# to be 64.
+# 
+# scanner == 0 --> ANS_SCANNER_UNKNOWN  -->      default
+# scanner == 1 --> ANS_SCANNER_DLS1640  -->      DLS1640
+# scanner == 2 --> ANS_SCANNER_HR200    -->        HR200
+# scanner == 3 --> ANS_SCANNER_HR800    -->        HR800
+# scanner == 4 --> ANS_SCANNER_HR8200   -->       HR8200
+# scanner == 5 --> ANS_SCANNER_CYRA     -->         CYRA
+# scanner == 6 --> ANS_SCANNER_UNNAMED1 -->     UNNAMED1
+# scanner == 7 --> ANS_SCANNER_UNNAMED2 -->     UNNAMED2
+
+# Original selectors
+# scanner, srcType, srcInfo (ie, product code and gen code), key specified by file name,
+#     matching function built-in to code
+#
+# new selectors
+# path, scanner, srcType, srcInfo (ie, product code and gen code), key specified by content
+# of DPI file (keys), matching function specified by this map file, currently
+#path scanner, srcType, srcInfo (ie, product code and gen code), key specified by file name,
+
+# AnsKeySelector:
+# Selection Parameters
+
+mapping =
+#Update with Ilab settings
+#_AnselPath_ c11 scannerName c64 sourceType i32 productCode i16 genCode i16
+_AnselPath_ c11 scannerName c64 sourceType i32 productCode i16 genCode i16 _AnselImageSize_ float
+
+# color negative defaults, source types matching any of the NEGATIVE shown above
+# negative 35
+any any 1  78 13 any ansel-sba-78-13
+any any 1  79 15 any ansel-sba-79-15
+any any 1  96 any any ansel-sba-96-1
+any any 1  43 any any ansel-sba-43-1
+any any 1  any any any ansel-sba-CN-default
+# negative aps
+any any 2  78 13 any ansel-sba-78-13
+any any 2  79 15 any ansel-sba-79-15
+
+any any 2  any any any ansel-sba-CN-default
+# negative 120
+any any 9 any any any ansel-sba-CN-default
+# negative 110
+any any 11 any any any ansel-sba-CN-default
+
+
+# color negative defaults, source types matching any of the NEGATIVE shown above
+# negative 35
+
+#
+# RLM - 05-06-2004
+# Modified map to include only the DLS dpi files: 78-13, 79-15, and default.
+# All film types (35mm, 120 110, aps) map to the default except the chromagenic films listed above.
+#
+
+#any any 1 78 13 any ansel-sba-scanner-srcType-srcInfo-default-default-78-13
+#any any 1 79 15 any ansel-sba-scanner-srcType-srcInfo-default-default-79-15
+#any any 1 any any any ansel-sba-scanner-srcType-srcInfo-default-default-default-default
+
+# digital camera for the premium path
+# Update with ILAB settings
+#DC-Premium any any any any (0,0.7) ansel-sba-DC-Premium-smallImage
+#DC-Premium any any any any ansel-sba-DC-Premium
+DC-Premium any any any any (0,0.7) ansel-sba-DC-Premium-smallImage
+DC-Premium any any any any any ansel-sba-DC-Premium
+# color digital camera default
+# Update with Ilab settings
+#any any 5 any any ansel-sba-DC-default
+any any 5 any any any ansel-sba-DC-default
+
+# when all else fails, the "all default"
+#Update with ILAB settings
+#any any any any any    ansel-sba-default
+any any any any any    any ansel-sba-default

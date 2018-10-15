@@ -1,0 +1,20 @@
+VERSION = 2002-12-03
+KEY = noiseFiltering.dpi
+# KRD changed CORING_LEVEL to match the
+# value within EBPDefaults.h (the IMA transform)
+
+# This number times the calculated noise factor will specify the
+# half width of the coring region in the high pass filtered version of
+# the luminance
+CORING_LEVEL = 700.0
+
+#
+#Determines how much of the high frequencies to add back to the image
+#
+BOOST = 5.0
+
+#
+# Combined with the calculated noise factor, determines the size of the
+# filter to apply to the chroma channels.
+#
+FILTER_SIZE = 20.0

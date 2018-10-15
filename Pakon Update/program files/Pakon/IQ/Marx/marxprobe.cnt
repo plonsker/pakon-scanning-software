@@ -1,0 +1,27 @@
+:Base MarxProbe.hlp
+1 Welcome to MarxProbe
+2 Welcome=HELPID_Welcome
+2 How to Contact Us=HELPID_How_to_Contact_Us
+1 Overview
+2 Product Features=HELPID_Product_Features
+1 Utility Reference
+2 Choosing MARX Hardware Model=HELPID_Choosing_MARX_Hardware_Model
+2 MARX Software Detection Phase=HELPID_MARX_Software_Detection_Phase
+2 MARX Hardware Detection Phase=HELPID_MARX_Hardware_Detection_Phase
+2 Detection of USB Hardware=HELPID_Detection_of_USB_Hardware
+2 Detecting Microsoft Smart Card Base Components (Phase I)=HELPID_Detecting_SCBC
+2 Detecting Smart Card Drivers (Phase II)=HELPID_Detecting_SC_Drivers
+2 CRYPTO-BOX Troubleshooting=HELPID_Troubleshooting
+2 Troubleshooting USB Hardware=HELPID_Troubleshooting_USB_Hardware
+2 USB devices are not supported for Windows 95=HELPID_USB_devices_are_not_supported_for_Windows95
+2 Smart Card Troubleshooting=HELPID_Smart_Card_Troubleshooting
+2 Network test successful=HELPID_Network_test_successful
+2 Network test failed=HELPID_Network_test_failed
+2 Network test failed=HELPID_Network_test_failed
+2 CBNet server list=HELPID_CBNet_server_list
+2 No CBN servers found=HELPID_CBNet_servers_not_found
+2 CBNet server details=HELPID_CBNet_server_details
+2 Reviewing a Report=HELPID_Reviewing_a_Report
+2 Completing the MarxProbe Wizard=HELPID_Completing
+2 Remember to Reboot=HELPID_Remember_to_Reboot
+2 Why Doesn't My CRYPTO-BOX Work?=HELPID_Why_Doesn_t_My_CRYPTO_BOX_Work

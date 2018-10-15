@@ -1,0 +1,35 @@
+key = contrast.map
+version = 09/08/2003
+
+#
+# AnsKeySelector:
+# Selection Parameters
+#
+
+# NOTE: in scene context, 
+# metric == 0 --> ANS_METRIC_UNKNOWN
+# metric == 1 --> ANS_PD12
+# metric == 2 --> ANS_RIM12
+# metric == 3 --> ANS_ROM12
+
+mapping =
+_AnselPath_ c11 metric i32
+
+# color neg premium uses CNPremium parameters
+CN-Premium  1   ansel-contrast-CNPremium
+CN-Premium  any ansel-contrast-CNPremium
+
+# color neg enhanced path uses CNEnhanced parameters
+CN-Enhanced  1   ansel-contrast-CNEnhanced
+CN-Enhanced  any ansel-contrast-CNEnhanced
+# any other path using RPD uses contrast-rpd
+any         1   ansel-contrast-rpd
+
+# digital camera premium uses DCPremium parameters
+DC-Premium  3   ansel-contrast-DCPremium
+DC-Premium  any ansel-contrast-DCPremium
+# any other path using ROMM uses contrast-romm
+any         3   ansel-contrast-romm
+
+# any thing else uses default parameters
+any         any ansel-contrast-default

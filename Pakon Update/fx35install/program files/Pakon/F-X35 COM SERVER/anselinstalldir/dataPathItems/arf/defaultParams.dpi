@@ -1,0 +1,26 @@
+# These are the ACME 1.1 Parameters
+
+key = arf-default.dpi
+version = 08/09/2002
+
+lpfSigma = 8.0
+lpfSize = -1
+blockSize = 16.0
+minValue = 0
+maxValue = 4095
+nPasses = 6
+pass1.dir = LEFT_TO_RIGHT
+pass1.maxGradient = 4095
+pass1.nGradientStops = 4.27
+pass1.stopValue = 188
+pass1.lowGradientThreshold = -1
+pass1.highGradientThreshold = 68
+pass1.maxBlurring = 0.970
+pass1.minBlurring = 0
+pass2.dir = TOP_TO_BOTTOM
+pass3.dir = BOTTOM_TO_TOP
+pass4.dir = RIGHT_TO_LEFT
+pass5.dir = TOP_TO_BOTTOM
+pass5.highGradientThreshold = 20
+pass5.maxBlurring = 0.8
+pass6.dir = BOTTOM_TO_TOP

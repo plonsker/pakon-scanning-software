@@ -1,0 +1,79 @@
+key = ansel-BBAS-Default
+version = 2004/May/07
+
+# DEBUG = ON F:\anselDebugData
+
+SHARPEN_MAX_BELIEF = 0
+
+# -sqrt
+APPLY_SQRT = 1
+
+# -amosonly
+AMOS_ONLY = 0
+
+# -noamos
+NO_AMOS = 0
+
+BETTER_EDGE = 1
+BETTER_SNR = 1
+
+# -sf
+BACKGROUND_GAIN = 2.0
+
+# -noisesf
+NOISY_GAIN = 0.25
+
+# -mker
+GAUSSIAN_FILTER_SIZE = 1.0
+
+# -edgevaluemin
+#MIN_EDGE_VALUE = 20
+# This value is used when creating the edge mask, going into the
+# calculation for the artifact avoidance LUT
+# For efficiency, we made the "background" 128, an increase from 100.
+#    (we avoid double arithmetic, replacing it with bit shifts, that's the
+#     efficiency)
+# We change the min edge value by the same percentage, 100/128 = 0.28,
+# so our new edge value becomes 26. (not 25.6)
+
+MIN_EDGE_VALUE = 26
+
+# -core
+CORE = 16
+
+# -amoswin
+AMOS_WINDOW_SIZE = 3
+
+# -amosslope
+AMOS_SLOPE = 2.0
+
+# -noisy_snr_hi
+NOISY_SNR_HIGH = 6.0
+
+# -noisy_snr_lo
+NOISY_SNR_LOW = 2.75
+
+# -attenuate
+HP_ATTENUATE = 16
+
+# -noiseavgdown
+NOISE_AVERAGE_DOWN = 2
+
+NOISE_AVERAGE_DOWN_SCALE = 1.0
+NOISE_BLUR = 5
+
+MIN_NOISE_TABLE_VALUE = 0.2
+
+#
+# Change Log: BBAS-Default.dpi
+# 05/11/2004    W.Fintel
+# Change BACKGROUND_GAIN from = 3.0 to 2.0 to match Phase C
+
+#
+# Change Log: BBAS-Default.dpi
+# 04/28/2004    K.DeLong
+# Change MIN_EDGE_VALUE from = 20 to = 26
+# Change MIN_NOISE_TABLE_VALUE from 0.5 to 0.2
+
+# 04/16/2004    K.DeLong
+# Added MIN_NOISE_TABLE_VALUE

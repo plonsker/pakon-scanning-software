@@ -1,0 +1,43 @@
+# Changed fleshcountthreshold to 0.00625 - value used for ACME and Popeye
+# bas 08/16/03
+# 05-26-2004 (RLM) - Updated with Garfield QE8 values.
+# 05-27-2004 (RLM) - Updated the loff, soff, and toff values based on DR's suggestion.
+#
+# Flesh DPI for:
+#     sourceType  - default
+#     metric      - default
+#
+axialProb        = 0.25 
+clipAmount       = 0.30 
+loff             = 1626
+soff             = -85
+toff             = -600
+lscale          = 189
+sscale           = 17
+tscale          = 30
+growThreshold   = 0.0
+regionThreshold = 0.05
+stOnly          = 0
+lCondProbKey     = condProbTbl-l.tbl
+sCondProbKey     = condProbTbl-s.tbl
+tCondProbKey     = condProbTbl-t.tbl
+beta             = 0.69
+frontLitBeta     = 0.69
+backLitBeta      = 0.69
+fleshPrefAdj     = 0
+fleshNeutralAim  = 2740
+fleshCountThresh = 0.00625
+intermediateImageDir = fleshDebugImages
+bayesianNetKey = skinSBA.bn
+writeIntermediateImages = 0
+# oneDTable must be set to 1 for V1 flesh detection
+oneDTable = 1
+# tSpace must be set to 1 for ColorNegative paths
+tSpace = 1
+# useAdvanced must be set to 0 for V1 flesh detection
+useAdvanced = 0
+3dLutKey = ROMM_LST_SkinProb_041403_v5_pack
+darkenOnly       = 0
+percentFleshAdj = 0.85
+exposureLimit = -4.0
+useSmallAnalysisImage = 0

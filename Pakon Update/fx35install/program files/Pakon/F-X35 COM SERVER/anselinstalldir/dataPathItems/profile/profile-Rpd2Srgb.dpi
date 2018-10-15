@@ -1,0 +1,17 @@
+key = profile-Rpd2Srgb.dpi
+version = 2004/July/14
+
+profile1 = Rpd2Pcs_HR200_QS_v5s10.pf
+profile2 = Srgb_v2.pf
+
+# Output description - datatype, color space, render intent
+dataType = U8      # U8 or I16 
+renderIntent = P   # Perceptual, Colorimetric, Absolute, or Saturation
+colorSpaceBands = 3
+colorSpaceMin = 0
+colorSpaceMax = 255
+
+# Change Log: profile-Rpd2Srgb.dpi
+# July 14, 2004 K.DeLong/B.Fintel   ATC00004476
+# changed profile1 to "s10"
+# (updated saturation boost in profile, based on phase B testing)

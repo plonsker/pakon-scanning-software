@@ -1,0 +1,16 @@
+key = adaptSharp.map
+version = 09/16/2003
+
+# path and filmIso
+#    (the thought is we might want to separate adaptive sharpening parameters
+#     between CN-Premium and CN-Enhanced...)
+# for now, we don't separate path, "any" will do
+# exact matches on film speed, not ranges of speeds
+
+mapping =
+_AnselPath_ c11 filmIso  i32
+any     100     ansel-adaptSharp-100
+any     200     ansel-adaptSharp-200
+any     400     ansel-adaptSharp-400
+any     800     ansel-adaptSharp-800
+any     any     ansel-adaptSharp-default

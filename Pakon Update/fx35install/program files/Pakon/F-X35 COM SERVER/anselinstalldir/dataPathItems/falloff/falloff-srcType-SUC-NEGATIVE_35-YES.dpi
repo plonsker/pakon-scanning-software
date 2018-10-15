@@ -1,0 +1,7 @@
+#  min and max values should be in TRUE stops
+
+scale = 1250 
+max = 4095
+stops = 0.8
+exposure_min = -0.5
+exposure_max =  7.0

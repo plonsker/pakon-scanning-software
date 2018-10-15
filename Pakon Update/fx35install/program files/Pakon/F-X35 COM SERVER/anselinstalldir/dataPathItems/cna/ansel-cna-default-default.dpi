@@ -1,0 +1,41 @@
+redShift = 0
+greenShift = 0
+blueShift = 0
+histSize = 5000
+bucketSize = 10
+minSlope = 0.3
+maxSlope = 2
+blend = 1.0
+pivot = 1550
+minPivotPercentile = 0.1
+maxPivotPercentile = 0.9
+thresholdMultiplier = 1.5
+thresholdReductionFactor = 0.949
+minPosThreshold = 4
+minLapPixelRatio = 0.1
+smoothingSizeFactor = 4.0
+laplacianHistSmoothingSigma = 10.0
+coarseHistSmoothingSigma = 2.0
+toneScaleSmoothingSigma = 4.0
+# maxContrastGain = 1.33333
+# Maximum multiplicative factor for output sigma vs. input sigma.
+darkMaxContrastGain = 1.33333
+lightMaxContrastGain = 2
+# meanSigma = 230.0
+# Sigma for histogram of "ideal" image, as determined experimentally.
+#	darkMeanSigma = 230.0
+#	lightMeanSigma = 230.0
+# More aggressive settings for KPT
+darkMeanSigma = 190.0
+lightMeanSigma = 270.0
+minGaussSigma = 1.0
+maxGaussSigma = 50.0
+elmoNeutralLimit = 1500
+elmoRedLimit = 1600
+#	from Ilab testing results Vs 1600 for all
+elmoGreenLimit = 2100
+elmoBlueLimit = 2100
+elmoSatThreshold = 400
+elmoCriticalPercent = 5.0
+elmoAggressiveness = ANS_LOW_TONE_AGGRESSIVENESS
+

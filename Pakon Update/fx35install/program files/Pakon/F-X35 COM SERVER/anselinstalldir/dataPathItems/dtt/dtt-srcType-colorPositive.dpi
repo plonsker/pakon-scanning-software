@@ -1,0 +1,189 @@
+version = 1.1
+key = dtt-srcType-colorPositive.dpi
+#
+#Bit numbers 3, 7, 11, and 15 must remain zeros, and
+#	therefore will not be used in any dpi values.
+#
+# Color Positive Restore
+#
+BEGIN
+path = CP-Restore
+calculation = DYEFADE_ON
+bit =	0
+descriptionOn = Dyefade was enabled.
+descriptionOff = Dyefade was disabled.
+END
+BEGIN
+path = CP-Restore
+calculation = DF_RED_SIG
+bit =	1
+descriptionOn = If Dyefade was enabled, the red slope calculated was significant.
+descriptionOff = If Dyefade was enabled, the red slope calculated was normal.
+END
+BEGIN
+path = CP-Restore
+calculation = DF_RED_SIG_LOW
+bit =	2
+descriptionOn = If Dyefade was enabled and the red slope was significant, the slope was < 0.90.
+descriptionOff = If Dyefade was enabled and the red slope was significant, the slope was > 1.10.
+END
+BEGIN
+path = CP-Restore
+calculation = DF_GREEN_SIG
+bit =	4
+descriptionOn = If Dyefade was enabled, the green slope calculated was significant.
+descriptionOff = If Dyefade was enabled, the green slope calculated was normal.
+END
+BEGIN
+path = CP-Restore
+calculation = DF_GREEN_SIG_LOW
+bit =	5
+descriptionOn = If Dyefade was enabled and the green slope was significant, the slope was < 0.90.
+descriptionOff = If Dyefade was enabled and the green slope was significant, the slope was > 1.10.
+END
+BEGIN
+path = CP-Restore
+calculation = DF_BLUE_SIG
+bit =	6
+descriptionOn = If Dyefade was enabled, the blue slope calculated was significant.
+descriptionOff = If Dyefade was enabled, the blue slope calculated was normal.
+END
+BEGIN
+path = CP-Restore
+calculation = DF_BLUE_SIG_LOW
+bit =	8
+descriptionOn = If Dyefade was enabled and the blue slope was significant, the slope was < 0.90.
+descriptionOff = If Dyefade was enabled and the blue slope was significant, the slope was > 1.10.
+END
+BEGIN
+path = CP-Restore
+calculation = DF_RAW_MATRIX_SIG
+bit =	9
+descriptionOn = If Dyefade was enabled, the raw matrix coefficient calculated was significant (x < 0 or x > 0.40).
+descriptionOff = If Dyefade was enabled, the raw matrix coefficient calculated was normal (0 < x < 0.40).
+END
+BEGIN
+path = CP-Restore
+calculation = DF_NEU_OFF_SIG
+bit =	10
+descriptionOn = If Dyefade was enabled, the neutral offset calculated was significant (x < 0.10 or x > 0.30).
+descriptionOff = If Dyefade was enabled, the neutral offset calculated was normal (0.10 < x < 0.30).
+END
+BEGIN
+path = CP-Restore
+calculation = DF_NEU_GAIN_SIG
+bit =	12
+descriptionOn = If Dyefade was enabled, the neutral gain calculated was significant (x < 1.5 or x > 2.0).
+descriptionOff = If Dyefade was enabled, the neutral gain calculated was normal (1.5 < x < 2.0).
+END
+BEGIN
+path = CP-Restore
+calculation = DF_NEU_GAMMA_SIG
+bit =	13
+descriptionOn = If Dyefade was enabled, the neutral gamma calculated was significant (x < 0.90 or x > 1.10).
+descriptionOff = If Dyefade was enabled, the neutral gamma calculated was normal (0.90 < x < 1.10).
+END
+BEGIN
+path = CP-Restore
+calculation = SRA_ON
+bit = 14
+descriptionOn = Sra was enabled.
+descriptionOff = Sra was disabled.
+END
+#
+# Color Positive Balance
+#  
+BEGIN
+path = CP-Balance
+calculation = SRA_ON
+bit =	0	
+descriptionOn = Sra was enabled.
+descriptionOff = Sra was disabled.
+END
+BEGIN
+path = CP-Balance
+calculation = SRA_NEU_SIG
+bit =	1
+descriptionOn = If Sra was enabled, then the neu value calculated was significant.
+descriptionOff = If Sra was enabled, then the neu value calculated was normal.
+END
+BEGIN
+path = CP-Balance
+calculation = SRA_NEU_SIG_LOW
+bit =	2	
+descriptionOn = If Sra was enabled, and neu value was significant, the neu value was < 1400.
+descriptionOff = If Sra was enabled, and neu value was significant, the neu value was > 1600.
+END
+BEGIN
+path = CP-Balance
+calculation = SRA_GAMMA_SIG
+bit =	4
+descriptionOn = If Sra was enabled, then the gamma value calculated was significant.
+descriptionOff = If Sra was enabled, then the gamma value calculated was normal.
+END
+BEGIN
+path = CP-Balance
+calculation = SRA_GAMMA_SIG_LOW
+bit =	5	
+descriptionOn = If Sra was enabled, and gamma value was significant, the gamma value was < 0.90.
+descriptionOff = If Sra was enabled, and gamma value was significant, the gamma value was > 1.10.
+END
+BEGIN
+path = CP-Balance
+calculation = DSBA_ON
+bit =	6	
+descriptionOn = DSba was enabled.
+descriptionOff = DSba was disabled.
+END
+BEGIN
+path = CP-Balance
+calculation = DSBA_NEU_SIG
+bit =	8
+descriptionOn = If DSba was enabled, then the neu value calculated was significant.
+descriptionOff = If DSba was enabled, then the neu value calculated was normal.
+END
+BEGIN
+path = CP-Balance
+calculation = DSBA_NEU_SIG_LOW
+bit =	9	
+descriptionOn = If DSba was enabled, and neu value was significant, the neu value was < 1400.
+descriptionOff = If DSba was enabled, and neu value was significant, the neu value was > 1600.
+END
+#  
+# Color Positive Lockbeam
+#
+BEGIN
+path = CP-Lockbeam
+calculation = SRA_ON
+bit =	0	
+descriptionOn = Sra was enabled.
+descriptionOff = Sra was disabled.
+END
+BEGIN
+path = CP-Lockbeam
+calculation = SRA_NEU_SIG
+bit =	1
+descriptionOn = If Sra was enabled, then the neu value calculated was significant.
+descriptionOff = If Sra was enabled, then the neu value calculated was normal.
+END
+BEGIN
+path = CP-Lockbeam
+calculation = SRA_NEU_SIG_LOW
+bit =	2	
+descriptionOn = If Sra was enabled, and neu value was significant, the neu value was < 1400.
+descriptionOff = If Sra was enabled, and neu value was significant, the neu value was > 1600.
+END
+BEGIN
+path = CP-Lockbeam
+calculation = SRA_GAMMA_SIG
+bit =	4
+descriptionOn = If Sra was enabled, then the gamma value calculated was significant.
+descriptionOff = If Sra was enabled, then the gamma value calculated was normal.
+END
+BEGIN
+path = CP-Lockbeam
+calculation = SRA_GAMMA_SIG_LOW
+bit =	5	
+descriptionOn = If Sra was enabled, and gamma value was significant, the gamma value was < 0.90.
+descriptionOff = If Sra was enabled, and gamma value was significant, the gamma value was > 1.10.
+END

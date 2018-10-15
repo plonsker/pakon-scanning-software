@@ -1,0 +1,13 @@
+# AnsSharpenRecommendMappingDpi:
+key = sharpenRecommend.map
+version = 09/24/2003
+#
+# Currently, just one mapping -- any path maps to the sharpen recommendation dpi.
+#
+# AnsKeySelector:
+# Selection Parameters
+mapping =
+_AnselPath_ c11
+any         ansel-sharpenRecommend
+
+# KRD changed 7/6/2003 ('path' to _AnselPath_)
