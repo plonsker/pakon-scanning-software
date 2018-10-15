@@ -1,0 +1,46 @@
+# At least one ".map" file MUST contain the key 'dsba.map'
+# Only the first '.map' file containing this key is read
+
+key = dsba.map
+version = 07/09/2003
+
+# NOTE: in scene context, 
+# metric == 0 --> ANS_METRIC_UNKNOWN
+# metric == 1 --> ANS_PD12
+# metric == 2 --> ANS_RIM12
+# metric == 3 --> ANS_ROM12
+
+# AnsKeySelector:
+# Selection Parameters
+mapping =
+_AnselPath_ c11 metric i32
+
+# Digital camera balance path differentiates betwwen RIMM12 and ROMM 12
+DC-Balance      2          dsba-DC-RIMM12.dpi
+DC-Balance      3          dsba-DC-ROMM12.dpi
+DC-Balance      any        dsba-DC-default.dpi
+
+# Digital camera enhanced path
+# Duplicate entries for the balance path above, since it can be used to
+# run the "balance path" equivalent
+DC-Enhanced      2          dsba-DC-RIMM12.dpi
+DC-Enhanced      3          dsba-DC-ROMM12.dpi
+DC-Enhanced      any        dsba-DC-default.dpi
+
+
+# Digital camera premium path derenders from ROMM12 to ERIMM
+DC-Premium      any        dsba-DC-ERIMM.dpi
+
+# Chrome paths do not differentiate between ROMM12 and RIMM12
+CP-Balance      3          dsba-CP-ROMM12.dpi
+CP-Restore      3          dsba-CP-ROMM12.dpi
+CP-Balance      any        dsba-CP-default.dpi
+CP-Restore      any        dsba-CP-default.dpi
+
+# Nothing matches, go with the default
+any             any        dsba-default.dpi
+
+# Change Log
+# 12/04/2003    ATC00004051
+# Add entries so that if we're using the DC-Enhanced path with DSBA turned on,
+# we pick the DC-Balance DSBA DPIs (and not the DC default DPIs)

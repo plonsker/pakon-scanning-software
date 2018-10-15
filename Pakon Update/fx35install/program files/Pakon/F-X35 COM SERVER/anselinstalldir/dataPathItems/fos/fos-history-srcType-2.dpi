@@ -1,0 +1,16 @@
+# This file contains the history for srcType: 2
+# there are 1 entries in the history DPI.
+
+# This is entry number 1
+BEGIN        91 2
+   COUNT     7
+   FPO       2531 68 342 
+   AVG       962 1287 1455 
+   DMIN      172 538 662 
+   GMSLOPE   -830
+   GMOFFSET  16
+   ILLSLOPE  -375
+   ILLOFFSET -31
+   THETA     0
+END
+

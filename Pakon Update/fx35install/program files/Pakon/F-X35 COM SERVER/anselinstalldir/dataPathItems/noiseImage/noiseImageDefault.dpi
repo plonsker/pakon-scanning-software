@@ -1,0 +1,75 @@
+KEY = ansel-noiseImageDefault
+#VERSION = 02/08/2004
+VERSION = 04/14/2004
+
+# starting and ending mean code values for a generated noise image,
+# both 12 and 8 bit versions
+IMAGE_START_CV12 = 1000
+IMAGE_END_CV12 = 3000
+
+IMAGE_START_CV8 = 0
+IMAGE_END_CV8 = 255
+
+# starting and ending mean code value for a generated noise table
+TABLE_START_CV12 = 0
+TABLE_END_CV12 = 4095
+
+TABLE_START_CV8 = 0
+TABLE_END_CV8 = 255
+
+#number of patches to generate in a noise image
+NSTEPS = 20
+
+#how many rows of image data for each patch in the generated noise image
+#NROWS_PER_STEP * NSTEPS gives the noise image height
+#when generating a noise table from a noise image
+#NROWS_PER_STOP * NSTEPS must match the noise image height
+
+NROWS_PER_STEP = 20
+
+#how wide to make a generated noise image
+NOISE_IMAGE_WIDTH = 100
+
+#how many rows are needed in a generated noise table, 12 and 8 bit
+NOISE_TABLE_ROWS12 = 20
+NOISE_TABLE_ROWS8 = 20
+
+#threshold for how close to zero is close enough for some calculations
+ZERO_THRESHOLD = 0.00001
+
+#threshold for how close to zero a matrix determinant has to be in order
+#to be considered "singular"
+SINGULAR_THRESHOLD = 0.0000001
+
+#
+# correlations used when creating a noise image AND if the user does
+# not supply a correlations table
+#CORRELATION_RG = 0.95
+#CORRELATION_RB = 0.95
+#CORRELATION_GB = 0.95
+CORRELATION_RG = 0.0
+CORRELATION_RB = 0.0
+CORRELATION_GB = 0.0
+
+#
+# Change Log: noiseImageDefault.dpi
+# 04/28/2004     K.DeLong
+# Changed NOISE_TABLE_ROWS to NOISE_TABLE_ROWS12
+# Added NOISE_TABLE_ROWS8 = 20
+# Note that the noiseImage library still has NOISE_TABLE_ROWS and that it's
+# only the Ansel DPI that uses NOISE_TABLE_ROWS12 and NOISE_TABLE_ROWS8
+# DO NOT CHANGE these values -- the current CN-Fps path requires the noiseImage
+# to produce a fully populated noise table.
+#
+# 04/14/2004     K.DeLong
+# Happy anniversary of Titanic sinking.
+# Changed parameter names: IMAGE_START_CV12, replaces START_CODE_VALUE and
+# IMAGE_END_CV12  replaces END_CODE_VALUE
+# Added new parameters IMAGE_START_CV8 and IMAGE_END_CV8
+# Added new parameters TABLE_START_CV12 and TABLE_END_CV12
+# Added new parameters TABLE_START_CV8 and TABLE_END_CV8
+#
+# Note that the noiseImage library still has
+# START_CODE_VALUE and END_CODE_VALUE and that it's the Ansel DPI that uses
+# the new names.
+#

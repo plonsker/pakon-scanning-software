@@ -1,0 +1,22 @@
+#
+# Lighting Adjust Capability dpi
+#
+# note: cumDenFrameMax >= 0 && <= 100
+#   if an invalid value is entered, it will 
+#   default to 100
+#
+
+# note that the key must match a key in lighting.map, otherwise
+# the flexible DPI mapping will not match it. This key does NOT have to
+# match the name of the DPI file.
+key = ansel-lightingAdjust-default
+version = 09/05/2003
+
+backlitOffset = 50
+backlitCoeff = 0.075
+frontlitOffset = -50
+frontlitCoeff = -0.05
+backlitScalar = 1.25
+cumDenFrameMax = 100
+histSize = 400
+histScale = 25

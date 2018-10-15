@@ -1,0 +1,36 @@
+#Modified to use next higher speed noise table for APS
+
+# AnsNoiseTableMappingDpi:
+key = noiseTable.map
+version = 12/03/2002
+mapping =
+# AnsKeySelector:
+# Selection Parameters
+_AnselPath_ c11 scannerName c7 sourceType i16 filmIso i32 compression float resolution i32
+# Selection Rules
+# NEGATIVE_35
+any          any      1  (25, 125)   any        any    negative35-0100.tbl
+any          any      1 (160, 200)   any        any    negative35-0200.tbl
+any          any      1      400     any        any    negative35-0400.tbl
+any          any      1 (800, 3200)  any        any    negative35-0800.tbl
+any          any      1      any     any        any    negative35-0100.tbl
+# NEGATIVE_APS
+any          any      2      100     any        any    negative35-0200.tbl
+any          any      2      200     any        any    negative35-0400.tbl
+any          any      2      400     any        any    negative35-0800.tbl
+any          any      2      800     any        any    negative35-0800.tbl
+any          any      2      any     any        any    negative35-0200.tbl
+# NEGATIVE_120
+any          any      9      800     any        any    negative35-0100.tbl
+# NEGATIVE_110
+any          any      11     800     any        any    negative35-0100.tbl
+# DIGITAL_CAMERA
+any          any      5      (0,141)    any        any    nt-digitalCamera-0100.tbl
+any          any      5      (142,281)  any        any    nt-digitalCamera-0200.tbl
+any          any      5      (282,3200) any        any    nt-digitalCamera-0400.tbl
+any          any      5      any        any        any    nt-digitalCamera-0200.tbl
+# Archive
+Archive      any      any    any     any        any    archiveDefault.tbl
+any          any      7      any     any        any    archiveDefault.tbl
+# Default
+any          any      any    any     any        any    default.tbl

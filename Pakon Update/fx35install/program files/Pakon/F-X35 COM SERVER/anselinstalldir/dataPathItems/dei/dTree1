@@ -1,0 +1,20 @@
+# nNodes =
+17
+# node      metric          threshold   lessEqual   greater class
+   0    AGGRESSIVENESS         0.500        1          2      0
+   1    TERMINAL               0.0         -1         -1      0
+   2    ABS_FLESH	           	 0.925        3          9      1
+   3    LUM_MAX	          1890.0          4         12      1
+   4    EXPOSURE		       0.750        7          5      1
+   5    EDGE_MIN             830.0          8          6      0
+   6    TERMINAL		       0.0	       -1         -1      0
+   7    TERMINAL		     	 0.0	       -1         -1      1
+   8    TERMINAL               0.0	       -1         -1      1
+   9    LUM_MIN		    1162.0         11         10      1
+   10   TERMINAL               0.0         -1         -1      1
+   11   TERMINAL               0.0         -1         -1      1
+   12   EDGE_MIN             950.0         13         15      0
+   13   EDGE_MAX            1714.0         14         16      1
+   14   TERMINAL               0.0         -1         -1      0
+   15   TERMINAL               0.0         -1         -1      0
+   16   TERMINAL               0.0         -1         -1      1

@@ -1,0 +1,80 @@
+# shasta
+key = ansel-shasta-rpd
+version = 10/23/2003
+
+analysisImageDim = 64
+black = 0
+blackAggr = 1.0
+blackButtons = 10.466
+blackNoiseSigmaMult = 2.0
+blackNoiseStdDev = 1.0
+#	turn off the blackmapping lut operation
+#	blackNoiseSuppStops = 0.0
+blackNoiseSuppStops = 0.75
+blackPointRatio = 1.0
+bUseWhitePtCompression = true
+codeValuesPerButton = 75.0
+colPortion = 0.875
+extHighlightAggr = 1.25
+extHighlightButtons = 7.68
+extHighlightPercent = 99.9
+extShadowAggr = 0.7
+extShadowButtons = 9.28
+extShadowPercent = 0.1
+filterPolicy = 3
+highlightAggr = 1.1
+highlightButtons = 3.67
+highlightCompBlend = 0.5
+highlightCompSatFactor = 0.0
+highlightCompTxtFactor = 0.0
+highlightDeltaGain = 1.0
+highlightDiffLimit = 4.0
+highlightDiffMult = 3.0
+highlightExpBlend = 0.5
+highlightExpSatFactor = 0.65
+highlightExpScale = 0.5
+highlightExpTxtFactor = 1.0
+highlightMaxExpSlope = 2.0
+highlightPercent = 99.0
+highlightTransitionRatio = 0.5
+maxCompDelta = 4.0
+maxExpDelta = 4.0
+maxValue = 4095
+maxWhiteOffset = 3.0
+metricGray = 1618
+minBlackOffset = 0.62
+minValue = 0
+rowPortion = 0.875
+satSmoothingWidth = 1.3
+shadowAggr = 0.75
+shadowButtons = 6.67
+shadowCompBlend = 0.5
+shadowCompSatFactor = 0.0
+shadowCompTxtFactor = 0.0
+shadowDeltaGain = 1.0
+shadowDesatBlend = 0.5
+shadowDesatDim = 5.0
+shadowDesatLumAdj = 1.0
+shadowExpBlend = 0.5
+shadowExpSatFactor = 0.25
+shadowExpScale = 0.5
+shadowExpTxtFactor = 0.0
+shadowMaxExpSlope = 2.0
+shadowMinDesat = 0.5
+shadowPercent = 1.0
+shadowTransitionRatio = 0.5
+txtAmpLimit = 1.5
+txtSmoothingWidth = 1.3
+white = 3000
+whiteSatLowerLimit = 0.33
+whiteSatUpperLimit = 0.8
+
+
+# 21/Nov/2003 B.Fintel ATC3719
+#analysis image dimension back to 64; make sure rowPortion and colPortion = .875
+#set blackNoiseSuppStops = 0.0
+#
+# 18/Nov/2003 K.DeLong ATC3973
+#     Change analysisImageDim to 74; colPortion and rowPortion to 0.875
+# 11/Sept/2003 K.DeLong ATC3219
+#     Changed key to be more consistent with other DPIs.

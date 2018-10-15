@@ -1,0 +1,9 @@
+key = ansel-colorAdjust-CNPremium
+version = 09/05/2003
+
+# copied from rpd...
+
+redButtonValue = 25
+greenButtonValue = 25
+blueButtonValue = 25
+neutralButtonValue = 75

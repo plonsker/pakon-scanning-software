@@ -1,0 +1,34 @@
+key = color.map
+version = 09/05/2003
+
+# NOTE: in scene context, 
+# metric == 0 --> ANS_METRIC_UNKNOWN
+# metric == 1 --> ANS_PD12
+# metric == 2 --> ANS_RIM12
+# metric == 3 --> ANS_ROM12
+
+# AnsKeySelector:
+# Selection Parameters
+mapping =
+_AnselPath_ c11 metric i32
+
+# premium digital camera path uses DCPremium parameters
+DC-Premium 3       ansel-colorAdjust-DCPremium
+DC-Premium any     ansel-colorAdjust-DCPremium
+
+# any other path with ROMM uses ROMM parameters
+any         3      ansel-colorAdjust-romm
+
+# premium color negative path uses CNPremium parameters
+CN-Premium 1       ansel-colorAdjust-CNPremium
+CN-Premium any     ansel-colorAdjust-CNPremium
+
+# any other path with RPD uses RPD parameters
+any        1       ansel-colorAdjust-rpd
+
+# archive path or any path with RIMM uses RIMM parameters
+archive     2       ansel-colorAdjust-rimm
+archive     any     ansel-colorAdjust-rimm
+
+# the fall through
+any         any     ansel-colorAdjust-default

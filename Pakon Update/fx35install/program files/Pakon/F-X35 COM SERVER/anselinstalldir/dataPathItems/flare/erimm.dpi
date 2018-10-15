@@ -1,0 +1,11 @@
+key = ansel-flare-erimm
+version = 03/24/2005
+
+# DEBUG = ON F:\anselDebugData
+#DEBUG= ON F:\anselDebugData
+
+FLARE_FACTOR = 0.25  #was 0.75 Geoff Houston 11-1-05
+FLARE_LIMIT = 3.5
+BALANCE_CORRECTION = 1.0
+BLACK_PRESERVATION = 0.0
+COLOR_METRIC = ERIMM12

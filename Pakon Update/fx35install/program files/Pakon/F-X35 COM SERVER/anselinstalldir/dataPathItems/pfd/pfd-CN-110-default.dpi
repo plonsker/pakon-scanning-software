@@ -1,0 +1,28 @@
+# pfd params file...
+key = pfd-CN-110-default.dpi
+version = 4.0
+
+# pyramidLevels
+nLevels = 8
+
+# Minimum size of pyramid base plane.
+minPyramidDimension = -1
+
+# pdestalSigma
+pedestalSigma = 0.9
+
+# edgeDeltaPyramidLevelFactors * edgeDelta for base filtering.
+gradientThresholdVec = 7 82 82 74 65 57 49 49
+
+# Multiplier for residual level thresholds.
+residualThresholdFactor = 0.8
+
+# edgeFeedbackParam1
+controlSignalThreshold = 60
+
+# edgeFeedbackParam2
+controlSignalGain = 1.4
+
+# residual, basidual, etc. Number of base level filtering passes.
+nBaseFilterPasses = 1
+

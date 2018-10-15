@@ -1,0 +1,11 @@
+VERSION = 2003-06-27
+# this KEY must exist in area.map or it can't be selected!
+KEY = area-ColorNegative.dpi
+AREA_PARAM_PATH = areaParams-ColorNegative.parm
+
+# Triage Parameters
+MAX_PROB_FLESH = 0.7
+MIN_EXPOSURE_LEVEL = -3.0
+MAX_EXPOSURE_LEVEL = 4.0
+MAX_FLESH_ADJUST = 94
+GREEN_EDGE_FREQUENCY_THRESHOLD = 864

@@ -1,0 +1,68 @@
+# This file contains the history for srcType: 1
+# there are 5 entries in the history DPI.
+
+# This is entry number 1
+BEGIN        81 3
+   COUNT     1
+   FPO       2735 95 461 
+   AVG       975 1420 1605 
+   DMIN      376 818 1031 
+   GMSLOPE   -316
+   GMOFFSET  63
+   ILLSLOPE  318
+   ILLOFFSET 57
+   THETA     0
+END
+
+# This is entry number 2
+BEGIN        81 2
+   COUNT     2
+   FPO       2712 98 462 
+   AVG       938 1384 1569 
+   DMIN      353 809 1014 
+   GMSLOPE   -313
+   GMOFFSET  61
+   ILLSLOPE  312
+   ILLOFFSET 60
+   THETA     0
+END
+
+# This is entry number 3
+BEGIN        78 2
+   COUNT     1
+   FPO       2655 40 394 
+   AVG       785 1077 1353 
+   DMIN      296 735 912 
+   GMSLOPE   -121
+   GMOFFSET  -45
+   ILLSLOPE  161
+   ILLOFFSET 24
+   THETA     0
+END
+
+# This is entry number 4
+BEGIN        83 2
+   COUNT     7
+   FPO       2766 72 293 
+   AVG       1105 1412 1500 
+   DMIN      407 763 971 
+   GMSLOPE   52
+   GMOFFSET  39
+   ILLSLOPE  -145
+   ILLOFFSET -99
+   THETA     0
+END
+
+# This is entry number 5
+BEGIN        35 2
+   COUNT     2
+   FPO       2655 102 318 
+   AVG       1250 1598 1667 
+   DMIN      296 735 912 
+   GMSLOPE   -108
+   GMOFFSET  70
+   ILLSLOPE  -124
+   ILLOFFSET -81
+   THETA     0
+END
+

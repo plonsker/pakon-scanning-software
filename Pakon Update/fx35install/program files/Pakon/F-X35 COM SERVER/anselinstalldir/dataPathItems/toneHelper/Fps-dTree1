@@ -1,0 +1,6 @@
+# nNodes =
+1
+# node      metric          threshold   lessEqual   greater class
+#	this one result makes PFD always run
+   0    TERMINAL                0.0         -1         -1      3
+

@@ -1,0 +1,19 @@
+# AnsFlareMappingDpi:
+key = flare.map
+version = 07/May/2004
+#
+# Currently, just one mapping -- any path maps to the ERIMM dpi.
+#
+# AnsKeySelector:
+# Selection Parameters
+mapping =
+_AnselPath_ c11
+CN-Premium  ansel-flare-rpd
+CN-Fps      ansel-flare-rpd
+DC-Premium  ansel-flare-erimm
+any         ansel-flare-erimm
+
+# 07May04 R.Walvoord
+#   Added rule for CN-Fps path to use rpd dpi
+#
+# KRD changed 7/6/2003 ('path' to _AnselPath_)

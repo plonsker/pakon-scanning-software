@@ -1,0 +1,9 @@
+key = lighting.map
+version = 09/05/2003
+
+# AnsKeySelector:
+# Selection Parameters
+mapping =
+_AnselPath_ c11
+DC-Premium  ansel-lightingAdjust-DCPremium
+any         ansel-lightingAdjust-default

@@ -1,0 +1,31 @@
+#
+# Dyefade Default DPI file
+#
+
+intermediateImageDir = dyefadeDebugImages
+writeIntermediateImages = 0    # 1 = yes, 0 = no
+
+# Input MX+B Values
+SaturationThreshold = 0.8
+MinCheck = 0.1
+
+# Input Tonescale Values
+CitrasOption = 1 # 1 = yes, 0 = no
+CitrasScalar = 0.65
+ScaleBlackOffset = 0.95
+ScaleWhiteGain = 0.9
+ScaleGammaCorrection = 0.5
+AimPopulationMean = 0.4
+UpperClipXvalue = 0.4 
+WhiteCalibrationScalar = 1.15
+Dmin = 0.042
+GammaScale = 1.0
+BrightnessScale = 0.85
+XIncrementalValue = 0.5
+
+
+# And this is the end
+
+
+
+

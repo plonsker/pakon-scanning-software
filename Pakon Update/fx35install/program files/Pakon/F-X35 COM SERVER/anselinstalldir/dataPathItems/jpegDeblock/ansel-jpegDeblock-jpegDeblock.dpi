@@ -1,0 +1,10 @@
+gradDirThresh = 5
+blockMeanThresh = 64.0
+lowDetailThresh = 4.5521
+compThreshOne = 50.0
+compThreshTwo = 50.0
+compThreshThree = 55.0
+compThreshFour = 60.0
+compThreshFive = 65.0
+compThreshSix = 70.0
+

@@ -1,0 +1,26 @@
+#
+# AneParams 
+#
+  KEY = ane-default.dpi
+  VERSION = 2004/May/07
+
+  alpha              = 5.0
+  scaleFactor        = 1.0
+  tau                = 0.15
+  correctForFilter   = 1
+  codeValueMin       = 0
+  codeValueMax       = 4095
+  codeValueBins      = 8
+  resMax             = 1000
+  cWidth             = 3
+  minSamples         = 50
+  rowSampling        = 32
+  colSampling        = 32
+
+  minMajorDim        = 1500
+  minNumImages       = 4
+
+  filterMode         = Laplacian
+  filterSize         = 5
+  useMasking         = 0
+  useAvg             = 0

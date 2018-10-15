@@ -1,0 +1,19 @@
+version = 1.3
+key = DeiDPI
+
+# The following value will adjust the Tonehelper Dei score
+# depending on whether or not tonehelper would have chosen aggressive/
+# not aggressive & the User Contrast Position or enabled capabilities
+# override the tonehelper decision. (It is recommended this value range 
+# from 0 to 3
+adjToneHelperDeiValue = 2
+
+# The following are algorithms followed by their corresponding weights 
+#  for dei (linear) calculation.
+flesh = 10
+toneHelper = 12
+nra = 5
+fugc = 0
+
+# CART analysis for DEI 
+decisionTree = dTree1

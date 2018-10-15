@@ -1,0 +1,17 @@
+# note this key must appear in toneHelper.map in order to be selectable
+key = ansel-toneHelper-CNFps
+version = 09/09/2003
+
+maxValue = 4095
+thresholdMultiplier = 1.5
+thresholdReductionFactor = 0.949
+minEdgeThreshold = 4
+minEdgeRatio = 0.1
+smoothingSizeFactor = 4.0
+smoothingSigma = 10.0
+lowToneRange = 600 1149
+midLowToneRange = 1150 1549
+midHighToneRange = 1550 1849
+highToneRange = 1850 2449
+decisionTree = Fps-dTree1
+decisionTreeDei = deiTree1

@@ -1,0 +1,5 @@
+# Class == 3 implies frequency decomposition is always on
+# nNodes =
+1
+# node      metric          threshold   lessEqual   greater class
+   0    TERMINAL                0.0         -1         -1      3

@@ -1,0 +1,169 @@
+#New Shasta seeting from BShaw and BKeller tuning 03_24_2005
+# shasta
+key = ansel-shasta-erimm
+version = 03/24/2005
+
+# cmetric::gray
+metricGray = 1679
+# Cshasta::blk_o
+black = 600
+# Cshasta::wht_o
+white = 2358
+# cmetric::Nb
+codeValuesPerButton = 82.0
+# Cshasta::Bclip
+# minValue = 400
+minValue = 0
+# Cshasta::Wclip
+# maxValue = 2500
+maxValue = 4095
+# Apax::limit
+analysisImageDim = 64
+# Apax::Rpos
+rowPortion = 0.875
+# Apax::Cpos
+colPortion = 0.875
+extShadowPercent = 1.25 # default 0.1
+shadowPercent = 2.5     # default 1.0
+highlightPercent = 99.0
+extHighlightPercent = 99.9
+# anstat::hltm
+highlightDiffMult = 3.0
+# anstat:: hltmx
+highlightDiffLimit = 4.0
+blackButtons = 16      # default 15.598
+extShadowButtons = 11  # default 15.60
+shadowButtons = 7      # default 8.00
+highlightButtons = 3.97   # default 3.47, add .5 buttons
+extHighlightButtons = 8.15
+# TS::Bzeta
+blackAggr = 1.0 # default is 1.0
+# TS::Szetax
+extShadowAggr = 1.0 # default 0.75 
+# TS::Szeta
+shadowAggr = 1.0 # default 0.75
+# TS::Hzeta
+highlightAggr = 1.0
+# TS::Hzetax
+extHighlightAggr = 0.75   #default 1.25
+# TS::Seta
+shadowExpScale = 0.5
+# TS::Heta
+highlightExpScale = 0.5
+# TS::Sgmax
+shadowMaxExpSlope = 2.0
+# TS::hgmax
+highlightMaxExpSlope = 2.0
+# TS::Sphi
+shadowCompBlend = 0.5
+# TS::Hphi
+highlightCompBlend = 0.5
+# TS::SphiE
+shadowExpBlend = 0.5
+# TS::HphiE
+highlightExpBlend = 0.5
+# TS::Somega
+shadowTransitionRatio = 0.5
+# TS::Homega
+highlightTransitionRatio = 0.5
+# TS::Sasre
+shadowExpSatFactor = 0.25
+# TS::Sasrc
+shadowCompSatFactor = 0.0
+# TS::Hasre
+highlightExpSatFactor = 0.65
+# TS::Hasrc
+highlightCompSatFactor = 0.0
+# TS::asrw
+satSmoothingWidth = 1.3
+# TS::asrtrn
+shadowDesatDim = 5.0 #default 5.0  
+# TS::asrmin
+shadowMinDesat = 0.5
+# TS::asrlum
+shadowDesatLumAdj = 2.2
+# TS::asrphi
+shadowDesatBlend = 0.5
+# TS::Satre
+shadowExpTxtFactor = 0.25
+# TS::Satrc
+shadowCompTxtFactor = 0.0
+# TS::Hatre
+highlightExpTxtFactor = 1.0
+# TS::Hatrc
+highlightCompTxtFactor = 0.0
+# TS::atrw
+txtSmoothingWidth = 1.3
+# TS::atrl
+txtAmpLimit = 1.0
+# ShastaParams::TS_ALWAYS_FILTER = 3
+# Cshasta::nfqd
+# Cshasta::afqd
+filterPolicy = 3
+# TS::dsm
+blackNoiseSigmaMult = 2.0
+# TS::blknm
+blackNoiseSuppStops = 0.0
+# TS::blkns
+blackNoiseStdDev = 1.0
+# TS::dblk
+minBlackOffset = 1.0
+# TS::dwht
+maxWhiteOffset = 5.0
+# TS::Wmin
+maxExpDelta = 4.0
+# TS::Wmax
+maxCompDelta = 4.0
+# TS::awp
+bUseWhitePtCompression = true
+# TS::wpcr1
+whiteSatLowerLimit = 0.33
+# TS::wpcr2
+whiteSatUpperLimit = 0.8
+# TS::bp
+blackPointRatio = 1.0
+# TS::hKappa
+highlightDeltaGain = 1.0
+# TS::sKappa
+shadowDeltaGain = 1.0
+#
+# New, optional shift for low contrast, dark scenes.
+maxShift = 123
+cumDen99_75Thresh1 = 89
+cumDen99_75Thresh2 = 89
+avgCumExtHighlightThresh1 = 1500
+avgCumExtHighlightThresh2 = 1750
+avgCumExtHighlightThresh3 = 1950
+avgCumExtHighlightThresh4 = 2000
+fleshThresh1 = -41
+fleshThresh2 = 0
+satThresh1 = 50
+satThresh2 = 60
+# pyramidLevels  Change to 9 for ANSEL 4.1.1 PATCH 03
+pfd.nLevels = 9
+# Minimum size of pyramid base plane.
+pfd.minPyramidDimension = -1
+# pdestalSigma
+pfd.pedestalSigma = 0.9
+# edgeDeltaPyramidLevelFactors * edgeDelta for base filtering.
+pfd.gradientThresholdVec = 7 82 82 74 65 57 49 49
+# Multiplier for residual level thresholds.
+pfd.residualThresholdFactor = 0.8
+# edgeFeedbackParam1
+pfd.controlSignalThreshold = 60
+# edgeFeedbackParam2
+pfd.controlSignalGain = 1.4
+# residual, basidual, etc. Number of base level filtering passes.
+pfd.nBaseFilterPasses = 1
+
+# 07/Apr/2004 D.Rhoda  ATC4335
+# Added thresholds for controlling the amount of extra shift we apply to 
+# lighten low contrast, dark images.  These thresholds control multipliers
+# that are based on cumDen99_75, avgCumExtHighlightPt, fleshShift and
+# whiteSat.
+# 24/Nov/2003 K.DeLong ATC3720
+#     Settings per Mike Happell / Tony / Irene
+# 18/Nov/2003 K.DeLong ATC3973
+#     Change analysisImageDim to 74; colPortion and rowPortion to 0.875
+# 11/Sept/2003 K.DeLong ATC3219
+#     Changed key to be more consistent with other DPIs.

@@ -1,0 +1,341 @@
+/*********************************************************
+This is the parameter file that is used to initialize
+a RE_Parameters object.
+**********************************************************/
+
+/*********************************************************
+Set this to 1 if training the algorithm otherwise
+set to 0.
+**********************************************************/
+Training			0
+CombinedTraining    0
+
+/*********************************************************
+Information and image files are written to this existing
+directory. The file re.dat is the primary information
+file that is written.
+**********************************************************/
+TmpDirName			Q:/schildkr/redeye/test/srgb
+
+/*********************************************************
+When Verbose is set to 1 additional information is written
+to the re.dat file in the TmpDirName directory.
+**********************************************************/
+Verbose				0
+Write_RE_Dat			0
+UseMMX				1
+
+/*********************************************************
+When Debug is set to 1 image files are written
+to the TmpDirName directory which can be used to
+follow the AREA processing steps.
+**********************************************************/
+Debug				0
+
+/*
+ * If set non-zero, force corrections to be marked, whether
+ * Debug is TRUE or FALSE. Default is FALSE.
+ */
+ForceMarkDefect     2
+
+/*
+ * lineWidth lineLength red green blue
+ * default is 1 18 -1 -1 -1
+ */
+CrosshairDefinition 5 25 2500 200 200 
+/*********************************************************
+When Fast = 1 optimized routines are used.
+**********************************************************/
+Fast 				1
+
+/*********************************************************
+In an application in which the orientation is know the
+image should be rotated to that it is right-side-up
+when it is processed by AREA. In this case set
+OrientationUnknown to 0. If the orientation of the
+image is not known set OrientationUnknown to 1.
+**********************************************************/
+OrientationUnknown		1
+
+/*********************************************************
+The following parameters are used in the color segmentation
+step of the algorithm. The image will be sampled so that
+segmentation is done at or near base resolution (768 x 512).
+
+L_scale				8
+S_scale				1
+T_scale				3
+
+L_scale				10
+S_scale				4
+T_scale				3
+
+
+**********************************************************/
+MaxValue				255
+L_scale				10
+S_scale				4
+T_scale				2
+MinPeakPixels			4
+MaxNoPeaks			50
+MinNoPixels			50
+MaxNoRegions			200
+MaxNoLabels			1000000
+MaxDistanceToPeak		300
+
+
+/*********************************************************
+MaxSkinRegions is the maximum number of distinct skin
+colored regions that are processed in the selection
+phase. The best MaxBestSkinRegions of these regions
+are processed in the detection phase.
+**********************************************************/
+MaxSkinRegions			50
+MaxBestSkinRegions		50
+
+/*********************************************************
+This file contains data for the skin color probability
+density function.   
+
+SkinColorFileName		./dat/srgb/skin_12_9_2002.jpf
+**********************************************************/
+SkinColorFileName		./dat/srgb/skin_3_19_2003.jpf
+
+/*********************************************************
+Connected skin colored regions of different color sometimes
+need to be merged into a single face. If Merge is set
+to 1 merger is attempted.
+**********************************************************/
+Merge				1
+MinMergeFraction		0.10
+MaxMergeColorDistance	5.0
+
+/*********************************************************
+Skin colored regions of the same color sometimes
+need to be split into multiple faces. If Split is set
+to 1 splitting is attempted.
+**********************************************************/
+Split				0
+W_split				3
+
+/*********************************************************
+If set to 1 the number of non-skin-colored holes in
+the skin mask is used as a feature.
+**********************************************************/
+
+FaceHoles			0
+
+/*********************************************************
+When a candidate face is identified the region of the face
+is copied to a separate sub-image which is resized and
+padded before it is processed further. The image is resized
+so that a pair of eyes in the image will be approximately
+AimEyeDistance apart.
+**********************************************************/
+Margin					0.25
+Boundary					50
+EllipseRadius				2.5
+MaxAreaFraction			0.300
+MinAreaFraction			0.001
+MaxPrescale				3.0
+MinPrescale				0.15
+FaceWidthEyeDistanceRatio	2.5
+AimEyeDistance				75
+
+/*********************************************************
+The following parameters are used in the step of finding
+candidate redeye defects in the vincinity of a face. 
+MaxCandidates is the maximum number of candidates that
+can be found.
+**********************************************************/
+MaxCandidates			100
+W_close				3
+W_open				5
+W_peak				7
+GlintRadius			2
+GrowRatio				1.0
+MaxBestCandidates		15
+
+/*********************************************************
+The following parameters are all related to the process 
+of pairing-up candidate defects and correlating them
+with a eye template. TemplateFileName is the name the file
+that contains the template from which an ensemble of
+templates will be made. If MakeTemplates is 1 then
+the ensemble of templates will be made when a
+RE_Parameter object is initialized and writen to
+the directory TemplateDir. If MakeTemplates is 0 then
+the templates must already be located in the directory
+TemplateDir from which they will be read.
+
+05/23/00 Craig Smith
+If MakeTemplates is -1, the templates are not generated
+until they are needed.  This option is provided to reduce
+the memory requirements of AREA.  It should also be slightly
+more accurate because the template images are scaled and
+rotated to exactly match the separation and tilt of the
+eye candidate.
+
+05/30/00 Craig Smith
+Added TemplateMaxValue.  When we generate templates on the
+fly, the MaxValue of the image can be different from the
+MaxValue of the template which can cause a problem.
+**********************************************************/
+TemplateFileName		./dat/common/template_307.tiff
+TemplateDir			./dat/templates
+TemplateEyeDistance		307
+TemplateMaxValue		3000
+MakeTemplates			-1
+NoZones				3
+LookAround			4
+SStep				0.05
+MaxTilt				45.0
+TStep				2.0
+Gamma				1.5
+MaxPairs				200
+
+
+/*********************************************************
+This file contains data for the redeye color probability
+density function. 
+
+REColorFileName		./dat/srgb/re_12_9_2002.jpf
+**********************************************************/
+REColorFileName		./dat/srgb/re_3_19_2003.jpf
+Y_delta				2
+H_delta				1
+S_delta				1
+SizeToPupil			0.083
+MinEyeDistance			10
+
+
+/*********************************************************
+The following scoring functions are used to rank
+candidate defects and defect pairs,
+
+			 aim	min	max 
+
+for features with an aim or, 
+
+ 				min  	max
+
+for larger-the-better or smaller-the-better features. 
+
+
+**********************************************************/
+nPeak			0.030	1.000
+nJPF				0.000	1.000
+nSat				0.000	100.0
+nSize			73.00	5.00		350.0
+nAspectRatio		1.000	5.000
+nFit				0.000	1.000
+
+nSigma			38.00	10.000	85.00
+nCorr			-1.000	1.000
+nZCorr			-2.000	2.000
+
+nSeparation		1.000	0.450	2.500
+nSizeToPupil		1.000	0.400	3.500
+nConSize			0.000	1.500
+nConColor			0.000	0.250
+nConSigma			0.000	1.000
+
+
+/*********************************************************
+The following eight files contain information on true
+positive and false positive clusters that are used
+for classification.
+
+**********************************************************/
+FaceClustersFileName		./dat/srgb/clusters_4_2_2003/pFace.clusters
+DefectClusters1FileName		./dat/srgb/clusters_4_2_2003/pDefect1.clusters
+DefectClusters2FileName		./dat/srgb/clusters_4_2_2003/pDefect2.clusters
+PairClustersFileName		./dat/srgb/clusters_4_2_2003/pPair.clusters
+
+NonFaceClustersFileName		./dat/srgb/clusters_4_2_2003/nFace.clusters
+NonDefectClusters1FileName	./dat/srgb/clusters_4_2_2003/nDefect1.clusters
+NonDefectClusters2FileName	./dat/srgb/clusters_4_2_2003/nDefect2.clusters
+NonPairClustersFileName		./dat/srgb/clusters_4_2_2003/nPair.clusters
+
+
+/*********************************************************
+These values determine the cutoff in discriminant
+function value for each classifier.
+
+
+
+**********************************************************/
+
+
+MinFaceDiscriminant			0.0001
+MinDefectDiscriminant1		0.0001
+MinDefectDiscriminant2		0.0001
+MinPairDiscriminant			0.0001
+MinResultsDiscriminant		0.0001
+
+/* number of pairs of candidates to verify with S2 detector */
+/* for 3.0, set this to 5, for 3.5 set this to 3 */
+NumPairsVer 3
+
+/*********************************************************
+Apply face detector
+
+S2_Verifier = 2;
+F3_Verifier = 3;
+             
+Use with S2:             
+FDTrainingDataDir    	./lib/FaceDetection/V312/FDTrainingData   
+           
+Use with F3:      
+FDTrainingDataDir    	./lib/FaceDetection/V312/FDTrainingData/F3/Z7a
+**********************************************************/
+FaceVerifierType		2
+ApplyFaceDetector		1
+MinFaceDetectorScore	-3500
+LVQDataFileName		./dat/srgb/lvq_srgb_4_15_2003.dat
+MinLVQDistanceRatio		10.000
+FDTrainingDataDir    	./lib/FaceDetection/V312/FDTrainingData
+
+/*********************************************************
+The following parameters are used in the correction
+and rendering of a corrected redeye defect. Increasing 
+DefectBlendWidth will increase the degree of blending
+of the corrected region with its surroundings.
+Y_aim determines how much the luminance of the defect is
+decreased when its color is corrected. 
+**********************************************************/
+CorrectGrowRatio		1.0    
+CorrectionSizeRatio		2.0
+DefectCloseWidth		7
+DefectDilateWidth		1
+DefectBlendWidth		5
+Y_aim				0.8
+H_aim				0
+S_aim				0
+Regrain				5
+/**********************************************************
+Following parameters are added for AREA 3.5:
+
+UseAlternateSegmentation: 0=No, 1=Yes
+UseBothMaps:              0=No, 1=Yes
+AltSegBoundary:           overrides value of "Boundary" parameter
+                          for alt seg. map
+MaxAltSkinCandidates:     Max # of regions from alt. seg map to try
+NewGamma:			      change image gamma to this value before
+                          performing segmentation
+SearchStrategy:		      specifies whether non-skin pixels are examined
+                          while looking for red things:
+				          0 = all pixels within faces are examined
+				          1 = all pixels within alt map are examined,
+                              only non-skin within orig map
+				          2 = only non-skin pixels are examined in any map.
+**********************************************************/
+
+/* set UseAltSegmentation, UseBothMaps to 0 --> back to 3.0 */
+UseAltSegmentation		1
+UseBothMaps			1
+AltSegBoundary		    10
+MaxAltSkinCandidates	50
+/* set this to 1.0 for no change, 0.9 for version 3.5 */
+NewGamma			    1.0
+SearchStrategy		    0

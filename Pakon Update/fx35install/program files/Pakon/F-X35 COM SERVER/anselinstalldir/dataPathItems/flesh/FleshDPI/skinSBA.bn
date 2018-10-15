@@ -1,0 +1,174 @@
+kind general
+n-nodes 11
+ 
+node-number 0
+node-name Region
+node-type free
+parent -1
+n-children 6
+children 1 2 3 4 9 10
+n-values 2
+values-----------
+SBAskin background
+Pij--------------
+0.6 0.4 apriori
+
+node-number 1
+node-name Location
+node-type free
+parent 0
+n-children 2
+children 5 6 
+parent-n-values 2
+n-values 10
+values-----------
+NB_C NB_NC 1LB_C 1HB_C 1B_NC 2LB_C 2HB_C 2B_NC HB_C HB_NC
+Pij--------------
+0.602821  0.251010  0.052248  0.026872  0.044336  0.010306  0.006492  0.003960  0.001743  0.000212 SBAskin
+0.141691  0.386151  0.024993  0.062651  0.235237  0.014577  0.021280  0.071159  0.011520  0.030741 background
+
+node-number 2
+node-name skin
+node-type free
+parent 0
+n-children 0
+parent-n-values 2
+n-values 2
+values-----------
+high low
+Pij--------------
+0.95  0.05 SBAskin
+0.85  0.15 background
+
+node-number 3
+node-name Ellipticity
+node-type free
+parent 0
+n-children 0
+parent-n-values 2
+n-values 2
+values-----------
+good poor
+Pij--------------
+0.95  0.05 SBAskin
+0.85  0.15 background
+
+node-number 4
+node-name Aspect
+node-type free
+parent 0
+n-children 0
+parent-n-values 2
+n-values 2
+values-----------
+good poor
+Pij--------------
+0.95  0.05 SBAskin
+0.85  0.15 background
+ 
+node-number 5
+node-name Centrality
+node-type free
+parent 1
+n-children 0
+parent-n-values 10
+n-values 2
+values-----------
+central notcentral
+Pij--------------
+0.99 0.01 NB_C 
+0.15 0.85 NB_NC 
+0.95 0.05 1LB_C 
+0.85 0.15 1HB_C 
+0.10 0.90 1B_NC 
+0.90 0.10 2LB_C 
+0.80 0.20 2HB_C 
+0.05 0.95 2B_NC 
+0.70 0.30 HB_C 
+0.01 0.99 HB_NC
+ 
+node-number 6
+node-name Borderness
+node-type free
+parent 1
+n-children 2
+children 7 8 
+parent-n-values 10
+n-values 6
+values-----------
+NB   1LB  1HB  2LB  2HB  HB
+Pij--------------
+0.98 0.02 0    0    0    0    NB_C 
+0.95 0.05 0    0    0    0    NB_NC 
+0.08 0.84 0.03 0.05 0    0    1LB_C 
+0.03 0.08 0.83 0.02 0.04 0    1HB_C 
+0.03 0.35 0.54 0.05 0.03 0    1B_NC 
+0.02 0.07 0.05 0.78 0.07 0.01 2LB_C 
+0.01 0.02 0.08 0.06 0.76 0.07 2HB_C 
+0    0.02 0.06 0.35 0.49 0.08 2B_NC 
+0    0    0.04 0.03 0.13 0.80 HB_C 
+0    0    0.04 0.01 0.11 0.84 HB_NC
+ 
+node-number 7
+node-name BorderA
+node-type free
+parent 6
+n-children 0
+parent-n-values 6
+n-values 6
+values-----------
+none one twotouch twoface three four
+Pij--------------
+1   0   0   0   0   0    NB   
+0   1   0   0   0   0    1LB  
+0   1   0   0   0   0    1HB  
+0   0   0.4 0.6 0   0    2LB  
+0   0   0.7 0.3 0   0    2HB  
+0   0   0   0   0.8 0.2  HB
+ 
+node-number 8
+node-name BorderC
+node-type free
+parent 6
+n-children 0
+parent-n-values 6
+n-values 2
+values-----------
+low high
+Pij--------------
+0.99  0.01  NB   
+0.95  0.05  1LB  
+0.10  0.90  1HB  
+0.90  0.10  2LB  
+0.05  0.95  2HB  
+0.02  0.98  HB
+
+
+node-number 9
+node-name ExtremeAspect
+node-type free
+parent 0
+n-children 0
+parent-n-values 2
+n-values 2
+values-----------
+Normal Extreme
+Pij--------------
+0.998 0.002 SBAskin
+0.900 0.100 background
+
+
+node-number 10
+node-name ComplexShape
+node-type free
+parent 0
+n-children 0
+parent-n-values 2
+n-values 2
+values-----------
+Normal Complex
+Pij--------------
+0.998 0.002 SBAskin
+0.900 0.100 background
+
+

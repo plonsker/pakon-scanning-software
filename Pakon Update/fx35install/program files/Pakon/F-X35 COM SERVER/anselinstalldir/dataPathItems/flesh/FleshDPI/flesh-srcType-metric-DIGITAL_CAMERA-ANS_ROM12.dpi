@@ -1,0 +1,37 @@
+#  Tuning from RDIP3 work by BShaw and BKeller 03_24_2005
+#
+# Flesh DPI for:
+#     sourceType  - default
+#     metric      - default
+#
+axialProb        = 0.25 
+clipAmount       = 0.30 
+loff             = 198
+soff             = -280
+toff             = -1000
+lscale          = 384
+sscale           = 70
+tscale          = 50
+growThreshold   = 0.0
+regionThreshold = 0.05
+stOnly          = 1
+lCondProbKey     = condProbTbl-l.tbl
+sCondProbKey     = condProbTbl-s.tbl
+tCondProbKey     = condProbTbl-t.tbl
+beta             =  0.9
+frontLitBeta     =  0.9
+backLitBeta      = 1.0
+fleshPrefAdj     = -40
+fleshNeutralAim  = 1640
+fleshCountThresh = 0.00625  # default 0.0125 
+intermediateImageDir = fleshDebugImages
+bayesianNetKey = skinSBA.bn
+writeIntermediateImages = 0
+oneDTable = 0
+useAdvanced = 1
+tSpace = 0
+3dLutKey = ROMM_LST_SkinProb_041403_v5_pack
+darkenOnly       = 0
+percentFleshAdj = 1.0
+exposureLimit = -4.0
+useSmallAnalysisImage = 1

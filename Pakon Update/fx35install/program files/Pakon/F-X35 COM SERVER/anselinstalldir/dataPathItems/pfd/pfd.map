@@ -1,0 +1,35 @@
+# At least one ".map" file MUST contain the key 'pfd.map'
+# Only the first '.map' file containing this key is read
+key = pfd.map
+version = 4.0
+
+# NOTE: in scene context, 
+
+# AnsKeySelector:
+# Selection Parameters
+mapping = sourceType i32 filmIso i32
+
+# 35 mm color neg
+1    any     pfd-CN-35-default.dpi
+
+# 24 mm (aka. aps) color neg 
+2   any     pfd-CN-APS-default.dpi
+
+# 110 color neg 
+11   any     pfd-CN-110-default.dpi
+
+# 120 color neg 
+9   any     pfd-CN-120-default.dpi
+
+# archive
+7        any     pfd-CN-archive-default.dpi
+
+# none of the above 
+any                any     pfd-CN-default-default.dpi
+
+# 
+# LJBeato  2003/Sept/25  ATC_3081
+# Changed sourceType to an i32 and replaced the enums with ints. 
+#
+# LJBeato  2003/Aug/15  ATC_3081
+# Original version, using pnr.map as a model. 

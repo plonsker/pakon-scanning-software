@@ -1,0 +1,4 @@
+#common-3BandLuts.dpi 
+# This file contains all of the 3 band luts which can be used by the Ans3BandLutCapability
+
+LUT_DPI = luts6_postROMM_equalRGBshort.lut

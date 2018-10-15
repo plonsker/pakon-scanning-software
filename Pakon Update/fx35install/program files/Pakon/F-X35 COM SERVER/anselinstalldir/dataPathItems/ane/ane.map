@@ -1,0 +1,8 @@
+key = ane.map
+version = 2004/Apr/08
+#
+# Selection Parameters
+mapping =
+_AnselPath_ c11
+CN-Fps      ane-CN-Fps.dpi
+any         ane-default.dpi

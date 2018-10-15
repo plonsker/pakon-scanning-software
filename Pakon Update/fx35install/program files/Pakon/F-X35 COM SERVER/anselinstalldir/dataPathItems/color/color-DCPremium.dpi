@@ -1,0 +1,13 @@
+key = ansel-colorAdjust-DCPremium
+version = 11/24/2003
+
+redButtonValue = 12.75
+greenButtonValue = 14.50
+blueButtonValue = 18.75
+
+neutralButtonValue = 82.0
+
+# Change Log
+# 11/24/2003 -- K.DeLong    ATC0003920
+#     Update neutralButtonValue to 82.0
+#     Update red, green, blue button values.

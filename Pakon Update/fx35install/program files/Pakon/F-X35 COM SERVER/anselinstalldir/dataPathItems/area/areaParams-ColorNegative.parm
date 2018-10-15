@@ -1,0 +1,508 @@
+/* vim:syntax=c
+ *  (c) Copyright 2003 Eastman Kodak Company 
+ *  343 State Street
+ *  Rochester, NY 14650
+ *  All rights reserved
+ *
+ * Description: Area parameters for color negative premium path within Ansel
+ *              This is the parameter file that is used to initialize a
+ *              RE_Parameters object; used within the AREA library.
+ *
+ * The Modification History for this file is at the end, labeled Change Log.
+ */
+
+/* Training -- 0 for normal operation, 1 if training the core algorithm */
+Training 0
+
+/*
+ * CombinedTraining -- 0 for normal operation, 1 if training including 
+ * Face Verification
+ */
+CombinedTraining 0
+
+
+/*
+ * Information and image files are written to this existing
+ * directory. The file re.dat is the primary information
+ * file that is written.
+ */
+TmpDirName tmp
+
+/*
+ * Verbose -- 0 for normal operation, 1 to write additional information
+ *    to re.dat file within the TmpDirName directory.
+ */
+Verbose 0
+
+/*
+ * Write_RE_Data -- 0 for normal operation, 1 to write re.dat
+ */
+Write_RE_Dat 0
+
+/*
+ * UseMMX -- 1 for normal operation, 0 for comparing nonMMX results to MMX
+ *   results. Turning this off makes the library run MUCH SLOWER on windows
+ *   machines.
+ *   On non-windows machines or on machines that don't have MMX,
+ *   MMX assembler optimizations do not occur, regardles of the value of this
+ *   parameter.
+ */
+UseMMX 1
+
+/*
+ * Debug -- 0 for normal operation, 1 to write debug image files to 
+ *   the TmpDirName directory; draw a box around any corrections made.
+ */
+Debug 0
+
+/*
+ * ForceMarkDefect -- 0 for normal operation,
+ *   If set 1 force corrections to be marked with a crosshair, whether
+ *   If set 2 force corrections to be marked with a box, whether
+ *   Debug is TRUE or FALSE.
+ *
+ForceMarkDefect 2
+ */
+
+/*
+ * CrosshairDefinition -- has no effect unless ForceMarkDefect is non 0.
+ *   Not set in normal operation.
+ *   Sets the line width and length and color of the crosshairs.
+ *   Sets the line width and color for boxes.
+ * lineWidth lineLength red green blue
+ * default is 1 18 -1 -1 -1
+ *
+CrosshairDefinition 5 25 2500 200 200 
+ */
+
+/*
+ * Orientation -- 1 for all operations now; implies AREA does not know
+ *   the orientation of the images.
+ * In an application in which the orientation is know the
+ * image should be rotated to that it is right-side-up
+ * when it is processed by AREA. In this case set
+ * OrientationUnknown to 0. If the orientation of the
+ * image is not known set OrientationUnknown to 1.
+ */
+OrientationUnknown 1
+
+/*
+ * The following parameters are used in the color segmentation
+ * step of the algorithm. This is done on an image at or near 512X768 pixels.
+ * These should not be changed for normal operation.
+ */
+
+MaxValue           3000
+L_scale            8
+S_scale            1
+T_scale            3
+MinPeakPixels      4
+MaxNoPeaks         50
+MinNoPixels        50
+MaxNoRegions       200
+MaxNoLabels        1000000
+MaxDistanceToPeak  300
+
+
+/*
+ * MaxSkinRegions is the maximum number of distinct skin
+ * colored regions that are processed in the selection
+ * phase. The best MaxBestSkinRegions of these regions
+ * are processed in the detection phase.
+ * These should not be changed for normal operation.
+ */
+MaxSkinRegions     50
+MaxBestSkinRegions 50
+
+/*
+ * SkinColorFileName -- contains data read for the skin color probability
+ * density function. It varies for each image metric. It is training data.
+ * This should not be changed for normal operation.
+ */
+SkinColorFileName        ColorNegativeData\skin_combined.jpf
+
+/*
+ * Connected skin colored regions of different color sometimes
+ * need to be merged into a single face.
+ * If Merge is set to 1 merger is attempted.
+ * These should not be changed for normal operation.
+ */
+Merge                 1
+MinMergeFraction      0.10
+MaxMergeColorDistance 10.0
+
+/*
+ * Skin colored regions of the same color sometimes
+ * need to be split into multiple faces.
+ * If Split is set to 1 splitting is attempted.
+ * These should not be changed for normal operation.
+ */
+Split   0
+W_split 3
+
+/*
+ * If set to 1 the number of non-skin-colored holes in
+ * the skin mask is used as a feature.
+ * This should not be changed for normal operation.
+ * (It's not really used now)
+ */
+FaceHoles 0
+
+/*
+ * When a candidate face is identified the region of the face
+ * is copied to a separate sub-image which is resized and
+ * padded before it is processed further.
+ * The image is resized so that a pair of eyes in the image will be
+ * approximately AimEyeDistance apart.
+ * These should not be changed for normal operation.
+ */
+Margin                     0.25
+Boundary                   50
+EllipseRadius              2.5
+MaxAreaFraction            0.300
+MinAreaFraction            0.001
+MaxPrescale                3.0
+MinPrescale                0.15
+FaceWidthEyeDistanceRatio  2.5
+AimEyeDistance             75
+
+/*
+ * The following parameters are used in the step of finding
+ * candidate redeye defects in the vincinity of a face. 
+ * MaxCandidates is the maximum number of candidates that
+ * can be found.
+ * These should not be changed for normal operation.
+ */
+MaxCandidates     100
+W_close           3
+W_open            5
+W_peak            7
+GlintRadius       2
+GrowRatio         1.0
+MaxBestCandidates 15
+
+/*
+ * The following parameters are all related to the process 
+ * of pairing-up candidate defects and correlating them
+ * with a eye template. TemplateFileName is the name the file
+ * that contains the template from which an ensemble of
+ * templates will be made. If MakeTemplates is 1 then
+ * the ensemble of templates will be made when a
+ * RE_Parameter object is initialized and writen to
+ * the directory TemplateDir. If MakeTemplates is 0 then
+ * the templates must already be located in the directory
+ * TemplateDir from which they will be read.
+ *
+ * 05/23/00 Craig Smith
+ * If MakeTemplates is -1, the templates are not generated
+ * until they are needed.  This option is provided to reduce
+ * the memory requirements of AREA.  It should also be slightly
+ * more accurate because the template images are scaled and
+ * rotated to exactly match the separation and tilt of the
+ * eye candidate.
+ * 05/30/00 Craig Smith
+ * Added TemplateMaxValue.  When we generate templates on the
+ * fly, the MaxValue of the image can be different from the
+ * MaxValue of the template which can cause a problem.
+ *
+ * 6/2003 --  We will never run with MakeTemplates anything other than -1;
+ *  the memory and speed costs are just too high.
+ *  This parameter will likely be removed...
+ *  TemplateDir is unnecessary.
+ *
+ * These should not be changed for normal operation.
+ */
+TemplateFileName    templates\template_307.tiff
+TemplateDir         templates
+TemplateEyeDistance 307
+TemplateMaxValue    3000
+MakeTemplates       -1
+NoZones             3
+LookAround          4
+SStep               0.05
+MaxTilt             35.0   # default was 45.0
+TStep               2.0
+Gamma               1.5
+MaxPairs            200
+
+/*
+ * REColorFileName -- This file contains data for the redeye color probability
+ * density function. It varies for each image metric. It is training data.
+ * This should not be changed for normal operation.
+ */
+REColorFileName  ColorNegativeData\re.jpf
+Y_delta          2
+H_delta          1
+S_delta          1
+SizeToPupil      0.083
+MinEyeDistance   10
+
+/*
+ * The following scoring functions are used to rank
+ * candidate defects and defect pairs,
+ *
+ *           aim    min    max 
+ *
+ * for features with an aim or, 
+ *
+ *               min      max
+ *
+ * for larger-the-better or smaller-the-better features. 
+ * These should not be changed for normal operation.
+ */
+nPeak         0.015    1.000
+nJPF          0.000    1.000
+nSat          0.000    100.0
+nSize         72.20    5.00    350.0
+nAspectRatio  1.000    5.000
+nFit          0.000    1.000
+
+nSigma        12.70    5.000    30.00
+nCorr         -1.000    1.000
+nZCorr        -2.000    2.000
+
+nSeparation   1.000    0.450    2.500
+nSizeToPupil  1.000    0.400    3.500
+nConSize      0.000    1.500
+nConColor     0.000    0.250
+nConSigma     0.000    1.000
+
+/*
+ * The following files contain information on true
+ * positive and false positive clusters that are used
+ * for classification.
+ * They are image metric specific. It is training data.
+ * These should not be changed for normal operation.
+ */
+FaceClustersFileName       ColorNegativeData\clusters_4_2_2003\pface.clusters
+DefectClusters1FileName    ColorNegativeData\clusters_4_2_2003\pdefect1.clusters
+DefectClusters2FileName    ColorNegativeData\clusters_4_2_2003\pdefect2.clusters
+PairClustersFileName       ColorNegativeData\clusters_4_2_2003\ppair.clusters
+
+NonFaceClustersFileName    ColorNegativeData\clusters_4_2_2003\nface.clusters
+NonDefectClusters1FileName ColorNegativeData\clusters_4_2_2003\ndefect1.clusters
+NonDefectClusters2FileName ColorNegativeData\clusters_4_2_2003\ndefect2.clusters
+NonPairClustersFileName    ColorNegativeData\clusters_4_2_2003\npair.clusters
+
+/*
+ * These values determine the cutoff in discriminant function value for each
+ * classifier. Note they're set very small, letting almost all potential
+ * detections through. We use Face Verification to weed out false detections.
+ * These should not be changed for normal operation.
+ */
+MinFaceDiscriminant     0.0001
+MinDefectDiscriminant1  0.0001
+MinDefectDiscriminant2  0.0001
+MinPairDiscriminant     0.0001
+MinResultsDiscriminant  0.0001
+
+/*
+ * Number of pairs of candidates to verify with S2 detector. New feature
+ * for version 3.0 of the AREA algorithm.
+ */
+NumPairsVer 3
+
+/*
+ * ApplyFaceDetector -- 1 in normal operation, means apply face verification.
+ * This should not be changed for normal operation.
+ */
+ApplyFaceDetector    1
+MinFaceDetectorScore -4000   # default was -3500
+
+/*
+ * LVQDataFileName -- The face verification/discriminant scoring data
+ *  As of version 4.0, this varies per image metric. It is training data.
+ */
+LVQDataFileName      ColorNegativeData\lvq_rpd_2_25_2003.dat
+
+/*
+ * MinLVQDistanceRatio -- this is the primary parameter used for tuning
+ *   detection rate versus false positive rate. Higher numbers imply that
+ *   you get a lower detection rate as well as a lower false positive rate.
+ *   Lower numbers tend to produce higher detection rates as well as higher
+ *   false positive rates.
+ */
+MinLVQDistanceRatio  1.5  # default 2.0
+
+/*
+ * Location of training data files for the face detector (verification)
+ * If this data changes, it's likely that LVQ training data will have to change
+ * because of different face detection results.
+ */
+FDTrainingDataDir    FDTrainingData
+
+/*
+ * The following parameters are used in the correction
+ * and rendering of a corrected redeye defect.
+ * Increasing DefectBlendWidth will increase the degree of blending
+ *     of the corrected region with its surroundings.
+ * Y_aim determines how much the luminance of the defect is
+ *     decreased when its color is corrected. 
+ * CorrectionSizeRatio limits how far corrections can grow.
+ */
+CorrectGrowRatio     1.0
+CorrectionSizeRatio  2.0
+DefectCloseWidth     7
+DefectDilateWidth    1
+/* Setting DefectBlendWidth to 1 will disable blending */
+DefectBlendWidth     1   # default was 5
+Y_aim                0.9
+H_aim                0
+S_aim                0
+/* Setting Regrain stops noise from being introduced into corrections */
+Regrain              20
+
+/*
+ * Following parameters are added for AREA 3.5:
+ *
+ * UseAlternateSegmentation: 0=No, 1=Yes
+ * UseBothMaps:              0=No, 1=Yes
+ * AltSegBoundary:           overrides value of "Boundary" parameter
+ *                           for alt seg. map
+ * MaxAltSkinCandidates:     Max # of regions from alt. seg map to try
+ * SearchStrategy:              specifies whether non-skin pixels are examined
+ *                           while looking for red things:
+ *                           0 = all pixels within faces are examined
+ *                           1 = all pixels within alt map are examined,
+ *                               only non-skin within orig map
+ *                           2 = only non-skin pixels are examined in any map.
+ */
+UseAltSegmentation   1
+UseBothMaps          1
+AltSegBoundary       10
+MaxAltSkinCandidates 10   # default was 50
+SearchStrategy       0
+
+/**********************************************************
+ AREA 4.0 red eye indicator:
+**********************************************************/
+
+indSizeMin		5		
+indSizeMax		50
+
+indYMin			10		
+indYMax			80
+
+indHueMin		100
+indHueAim		120				
+indHueMax		150
+
+indSatMin		15		
+indSatMax		100
+
+indFitMin		0.6		
+indFitMax		1.0
+
+/* For Version 4.0 improved correction */
+
+/* Whether or not to use the new code intended to help with
+   overgrowth / undergrowth. Default false */
+Corr_underGrow   0 # default 1
+
+/* Whether or not to use smaller blur kernel on small defects. Default false */
+Corr_blend   0 # default 1
+
+
+/* Whether to recolor the defect pixels by setting R and G to the B
+   value or to use the original "desaturate" method.
+   Note that Regrain is not done if this is true.  Default false.  */
+Corr_neutralRecolor 0 # default 1
+
+
+/* whether or not to constrain defect growth using centroid of defect,
+   and how to do it
+   0 --> don't use centroid; IE, the original method
+   1 --> compute centroid, but exclude pixels that are too far from the
+         seed pixel
+   2 --> compute centroid, but include the entire grown defect region
+   
+   method 2 is more effective at reducing the occurrance of
+       over-growth at the occasional cost of turing an over-growth
+       into an undergrown (even rarely appearing as
+       a miss of the entire eye). So, setting the
+       centroidMethod == 2 will more rarely cause any problems,
+       but is less effective at combating overgrows. Default 0 */
+Corr_centroidMethod 0 # default 1
+
+
+/* The following are effective only if bNeutralRecolor is true
+   and are used in an equation for recoloring defect pixels.
+   Their defaults are set to have no scaling or shifting effect; IE,
+   all channels get set to the B value; R = G = B. */
+
+/* codeValuesPerStop is metric specific */
+Corr_codeValuesPerStop 188
+Corr_CVShift       0
+Corr_ShiftStops  0.0
+Corr_ScaleFactor 1.0
+
+Corr_lowGrowRatio  0.5
+Corr_highGrowRatio 1.6
+Corr_growError       2
+
+/* Iris detection -- added 08/09/2004 */
+Iris_mode                0   #default 1
+/* minimum defect distance */
+Iris_minIDD          70
+
+Iris_edgeThreshold    168
+Iris_colorOffset      15
+Iris_colorDelta       30
+Iris_std1Offset       40
+Iris_std1Delta        60
+Iris_dataRange        4095
+
+Iris_minimumEdgePortion      0.02
+Iris_minimumEdgePixels       100
+Iris_classifySingleCircles   0
+Iris_pupilCushion            1.5 
+Iris_trimPupilProb           .603
+Iris_trimIrisProb            .352
+Iris_promoteToTrimPupil      .891
+Iris_promoteToTrimIris       .782
+/*  Iris_preventOvergrow         1  */
+Iris_preventOvergrow         0
+
+Iris_inside                  .35
+Iris_outside                 .51
+Iris_updown                  .2
+
+/* 0 does no drawing, 1 draws irises, 2 draws irises and pupils    */
+Iris_drawCircles        0
+
+
+/*
+Change Log areaParams-ColorNegative.parm: 
+01/08/2005  K.DeLong          ATC00004545, ATC00004547
+    Add Iris Correction parameters.
+    Enable Correction Quality Improvement parameters. (4547)
+    Turn off the drawing of Iris Circles              (4545)
+10/13/2003  K.DeLong          Clear quest record 3655
+    Added correction improvement parameters.
+10/13/2003  K.DeLong          Clear quest record 3643
+    Very slight changes to make Ansel DPIs a better match for research.
+    Added    MinResultsDiscriminant 0.0001,
+    Changed  MinEyeDistance from 30 to 10, 
+    Change   MaxAltSkinCandidates from 10 to 50
+08/14/2003  K.DeLong          Clear quest records 3376
+    Added fit parameters for red eye indicator
+07/30/2003  K.DeLong          Clear quest records 3109, 3110
+    Added red eye indicator
+06/27/2003  K.DeLong          Clear quest records 3109, 3110
+    Added many additional comments
+    Changed paths to data files
+    Added header / trailer
+05/02/2005 B.Shaw
+    Turned off Iris detection and and othe Area 4.0 functions
+	due to high FP rates, changed other settings back to Area 3.5 values for LP2.0.
+            changed MaxTilt to 35.0 from 45.0
+            changed MinFaceDetectorScore to -4000 from -3500
+            changed DefectBlendWidth to 1 from 5
+            changed MaxAltSkinCandidates to 10 from 50
+            changed MinLVQDistanceRatio to 1.5 from 2.0
+            changed Corr_underGrow to 0 from 1 to disable this function
+            changed Corr_blend to 0 from 1 to disable this function
+            changed Corr_neutralRecolor to 0 from 1 to disable this function
+            changed Corr_centroidMethod to 0 from 1 to disable this function
+            changed Iris_mode to 0 from 1 to disable this function
+*/

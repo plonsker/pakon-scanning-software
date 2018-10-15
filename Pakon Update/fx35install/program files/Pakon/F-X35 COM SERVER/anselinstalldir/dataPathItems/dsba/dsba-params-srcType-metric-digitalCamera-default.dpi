@@ -1,0 +1,66 @@
+KEY = dsba-DC-default.dpi
+VERSION = 07/09/2003
+
+# This is the DSBA parameters file for ROMM12.
+# dsba-params-srcType-metric-digitalCamera-default.dpi
+#  
+# Parameters tuned for use with SRA in ROMM12 (aka Ansel v2)
+# First column = Default set (8-6-01 gjones)
+# Last column = Artificial Illuminant set (8-16-01 mhappell)
+# Both Columns updated to match ILab SC 6.1 
+# as used at District Photo 1-15-03 Geoff Houston
+
+DSBA_SRA_FWD_LUT_KEY = common-sraFwdLut-metric-rom12.lut
+DSBA_SRA_DATA_KEY = common-sraData-metric-rom12.dpi
+
+DSBA_PAX_RATIO              =  0.75
+DSBA_PAX_SIZE               = 24
+DSBA_NEU_BUTTON             = 156
+DSBA_GM_BUTTON              = 15.6
+DSBA_ILL_BUTTON             = 21.5
+
+# Number of sets of parameters to read in.
+DSBA_NUM_SETS               =  2
+
+# Neutral balance limits (in neutral buttons)
+DSBA_NEU_UNDER_CONSTRAINT   = -2.5	-2.5
+DSBA_NEU_OVER_CONSTRAINT    =  1.2      5.0
+
+# Color correction scalers (not used in Ansel v4+)
+DSBA_GM_UNDER_CONSTRAINT    =  0.30     1.0
+DSBA_GM_OVER_CONSTRAINT     =  0.40     1.0
+DSBA_ILL_UNDER_CONSTRAINT   =  0.20     1.0
+DSBA_ILL_OVER_CONSTRAINT    =  0.20     1.0
+
+# Neutral balance terms
+DSBA_EDGE_THRESH            =  2.0      2.0
+DSBA_EDGE_COEF              =	0.60   0.60
+DSBA_EDGE_CONST            =	-1.0822 -1.0822
+DSBA_WSRX_CONST             =	2.522  2.522
+
+# Color correction terms
+DSBA_SFS_FACTOR             =  1.0      1.0
+DSBA_SFS_BEAK_ANGLE         =  9.0      9.0
+DSBA_SFS_BEAK_WIDTH         =  5.0      5.0
+DSBA_SFS_BEAK_MULT          = 10.0     10.0
+DSBA_SFS_SIGMA              =  3.0      3.0
+DSBA_SFS_MIN_CORR           =  0.1      0.1
+DSBA_SFS_ASPECT_RATIO       =  3.0      3.0
+
+# Neutral/Color Preference offsets
+DSBA_RED_FPA                = -40.0     -40.0
+DSBA_GREEN_FPA              = -40.0     -40.0
+DSBA_BLUE_FPA               = -40.0     -40.0
+
+
+# Neutral balance scalers
+DSBA_RED_NEU                =  0.5       0.5
+DSBA_GREEN_NEU              =  0.5       0.5
+DSBA_BLUE_NEU               =  0.5       0.5
+DSBA_RED_NEO                =  0.65      0.65
+DSBA_GREEN_NEO              =  0.65      0.65
+DSBA_BLUE_NEO               =  0.65      0.65
+
+# Color correction scaler
+DSBA_CMM                    =  0.0       0.0
+

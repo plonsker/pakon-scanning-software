@@ -1,0 +1,9 @@
+fpoThreshold = -550
+dminThreshold = 100
+densityPercentile = 98.0
+topRowPercent = 0.45
+bottomRowPercent = 0.55
+modThreshold = 150
+modPercentile = 54.0
+minModPercentile = 0.0
+densToModSlope = -1.5

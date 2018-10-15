@@ -1,0 +1,258 @@
+version = 1.2
+key = dtt-srcType-colorNegative.dpi
+#
+#Bit numbers 3, 7, 11, and 15 must remain zeros, and
+#	therefore will not be used in any dpi values.
+#
+#Color Negative Premium
+#
+BEGIN
+path = CN-Premium
+calculation = AST_ON
+bit = 0
+descriptionOn = Ast was enabled.
+descriptionOff = Ast was disabled.
+END
+BEGIN
+path = CN-Premium
+calculation = ARF_ON
+bit = 1
+descriptionOn = Arf was enabled.
+descriptionOff = Arf was disabled.
+END
+BEGIN
+path = CN-Premium
+calculation = ARF_USED
+bit = 2
+descriptionOn = If Arf was enabled, then Arf Ran.
+descriptionOff = If Ast was enabled, then Ast Ran.
+END
+BEGIN
+path = CN-Premium
+calculation = NRA_USED
+bit = 4
+descriptionOn = Nra ran.
+descriptionOff = Nra did not run.
+END
+BEGIN
+path = CN-Premium
+calculation = PNR_USED
+bit = 4
+descriptionOn = Pnr ran.
+descriptionOff = Pnr did not run.
+END
+BEGIN
+path = CN-Premium
+calculation = FALL_OFF_RAN
+bit = 5
+descriptionOn = Falloff ran.
+descriptionOff = Falloff did not run.
+END
+BEGIN
+path = CN-Premium
+calculation = CNA_ON
+bit = 6
+descriptionOn = Cna was enabled.
+descriptionOff = Cna was disabled.
+END
+BEGIN
+path = CN-Premium
+calculation = CNA_RATIO_SIG
+bit = 8
+descriptionOn = If Cna was enabled, Cna insigma/outsigma was significant.
+descriptionOff = If Cna was enabled, Cna insigma/outsigma was normal.
+END
+BEGIN
+path = CN-Premium
+calculation = CNA_RATIO_LOW
+bit = 9
+descriptionOn = If Cna was enabled and insigma/outsigma was significant, the ratio was less than 0.8.
+descriptionOff = If Cna was enabled and insigma/outsigma was significant, the ratio was greater than 1.2.
+END
+BEGIN
+path = CN-Premium
+calculation = DRA_ON
+bit = 10
+descriptionOn = Dra was enabled.
+descriptionOff = Dra was disabled.
+END
+BEGIN
+path = CN-Premium
+calculation = DRA_RATIO_SIG
+bit = 12
+descriptionOn = If Dra was enabled, Dra effMax/effMin was significant (< 0.93).
+descriptionOff = If Dra was enabled, Dra effMax/effMin was normal.
+END
+BEGIN
+path = CN-Premium
+calculation = FLESH_SIG
+bit = 13
+descriptionOn = If Flesh was enabled, adjustments were significant.
+descriptionOff = If Flesh was enabled, adjustments were normal.
+END
+BEGIN
+path = CN-Premium
+calculation = FLESH_SIG_LOW
+bit = 14
+descriptionOn = If Flesh was enabled, and adjustments were significant, the adjustment was less than -0.5.
+descriptionOff = If Flesh was enabled, and adjustments were significant, the adjustment was greater than 0.5.
+END
+#
+#Color Negative Version 2.0
+#
+BEGIN
+path = CN-Version2.0
+calculation = AST_ON
+bit = 0
+descriptionOn = Ast was enabled.
+descriptionOff = Ast was disabled.
+END
+BEGIN
+path = CN-Version2.0
+calculation = ARF_ON
+bit = 1
+descriptionOn = Arf was enabled.
+descriptionOff = Arf was disabled.
+END
+BEGIN
+path = CN-Version2.0
+calculation = ARF_USED
+bit = 2
+descriptionOn = If Arf was enabled, Arf was used.
+descriptionOff = If Ast was enabled, Ast was used.
+END
+BEGIN
+path = CN-Version2.0
+calculation = DRA_ON
+bit = 4
+descriptionOn = Dra was enabled.
+descriptionOff = Dra was disabled.
+END
+BEGIN
+path = CN-Version2.0
+calculation = DRA_RATIO_SIG
+bit = 5
+descriptionOn = If Dra was enabled, Dra effMax/effMin was significant (< 0.93).
+descriptionOff = If Dra was enabled, Dra effMax/effMin was normal.
+END
+BEGIN
+path = CN-Version2.0
+calculation = CNA_ON
+bit = 6
+descriptionOn = Cna was enabled.
+descriptionOff = Cna was disabled.
+END
+BEGIN
+path = CN-Version2.0
+calculation = CNA_RATIO_SIG
+bit = 8
+descriptionOn = If Cna was enabled, Cna insigma/outsigma was significant.
+descriptionOff = If Cna was enabled, Cna insigma/outsigma was normal.
+END
+BEGIN
+path = CN-Version2.0
+calculation = CNA_RATIO_LOW
+bit = 9
+descriptionOn = If Cna was enabled and insigma/outsigma was significant, the ratio was less than 0.8.
+descriptionOff = If Cna was enabled and insigma/outsigma was significant, the ratio was greater than 1.2.
+END
+BEGIN
+path = CN-Version2.0
+calculation = TH_ON
+bit = 10
+descriptionOn = Tonehelper was enabled.
+descriptionOff = Tonehelper was disabled.
+END
+BEGIN
+path = CN-Version2.0
+calculation = TH_HIGH_AGGR
+bit = 12
+descriptionOn = If Tonehelper was enabled, it produced a High Aggressive result.
+descriptionOff = If Tonehelper was enabled, it produced a Low Aggressive result.
+END
+BEGIN
+path = CN-Version2.0
+calculation = UCP_TH_CONFLICT
+bit = 13
+descriptionOn = If Tonehelper was enabled, the result conflicted with UCP.
+descriptionOff = If Tonehelper was enabled, the result coincided with UCP.
+END
+BEGIN
+path = CN-Version2.0
+calculation = FALL_OFF_RAN
+bit = 14
+descriptionOn = Falloff ran.
+descriptionOff = Falloff did not run.
+END
+# 
+# Color Negative Version 1.5
+#
+BEGIN
+path = CN-Version1.5
+calculation = ARF_ON
+bit = 0
+descriptionOn = Arf was enabled.
+descriptionOff = Arf was disabled.
+END
+BEGIN
+path = CN-Version1.5
+calculation = FUGC_ON
+bit = 1
+descriptionOn = Fugc was enabled.
+descriptionOff = Fugc was disabled.
+END
+BEGIN
+path = CN-Version1.5
+calculation = FALL_OFF_RAN
+bit = 2
+descriptionOn = Falloff ran.
+descriptionOff = Falloff did not run.
+END
+BEGIN
+path = CN-Version1.5
+calculation = CA_USED
+bit = 4
+descriptionOn = Contrast Adjustments were made.
+descriptionOff = Contrast Adjustments were not made.
+END
+#  
+# Color Negative Optical
+#
+BEGIN
+path = CN-Optical
+calculation = ARF_ON
+bit = 0
+descriptionOn = Arf was enabled.
+descriptionOff = Arf was disabled.
+END
+BEGIN
+path = CN-Optical
+calculation = FALL_OFF_RAN
+bit = 1
+descriptionOn = Falloff ran.
+descriptionOff = Falloff did not run.
+END
+BEGIN
+path = CN-Optical
+calculation = CA_USED
+bit = 2
+descriptionOn = Contrast Adjustments were made.
+descriptionOff = Contrast Adjustments were not made.
+END
+#
+# Color Negative Lockbeam
+#
+BEGIN
+path = CN-Lockbeam
+calculation = ARF_ON
+bit = 0
+descriptionOn = Arf was enabled.
+descriptionOff = Arf was disabled.
+END
+BEGIN
+path = CN-Lockbeam
+calculation = CA_USED
+bit = 1
+descriptionOn = Contrast Adjustments were made.
+descriptionOff = Contrast Adjustments were not made.
+END

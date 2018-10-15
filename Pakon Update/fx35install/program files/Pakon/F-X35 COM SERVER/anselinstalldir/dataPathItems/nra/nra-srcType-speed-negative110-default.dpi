@@ -1,0 +1,17 @@
+#
+# Noise Reduction negative110-default DPI file
+#
+Key = nra-srcType-speed-negative110-default.dpi
+Version = 1.01
+NoiseScale = 1.0
+MaxHighStopExposure = 0.0   # Used for positive Exposure range eg. = 999
+MinHighStopExposure = 0.0   # Used for lower positive Exposure range eg. = 0.0
+MinLowStopExposure = -1.75  # UpperStopExposureLimit = -1.75 (absolute val min)
+                            # Used for negative Exposure range.
+MaxLowStopExposure = -999.0 # LowerStopExposureLimit = -999.0(absolute val max)
+                            # Used for negative Exposure range.
+WindowSize = 11
+SigmaBands = 3
+DefaultSigma = 33 44.12 55.0
+
+# And this is the end

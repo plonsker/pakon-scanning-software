@@ -1,0 +1,9 @@
+# AnsNoiseImageMappingDpi:
+key = noiseImage.map
+version = 02/11/2004
+
+# Selection Parameters
+mapping =
+_AnselPath_ c11
+CN-Fps   ansel-noiseImageDefault
+any      ansel-noiseImageDefault

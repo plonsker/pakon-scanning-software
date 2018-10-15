@@ -1,0 +1,46 @@
+# AnsAreaMappingDpi:
+# The key MUST be "area.map"
+key = area.map
+version = 06/27/2003
+
+# AnsKeySelector:
+# Selection Parameters
+
+# path is primary selector, the name of the processing path
+# metric is secondary, if we don't match the name of the path
+# metric == 0 --> ANS_METRIC_UNKNOWN
+# metric == 1 --> ANS_PD12
+# metric == 2 --> ANS_RIM12
+# metric == 3 --> ANS_ROM12
+# 
+
+mapping =
+_AnselPath_ c11 metric i16
+CN-Shasta     any   area-ColorNegative.dpi
+CN-Premium    any   area-ColorNegative.dpi
+CN-Optical    any   area-ColorNegative.dpi
+CN-Lockbeam   any   area-ColorNegative.dpi
+CN-Version2.0 any   area-ColorNegative.dpi
+CN-Version1.5 any   area-ColorNegative.dpi
+any           1     area-ColorNegative.dpi
+DC-RDIP3      any   area-DigitalCamera.dpi
+DC-Premium    any   area-DigitalCamera.dpi
+DC-Balance    any   area-DigitalCamera.dpi
+DC-Lockbeam   any   area-DigitalCamera.dpi
+# we have no data for specific to chrome paths; use the same as digital camera
+# (both DC and CP use ROMM12)
+CP-Restore    any   area-DigitalCamera.dpi
+CP-Balance    any   area-DigitalCamera.dpi
+CP-Lockbeam   any   area-DigitalCamera.dpi
+# any path with ROMM12 data..
+any           3     area-DigitalCamera.dpi
+# AREA v4 has not been trained for RIM12 data (Archive path)
+any           2     area-Archive.dpi
+
+# nothing else matches, revert to color neg
+any           any   area-ColorNegative.dpi
+
+#
+# Change Log: area.map
+# 11/07/2003 K.DeLong CQR 3922
+# Added CP-Lockbeam

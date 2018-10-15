@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16900\viewh11200\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 This script converts and moves files from the TLX temp folder to an output folder.\
+\
+The output folder is by default set to c:\\PakonOut but can be changed to anything by editing TLX_Finalize.bat\
+Tip: If you are running in a virtual machine, set up a shared folder between Host and VM and set the output folder to the shared folder.\
+\
+It does the following on the files found in the temp folder:\
+- Format filenames "R<roll>F<frame>", ex: R23F07.jpg\
+- Converts Pakon raw files to auto-levelled and gamma-corrected 16bit tif files \
+- Removes color cast from B&W scans\
+- Generates a contact sheet\
+- Move files to output folder\
+\
+It requires ImageMagick (www.imagemagick.org)\
+\
+\
+\
+** It ONLY works with Base16 scans (3000x2000), and they must not be rotated.\
+** Raw files should be saved with header (the default option).\
+\
+\
+\
+When you run the script it will ask you for the following information\'85\
+\
+- Roll ID:\
+This is used when generating the image filenames, and is also printed to the contact sheet\
+\
+- Roll description:\
+This is printed to the contact sheet\
+\
+- Film type:\
+(1=C41, 2=B&W, 3=E6 (jpeg), 4=E6 (16bit tif)\
+\
+Choose the correct number depending on what you scanned as they are processed differently.\
+C41: no additional processing (unless saved as raw, in which case they are converted to TIF and auto-leveled)\
+B&W: Output files are desaturated to remove the color cast from Pakon scans (if saved as raw, they are converted to TIF and normalized)\
+E6: The raw files are converted to gamma-corrected and normalized TIF or JPEG images depending on if you choosed option 3 or 4.\
+\
+\
+}

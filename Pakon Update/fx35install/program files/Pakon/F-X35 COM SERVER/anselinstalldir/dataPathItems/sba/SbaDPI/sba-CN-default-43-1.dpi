@@ -1,0 +1,48 @@
+    key = ansel-sba-43-1
+#	created by houston on 5/17/05 after initial tests of Pakon 135 in DPS900
+#	fpa change -10 0 +40 vs default
+# SBA DPI for:
+#     scanner     - default
+#     sourceType  - default
+#     product     - 43
+#     gen         - 1    
+   version = 10/29/2003
+   scannerName = default
+    fpa = -75 -50 -25
+    neu = 975 975 975
+    neo = 1010 1010 1010 
+    fosOn = 1
+    useDMD = 0
+    useHistory = 0
+    fmt = 350
+    dmd = 680 680 680
+    fpo = 879 1250 1386
+    pcls = 0
+    pcwf = 70
+    ix_pcwf = 25
+    nonFlashAdj = 25
+    cmm = 1000
+    fog = 1000
+    fxr = 75
+    blk = -600
+    bxr = 75
+    ll1 = 3400
+    ll2 = 800
+    ll3 = 2600
+    mff = 4
+    maxFramesToFos = 40
+    minDmin = 180 550 700
+    pcode = pcode-dls_1.7
+    sfsTable = sfsTable35
+    splicePct = 55
+    orderFpoLowSatLimit = 250
+    orderFpoHighSatLimit = 900
+    orderFpoMinWeight = 0
+    orderFpoMaxWeight = 100
+    orderFpoUseExpandedSatLimit = 1
+    minPeakHeight = 10
+    minPeakDist = 1600
+    neutralButton = 130
+    neutralUnderConstraint = -16.0  # Essentially unconstrained
+    neutralOverConstraint = 16.0    # Essentially unconstrained
+    neutralBalancePoint = 1550

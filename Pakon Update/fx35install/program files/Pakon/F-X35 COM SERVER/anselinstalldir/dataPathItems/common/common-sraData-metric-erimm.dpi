@@ -1,0 +1,3 @@
+# This is the Common SRA parameters file for ERIMM 12
+#
+SRA_GRAY_POINT = 1679

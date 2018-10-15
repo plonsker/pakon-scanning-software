@@ -1,0 +1,16 @@
+key = profile.map
+version = 2004/Mar/12
+
+#
+# Selection Parameters
+#
+
+mapping =
+_AnselPath_ c11 _AnselCapName_ c16
+
+#
+# Selection rules
+#
+
+any   profileRpd2Srgb   profile-Rpd2Srgb.dpi
+any   any               profile-default.dpi
