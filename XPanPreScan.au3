@@ -3,7 +3,7 @@
 ;;
 ;; CONFIGURATION
 ;; Scan Base Selection, values: "4", "8", "16"
-$BaseLevel = "18"
+$BaseLevel = "16"
 $WidthPx = 5530
 $UnitWidth = 5736
 $CroppingRight = 5529
